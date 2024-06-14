@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="pt-BR" class="no-js">
   <head>
     <%- include('/head', {head: content.head}) %>
   </head>
@@ -7,10 +7,10 @@
     <% if (content.header) { %>
     <header class="page-header">
       <% if (!utilities.isWrappedInParagraphTags(content.header)) { %>
-      <p>
+      <h1>
         <% } %> <%- content.header %> <% if (!utilities.isWrappedInParagraphTags(content.header)) {
-        %>
-      </p>
+        %><sub><a href="#source" alt="Fontes" title="Fontes"><i class="fas fa-anchor" aria-hidden="true"></i></a></sub>
+      </h1>
 
       <p><% } %></p>
     </header>
@@ -22,11 +22,11 @@
           <ul>
             <li>
               <input type="checkbox" name="filter-shortcut" id="all" checked />
-              <label for="all">Todos</label>
+              <label for="all" class="timeline-filter-filter">Todos</label>
             </li>
             <li>
               <input type="checkbox" name="filter-shortcut" id="none" />
-              <label for="all">Nenhum</label>
+              <label for="none" class="timeline-filter-filter">Nenhum</label>
             </li>
             <% content.filters.forEach(function(filter){ %>
             <li>
@@ -37,6 +37,8 @@
           </ul>
         </header>
       </div>
+    </section>
+    <section class="sectiontimeline">
       <article class="timeline">
         <% content.entries.forEach(function(entry){ %>
         <div
@@ -89,7 +91,7 @@
       </article>
     </section>
     <% if (content.footer) { %>
-    <footer class="page-footer">
+    <footer id="source" class="page-footer">
       <% if (!utilities.isWrappedInParagraphTags(content.footer)) { %>
       <p>
         <% } %> <%- content.footer %> <% if (!utilities.isWrappedInParagraphTags(content.footer)) {
@@ -98,9 +100,7 @@
       <% } %>
       <p>
         By
-        <a href="https://www.artesdosul.com" target="_blank"
-          >artesdosul</a
-        >.
+        <a href="https://www.artesdosul.com" target="_blank">artesdosul</a>.
       </p>
     </footer>
     <% } %>

@@ -1,5 +1,5 @@
 const header = 'Cronologia das operações militares dos Estados Unidos';
-const footer = 'Fonte <a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations">Timeline of United States military operations</a>';
+const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations">Timeline of United States military operations</a></li><li><a id="R42738" href="https://crsreports.congress.gov/product/pdf/R/R42738">R42738: Instances of Use of United States Armed Forces Abroad, 1798-2023</a></li><br/>';
 /** 
  * faicon: https://fontawesome.com/search?q=plane&o=r&m=free 
  * **/
@@ -206,11 +206,11 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '2004',
     title: 'Golpe de Estado no Haiti',
-    body: 'Haiti: o golpe de Estado no Haiti de 2004 ocorre, os Estados Unidos enviaram pela primeira vez 55 combates militares equipados para aumentar as forças de segurança da Embaixada dos EUA ali e para proteger os cidadãos e propriedades americanos. Mais tarde, 200 equipados de combate e pessoal militar adicionais dos Estados Unidos foram enviados para preparar o caminho para a Força Multinacional Interina das Nações Unidas, a MINUSTAH. [RL30172]',
+    body: 'Haiti: o golpe de Estado no Haiti de 2004 ocorre, os Estados Unidos enviaram pela primeira vez 55 combates militares equipados para aumentar as forças de segurança da Embaixada dos EUA ali e para proteger os cidadãos e propriedades americanos. Mais tarde, 200 equipados de combate e pessoal militar adicionais dos Estados Unidos foram enviados para preparar o caminho para a Força Multinacional Interina das Nações Unidas, a MINUSTAH. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
-    categories: ['Geórgia', 'Djibouti', 'Quênia', 'Etiópia', 'Iêmen'],
+    categories: ['Geórgia', 'Djibouti', 'Quênia', 'Etiópia', 'Iêmen', 'África'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '2004',
@@ -233,11 +233,11 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '2003',
     title: 'Segunda Guerra Civil da Libéria',
-    body: 'Libéria: Segunda Guerra Civil da Libéria, em 9 de junho de 2003, o presidente Bush informou, que em 8 de junho enviou cerca de 35 fuzileiros navais dos EUA em Monróvia, na Libéria, para ajudar a proteger a Embaixada dos EUA em Nouakchott, na Mauritânia, e para auxiliar em qualquer evacuação necessária seja da Libéria ou da Mauritânia. [RL30172]',
+    body: 'Libéria: Segunda Guerra Civil da Libéria, em 9 de junho de 2003, o presidente Bush informou, que em 8 de junho enviou cerca de 35 fuzileiros navais dos EUA em Monróvia, na Libéria, para ajudar a proteger a Embaixada dos EUA em Nouakchott, na Mauritânia, e para auxiliar em qualquer evacuação necessária seja da Libéria ou da Mauritânia. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
-    categories: ['Geórgia', 'Djibouti'],
+    categories: ['Geórgia', 'Djibouti', 'África'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '2003',
@@ -251,7 +251,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '2003',
     title: '2003',
-    body: '2011 - Guerra do Iraque: Operação Liberdade do Iraque, em 20 de março de 2003, os Estados Unidos lideram uma coalizão que inclui o Reino Unido, Austrália e Polônia para invadir o Iraque com o objetivo declarado de "desarmar o Iraque em busca da paz, da estabilidade e da segurança, tanto na região do Golfo e como nos Estados Unidos."[RL30172]',
+    body: '2011 - Guerra do Iraque: Operação Liberdade do Iraque, em 20 de março de 2003, os Estados Unidos lideram uma coalizão que inclui o Reino Unido, Austrália e Polônia para invadir o Iraque com o objetivo declarado de "desarmar o Iraque em busca da paz, da estabilidade e da segurança, tanto na região do Golfo e como nos Estados Unidos."<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -260,7 +260,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '2002',
     title: '2002',
-    body: 'Iêmen: no dia 3 de novembro de 2002, um MQ - 1 Predator estadunidense disparou um míssil Hellfire em um carro no Iêmen matando Qaed Salim Sinan al - Harethi, um líder da al - Qaeda que seria responsável pelo atentado ao USS Cole[RL30172]',
+    body: 'Iêmen: no dia 3 de novembro de 2002, um MQ - 1 Predator estadunidense disparou um míssil Hellfire em um carro no Iêmen matando Qaed Salim Sinan al - Harethi, um líder da al - Qaeda que seria responsável pelo atentado ao USS Cole<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -269,7 +269,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '2002',
     title: '2002',
-    body: 'Filipinas: Operação Liberdade Duradoura - Filipinas, a partir de janeiro "equipados de combate e forças de apoio de combate" foram mobilizados para as Filipinas para treinar, ajudar e aconselhar as forças armadas das Filipinas para reforçar as suas "capacidades antiterroristas". [RL30172]',
+    body: 'Filipinas: Operação Liberdade Duradoura - Filipinas, a partir de janeiro "equipados de combate e forças de apoio de combate" foram mobilizados para as Filipinas para treinar, ajudar e aconselhar as forças armadas das Filipinas para reforçar as suas "capacidades antiterroristas". <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -278,7 +278,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '2002',
     title: '2002',
-    body: 'Costa do Marfim: em 25 de setembro de 2002, em resposta a uma rebelião na Costa do Marfim, militares americanos foram para o país para ajudar na evacuação dos cidadãos americanos de Bouaké.[19] [RL30172]',
+    body: 'Costa do Marfim: em 25 de setembro de 2002, em resposta a uma rebelião na Costa do Marfim, militares americanos foram para o país para ajudar na evacuação dos cidadãos americanos de Bouaké.[19] <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -287,7 +287,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '2001',
     title: '2001',
-    body: 'Guerra no Afeganistão: Guerra ao Terror começa com a Operação Liberdade Duradoura. Em 7 de outubro de 2001, as Forças Armadas dos EUA invadem o Afeganistão em resposta aos ataques de 11 de setembro e "começam uma ação de combate no Afeganistão contra os terroristas da Al - Qaeda e seus apoiadores do Talibã". [RL30172]',
+    body: 'Guerra no Afeganistão: Guerra ao Terror começa com a Operação Liberdade Duradoura. Em 7 de outubro de 2001, as Forças Armadas dos EUA invadem o Afeganistão em resposta aos ataques de 11 de setembro e "começam uma ação de combate no Afeganistão contra os terroristas da Al - Qaeda e seus apoiadores do Talibã". <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -305,16 +305,16 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '2000',
     title: '2000',
-    body: 'Timor Leste: em 25 de fevereiro de 2000, um pequeno número de militares americanos foram enviados para apoiar a Administração Transitória das Nações Unidas em Timor - Leste (UNTAET). [RL30172]',
+    body: 'Timor Leste: em 25 de fevereiro de 2000, um pequeno número de militares americanos foram enviados para apoiar a Administração Transitória das Nações Unidas em Timor - Leste (UNTAET). <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
-    categories: ['Serra Leoa'],
+    categories: ['Serra Leoa', 'África'],
     color: 'blue',
     faicon: 'water',
     datetime: '2000',
     title: '2000',
-    body: 'Serra Leoa: em 12 de maio de 2000, uma embarcação de patrulha da Marinha dos EUA implantada em Serra Leoa para apoiar as operações de evacuação daquele país, caso necessário. [RL30172]',
+    body: 'Serra Leoa: em 12 de maio de 2000, uma embarcação de patrulha da Marinha dos EUA implantada em Serra Leoa para apoiar as operações de evacuação daquele país, caso necessário. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -332,7 +332,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '2000',
     title: '2000',
-    body: 'Iêmen: em 12 de outubro de 2000, após o ataque ao USS Cole no porto de Áden, no Iémen, militares foram destacados para o Áden.[RL30172]',
+    body: 'Iêmen: em 12 de outubro de 2000, após o ataque ao USS Cole no porto de Áden, no Iémen, militares foram destacados para o Áden.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -341,7 +341,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1999',
     title: '1999',
-    body: 'República Federal da Iugoslávia: Operação Força Aliada: Aviões dos Estados Unidos e da OTAN iniciam um grande bombardeio a Sérvia e em posições sérvias no Kosovo em 24 de março de 1999, durante a Guerra do Kosovo, devido à recusa do presidente sérvio Slobodan Milošević para acabar com a repressão contra os albaneses em Kosovo. Esta operação terminou em 10 de junho de 1999, quando Milošević concordou em retirar suas tropas do Kosovo. Em resposta à situação no Kosovo, a OTAN despachou as forças de paz da KFOR para garantir a paz nos termos da Resolução 1244 do Conselho de Segurança das Nações Unidas. [RL30172]',
+    body: 'República Federal da Iugoslávia: Operação Força Aliada: Aviões dos Estados Unidos e da OTAN iniciam um grande bombardeio a Sérvia e em posições sérvias no Kosovo em 24 de março de 1999, durante a Guerra do Kosovo, devido à recusa do presidente sérvio Slobodan Milošević para acabar com a repressão contra os albaneses em Kosovo. Esta operação terminou em 10 de junho de 1999, quando Milošević concordou em retirar suas tropas do Kosovo. Em resposta à situação no Kosovo, a OTAN despachou as forças de paz da KFOR para garantir a paz nos termos da Resolução 1244 do Conselho de Segurança das Nações Unidas. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -350,7 +350,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1999',
     title: '1999',
-    body: '2001 - Timor - Leste. Número limitado de forças militares estadunidenses implantadas pela Força Internacional para o Timor - Leste das Nações Unidas para restaurar a paz no Timor Leste. [RL30172]',
+    body: '2001 - Timor - Leste. Número limitado de forças militares estadunidenses implantadas pela Força Internacional para o Timor - Leste das Nações Unidas para restaurar a paz no Timor Leste. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -359,7 +359,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1998',
     title: '1998',
-    body: 'Libéria: Em 27 de setembro de 1998, os Estados Unidos enviaram uma força de evacuação de 30 militares norte - americanos para aumentar a força de segurança na Embaixada dos Estados Unidos em Monróvia. [1] [RL30172]',
+    body: 'Libéria: Em 27 de setembro de 1998, os Estados Unidos enviaram uma força de evacuação de 30 militares norte - americanos para aumentar a força de segurança na Embaixada dos Estados Unidos em Monróvia. [1] <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -368,7 +368,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1998',
     title: '1998',
-    body: 'Iraque: Operação Raposa do Deserto. As forças estadunidenses e britânicas realizam uma grande campanha de bombardeio de quatro dias sobre alvos iraquianos. [RL30172]',
+    body: 'Iraque: Operação Raposa do Deserto. As forças estadunidenses e britânicas realizam uma grande campanha de bombardeio de quatro dias sobre alvos iraquianos. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -377,7 +377,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1998',
     title: '1998',
-    body: 'Guiné - Bissau: Operação Shepherd Venture. Em 10 de junho de 1998, em resposta a um motim do exército na Guiné - Bissau, que colocava em risco a embaixada dos Estados Unidos, o presidente Clinton enviou uma força de evacuação de militares estadunidenses para Dakar, Senegal, para evacuar a cidade de Bissau. [RL30172]',
+    body: 'Guiné - Bissau: Operação Shepherd Venture. Em 10 de junho de 1998, em resposta a um motim do exército na Guiné - Bissau, que colocava em risco a embaixada dos Estados Unidos, o presidente Clinton enviou uma força de evacuação de militares estadunidenses para Dakar, Senegal, para evacuar a cidade de Bissau. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -386,7 +386,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1998',
     title: '1998',
-    body: 'Afeganistão e Sudão: Operação Infinite Reach. No dia 20 de agosto, o presidente Clinton ordenou um ataque com mísseis contra dois supostos campos de treinamento de terroristas no Afeganistão e uma suposta fábrica química no Sudão.[RL30172]',
+    body: 'Afeganistão e Sudão: Operação Infinite Reach. No dia 20 de agosto, o presidente Clinton ordenou um ataque com mísseis contra dois supostos campos de treinamento de terroristas no Afeganistão e uma suposta fábrica química no Sudão.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -395,7 +395,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1998',
     title: '1998',
-    body: '1999 - Quênia e Tanzânia. Militares estadunidenses foram enviados para Nairóbi, no Quênia, para coordenar a assistência médica e de desastres relacionadas com os atentados terroristas às embaixadas dos Estados Unidos no Quênia e na Tanzânia. [RL30172]',
+    body: '1999 - Quênia e Tanzânia. Militares estadunidenses foram enviados para Nairóbi, no Quênia, para coordenar a assistência médica e de desastres relacionadas com os atentados terroristas às embaixadas dos Estados Unidos no Quênia e na Tanzânia. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -404,7 +404,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1997',
     title: '1997',
-    body: 'Serra Leoa. Em 29 de maio e 30 de maio de 1997, militares estadunidenses foram mobilizados para Freetown, Serra Leoa, para preparar e realizar a evacuação de alguns oficiais do governo dos Estados Unidos e cidadãos estadunidenses. [RL30172]',
+    body: 'Serra Leoa. Em 29 de maio e 30 de maio de 1997, militares estadunidenses foram mobilizados para Freetown, Serra Leoa, para preparar e realizar a evacuação de alguns oficiais do governo dos Estados Unidos e cidadãos estadunidenses. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -413,7 +413,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1997',
     title: '1997',
-    body: 'Congo e Gabão. Em 27 de março de 1997, o presidente Clinton informou em 25 de março de 1997, que uma força de evacuação de militares estadunidenses foi mobilizada para o Congo e o Gabão para proporcionar maior segurança e estar disponível para qualquer operação necessária de evacuação. [RL30172]',
+    body: 'Congo e Gabão. Em 27 de março de 1997, o presidente Clinton informou em 25 de março de 1997, que uma força de evacuação de militares estadunidenses foi mobilizada para o Congo e o Gabão para proporcionar maior segurança e estar disponível para qualquer operação necessária de evacuação. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -422,7 +422,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1997',
     title: '1997',
-    body: 'Camboja. Em 11 de julho de 1997, em um esforço para garantir a segurança dos cidadãos estadunidenses no Camboja durante um período de conflito interno ali, uma força tarefa de aproximadamente 550 militares foram implantadas na Base Aérea de Utapao na Tailândia para possíveis evacuações. [RL30172]',
+    body: 'Camboja. Em 11 de julho de 1997, em um esforço para garantir a segurança dos cidadãos estadunidenses no Camboja durante um período de conflito interno ali, uma força tarefa de aproximadamente 550 militares foram implantadas na Base Aérea de Utapao na Tailândia para possíveis evacuações. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -431,7 +431,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1997',
     title: '1997',
-    body: 'Albânia: Operação Silver Wake. Em 13 de março de 1997, forças militares estadunidenses foram usadas ​​para evacuar alguns oficiais do governo dos Estados Unidos e cidadãos estadunidenses de Tirana, Albânia. [RL30172]',
+    body: 'Albânia: Operação Silver Wake. Em 13 de março de 1997, forças militares estadunidenses foram usadas ​​para evacuar alguns oficiais do governo dos Estados Unidos e cidadãos estadunidenses de Tirana, Albânia. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -440,7 +440,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1996',
     title: '1996',
-    body: 'República Centro - Africana: Operação Quick Response. Em 23 de maio de 1996, o presidente Clinton informou o envio de militares estadunidenses para Bangui, República Centro Africana, para realizar a evacuação daquele país de "cidadãos norte - americanos privados e alguns funcionários do governo dos Estados Unidos" e prestar "segurança reforçada da embaixada americana em Bangui". [RL30172] Elementos do Corpo de Fuzileiros Navais da Força - Tarefa Conjunta da Resposta Garantida, respondendo na vizinha Libéria, providenciaram desde a segurança da embaixada à evacuação de 448 pessoas, incluindo entre 190 e 208 americanos. Os últimos marines deixaram Bangui em 22 de junho.',
+    body: 'República Centro - Africana: Operação Quick Response. Em 23 de maio de 1996, o presidente Clinton informou o envio de militares estadunidenses para Bangui, República Centro Africana, para realizar a evacuação daquele país de "cidadãos norte - americanos privados e alguns funcionários do governo dos Estados Unidos" e prestar "segurança reforçada da embaixada americana em Bangui". <a href="#R42738">[R42738]</a> Elementos do Corpo de Fuzileiros Navais da Força - Tarefa Conjunta da Resposta Garantida, respondendo na vizinha Libéria, providenciaram desde a segurança da embaixada à evacuação de 448 pessoas, incluindo entre 190 e 208 americanos. Os últimos marines deixaram Bangui em 22 de junho.',
   },
   {
     id: 'calendar-days',
@@ -449,7 +449,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1996',
     title: '1996',
-    body: 'Libéria: Operação Assured Response. No dia 11 de abril de 1996, o presidente Clinton informou que, em 9 de abril de 1996, devido à "deterioração das condições de segurança e da consequente ameaça para os cidadãos americanos" na Libéria, havia ordenado que as forças militares estadunidenses evacuassem daquele país "cidadãos norte - americanos e alguns nacionais de outros países que haviam se refugiado no complexo da Embaixada dos Estados Unidos..." [RL30172]',
+    body: 'Libéria: Operação Assured Response. No dia 11 de abril de 1996, o presidente Clinton informou que, em 9 de abril de 1996, devido à "deterioração das condições de segurança e da consequente ameaça para os cidadãos americanos" na Libéria, havia ordenado que as forças militares estadunidenses evacuassem daquele país "cidadãos norte - americanos e alguns nacionais de outros países que haviam se refugiado no complexo da Embaixada dos Estados Unidos..." <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -476,7 +476,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1995',
     title: '1995',
-    body: 'Bósnia e Herzegovina: Operação Força Deliberada. Em 30 de agosto de 1995, aviões da OTAN e dos Estados Unidos iniciaram uma grande campanha de bombardeios ao Exército Sérvio - Bósnio em resposta a um ataque de morteiros sérvio - bósnio em um mercado de Sarajevo, que matou 37 pessoas em 28 de agosto de 1995. A operação durou até 20 de setembro de 1995. A campanha aérea, juntamente com uma força terrestre aliada, em conjunto com forças muçulmanas e croatas, contra as posições sérvias conduziram ao Acordo de Dayton em dezembro de 1995 com a assinatura das facções beligerantes. Como parte da Operação Joint Endeavor, os Estados Unidos e a OTAN despacharam as forças de paz da Força de Implementação (IFOR) para a Bósnia para defender o Acordo de Dayton. [RL30172]',
+    body: 'Bósnia e Herzegovina: Operação Força Deliberada. Em 30 de agosto de 1995, aviões da OTAN e dos Estados Unidos iniciaram uma grande campanha de bombardeios ao Exército Sérvio - Bósnio em resposta a um ataque de morteiros sérvio - bósnio em um mercado de Sarajevo, que matou 37 pessoas em 28 de agosto de 1995. A operação durou até 20 de setembro de 1995. A campanha aérea, juntamente com uma força terrestre aliada, em conjunto com forças muçulmanas e croatas, contra as posições sérvias conduziram ao Acordo de Dayton em dezembro de 1995 com a assinatura das facções beligerantes. Como parte da Operação Joint Endeavor, os Estados Unidos e a OTAN despacharam as forças de paz da Força de Implementação (IFOR) para a Bósnia para defender o Acordo de Dayton. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -485,7 +485,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1994',
     title: '1994',
-    body: 'Macedônia do Norte: Em 19 de abril de 1994, o presidente Clinton informou que o contingente dos Estados Unidos na Macedônia fora aumentado por uma reforço de 200 oficiais. [RL30172]',
+    body: 'Macedônia do Norte: Em 19 de abril de 1994, o presidente Clinton informou que o contingente dos Estados Unidos na Macedônia fora aumentado por uma reforço de 200 oficiais. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -503,7 +503,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1995',
     title: '1995',
-    body: '1995 - Haiti: Operação Uphold Democracy. Navios estadunidenses iniciaram um embargo contra o Haiti. Até 20.000 tropas militares dos Estados Unidos foram posteriormente implantadas no Haiti para restaurar o presidente democraticamente eleito do Haiti, Jean - Bertrand Aristide, de um regime militar que assumiu o poder em 1991, depois de um grande golpe. [RL30172]',
+    body: '1995 - Haiti: Operação Uphold Democracy. Navios estadunidenses iniciaram um embargo contra o Haiti. Até 20.000 tropas militares dos Estados Unidos foram posteriormente implantadas no Haiti para restaurar o presidente democraticamente eleito do Haiti, Jean - Bertrand Aristide, de um regime militar que assumiu o poder em 1991, depois de um grande golpe. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -512,7 +512,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1993',
     title: '1993',
-    body: 'Macedônia do Norte: Em 9 de julho de 1993, o presidente Clinton informou a implantação de 350 soldados estadunidenses na República da Macedônia para participar da Força de Proteção das Nações Unidas para ajudar a manter a estabilidade na região da antiga Iugoslávia. [RL30172]',
+    body: 'Macedônia do Norte: Em 9 de julho de 1993, o presidente Clinton informou a implantação de 350 soldados estadunidenses na República da Macedônia para participar da Força de Proteção das Nações Unidas para ajudar a manter a estabilidade na região da antiga Iugoslávia. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -530,7 +530,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1992',
     title: 'Golpe de Estado em Serra Leoa',
-    body: 'Serra Leoa: Operação Silver Anvil. Após um golpe de Estado em 29 de abril, que derrubou o presidente Joseph Saidu Momoh, um Joint Special Operations Command do Comando Europeu dos Estados Unidos (USEUCOM) evacuou 438 pessoas (incluindo 42 cidadãos de outros países) em 3 de maio. Dois C - 141 da Air Mobility Command (AMC) voaram com 136 pessoas de Freetown, Serra Leoa, para a Base Aérea de Rhein - Main na Alemanha e nove C - 130 realizaram outras missões com 302 pessoas para Dakar, Senegal. [RL30172]',
+    body: 'Serra Leoa: Operação Silver Anvil. Após um golpe de Estado em 29 de abril, que derrubou o presidente Joseph Saidu Momoh, um Joint Special Operations Command do Comando Europeu dos Estados Unidos (USEUCOM) evacuou 438 pessoas (incluindo 42 cidadãos de outros países) em 3 de maio. Dois C - 141 da Air Mobility Command (AMC) voaram com 136 pessoas de Freetown, Serra Leoa, para a Base Aérea de Rhein - Main na Alemanha e nove C - 130 realizaram outras missões com 302 pessoas para Dakar, Senegal. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -539,7 +539,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1992',
     title: '1992',
-    body: 'Kuwait: Em 3 de agosto de 1992, os Estados Unidos iniciaram uma série de exercícios militares no Kuwait, após a recusa do Iraque para reconhecer uma nova fronteira elaborada pelas Nações Unidas e a recusa em cooperar com equipes de inspeção da ONU. [RL30172]',
+    body: 'Kuwait: Em 3 de agosto de 1992, os Estados Unidos iniciaram uma série de exercícios militares no Kuwait, após a recusa do Iraque para reconhecer uma nova fronteira elaborada pelas Nações Unidas e a recusa em cooperar com equipes de inspeção da ONU. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -548,7 +548,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1992',
     title: '1992',
-    body: '2003 - Iraque: Zonas de exclusão aérea no Iraque. Os Estados Unidos, Reino Unido, e seus aliados da Guerra do Golfo, declararam e executaram as "zonas de exclusão aérea" sobre a maioria do espaço aéreo soberano do Iraque, proibindo vôos iraquianos em zonas do sul do Iraque e do norte Iraque, e a realização de reconhecimento aéreo e bombardeios. Muitas vezes, as forças iraquianas continuariam, ao longo de uma década, a dispar sobre aviões estadunidenses e britânicos que patrulhavam as zonas de exclusão aérea. (Ver também: Operação Northern Watch e Operação Southern Watch). [RL30172]',
+    body: '2003 - Iraque: Zonas de exclusão aérea no Iraque. Os Estados Unidos, Reino Unido, e seus aliados da Guerra do Golfo, declararam e executaram as "zonas de exclusão aérea" sobre a maioria do espaço aéreo soberano do Iraque, proibindo vôos iraquianos em zonas do sul do Iraque e do norte Iraque, e a realização de reconhecimento aéreo e bombardeios. Muitas vezes, as forças iraquianas continuariam, ao longo de uma década, a dispar sobre aviões estadunidenses e britânicos que patrulhavam as zonas de exclusão aérea. (Ver também: Operação Northern Watch e Operação Southern Watch). <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -566,7 +566,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1992',
     title: '1992',
-    body: '1995 - Somália: Operação Restore Hope / Guerra Civil Somali: Em 10 de dezembro de 1992, o presidente Bush informou que havia implantado as forças armadas estadunidenses na Somália em resposta a uma crise humanitária e a uma resolução do Conselho de Segurança da ONU em apoio a UNITAF. A operação chegou ao fim em 4 de maio de 1993. No entanto, as forças dos Estados Unidos continuaram a participar da Operação das Nações Unidas na Somália sucessora (a UNOSOM II). (Veja também: Batalha de Mogadíscio). [RL30172]',
+    body: '1995 - Somália: Operação Restore Hope / Guerra Civil Somali: Em 10 de dezembro de 1992, o presidente Bush informou que havia implantado as forças armadas estadunidenses na Somália em resposta a uma crise humanitária e a uma resolução do Conselho de Segurança da ONU em apoio a UNITAF. A operação chegou ao fim em 4 de maio de 1993. No entanto, as forças dos Estados Unidos continuaram a participar da Operação das Nações Unidas na Somália sucessora (a UNOSOM II). (Veja também: Batalha de Mogadíscio). <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -575,7 +575,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1991',
     title: '1991',
-    body: 'Zaire: Em 25 - 27 de setembro de 1991, depois que saques e tumultos eclodiram em Kinshasa, C - 141 da Força Aérea transportaram 100 soldados e equipamentos belgas para Kinshasa. Aviões americanos também transportaram 300 soldados franceses para a República Centro Africana, evacuando cidadãos estadunidenses. [RL30172]',
+    body: 'Zaire: Em 25 - 27 de setembro de 1991, depois que saques e tumultos eclodiram em Kinshasa, C - 141 da Força Aérea transportaram 100 soldados e equipamentos belgas para Kinshasa. Aviões americanos também transportaram 300 soldados franceses para a República Centro Africana, evacuando cidadãos estadunidenses. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -584,7 +584,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1991',
     title: '1991',
-    body: 'Iraque: Em 17 de maio de 1991, o presidente Bush declarou que a repressão iraquiana do povo curdo havia exigido uma intervenção limitada das forças dos Estados Unidos no norte do Iraque para fins de ajuda de emergência. [RL30172]',
+    body: 'Iraque: Em 17 de maio de 1991, o presidente Bush declarou que a repressão iraquiana do povo curdo havia exigido uma intervenção limitada das forças dos Estados Unidos no norte do Iraque para fins de ajuda de emergência. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -593,7 +593,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1991',
     title: '1991',
-    body: 'Iraque e Kuwait: Operação Tempestade no Deserto. Em 16 de janeiro de 1991, em resposta à recusa por parte do Iraque para sair do Kuwait, aviões dos Estados Unidos e da Coalizão atacaram as forças iraquianas e alvos militares no Iraque e no Kuwait; em conjunto com uma coalizão de aliados e sob resoluções do Conselho de Segurança das Nações Unidas. Em 24 de fevereiro de 1991, as forças das Nações Unidas, lideradas pelos Estados Unidos, lançaram uma ofensiva terrestre que finalmente expulsou as forças iraquianas do Kuwait dentro de 100 horas. As operações de combate terminaram em 28 de fevereiro de 1991, quando o presidente Bush declarou um cessar - fogo. [RL30172]',
+    body: 'Iraque e Kuwait: Operação Tempestade no Deserto. Em 16 de janeiro de 1991, em resposta à recusa por parte do Iraque para sair do Kuwait, aviões dos Estados Unidos e da Coalizão atacaram as forças iraquianas e alvos militares no Iraque e no Kuwait; em conjunto com uma coalizão de aliados e sob resoluções do Conselho de Segurança das Nações Unidas. Em 24 de fevereiro de 1991, as forças das Nações Unidas, lideradas pelos Estados Unidos, lançaram uma ofensiva terrestre que finalmente expulsou as forças iraquianas do Kuwait dentro de 100 horas. As operações de combate terminaram em 28 de fevereiro de 1991, quando o presidente Bush declarou um cessar - fogo. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -611,7 +611,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1990',
     title: '1990',
-    body: 'Libéria: Em 6 de agosto de 1990, o presidente Bush informou que uma companhia armada de rifles tinha sido enviada para fornecer segurança adicional para a embaixada dos Estados Unidos em Monróvia, e que equipes de helicópteros evacuaram cidadãos estadunidenses da Libéria. [RL30172]',
+    body: 'Libéria: Em 6 de agosto de 1990, o presidente Bush informou que uma companhia armada de rifles tinha sido enviada para fornecer segurança adicional para a embaixada dos Estados Unidos em Monróvia, e que equipes de helicópteros evacuaram cidadãos estadunidenses da Libéria. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -620,7 +620,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1990',
     title: '1990',
-    body: 'Arábia Saudita: Em 9 de agosto de 1990, o presidente Bush informou que lançou a Operação Escudo do Deserto, ordenando um destacamento avançado de elementos materiais das forças armadas norte - americanas na região do Golfo Pérsico para ajudar a defender a Arábia Saudita após a invasão do Kuwait em 2 de agosto pelo Iraque. Em 16 de novembro de 1990, relatou o estabelecimento contínuo de forças para garantir uma opção adequada de ofensiva militar. [RL30172] Reféns estadunidenses são detidos no Irã. [RL30172] Um ponto de parada para as tropas ocorreu principalmente no campo aéreo de Bagram.',
+    body: 'Arábia Saudita: Em 9 de agosto de 1990, o presidente Bush informou que lançou a Operação Escudo do Deserto, ordenando um destacamento avançado de elementos materiais das forças armadas norte - americanas na região do Golfo Pérsico para ajudar a defender a Arábia Saudita após a invasão do Kuwait em 2 de agosto pelo Iraque. Em 16 de novembro de 1990, relatou o estabelecimento contínuo de forças para garantir uma opção adequada de ofensiva militar. <a href="#R42738">[R42738]</a> Reféns estadunidenses são detidos no Irã. <a href="#R42738">[R42738]</a> Um ponto de parada para as tropas ocorreu principalmente no campo aéreo de Bagram.',
   },
   {
     id: 'calendar-days',
@@ -629,7 +629,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1989',
     title: '1989',
-    body: 'Panamá - 11 de maio - Em meio a acusações de que Manuel Noriega fraudara as eleições do Panamá, o Presidente George Bush enviou mais de 1900 militares em reforço aos de 11 mil que se estimava que estivessem na Zona do Canal.[RL30172]',
+    body: 'Panamá - 11 de maio - Em meio a acusações de que Manuel Noriega fraudara as eleições do Panamá, o Presidente George Bush enviou mais de 1900 militares em reforço aos de 11 mil que se estimava que estivessem na Zona do Canal.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -638,7 +638,7 @@ const entries = [
     faicon: 'water',
     datetime: '1989',
     title: '1989',
-    body: 'Líbia - 4 de janeiro - Terceiro Incidente sobre Golfo de Sidra - Dois aviões F - 14 Tomcat da Marinha abateram dois caças líbios sobre o Mar Mediterrâneo a cerca de 70 km ao norte da Líbia. Os pilotos estadunidenses disseram que os aviões líbios demonstraram intenções hostis. [RL30172]',
+    body: 'Líbia - 4 de janeiro - Terceiro Incidente sobre Golfo de Sidra - Dois aviões F - 14 Tomcat da Marinha abateram dois caças líbios sobre o Mar Mediterrâneo a cerca de 70 km ao norte da Líbia. Os pilotos estadunidenses disseram que os aviões líbios demonstraram intenções hostis. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -647,7 +647,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1989',
     title: '1989',
-    body: 'Filipinas - Operação Resolução Clássica - Em 2 de dezembro de 1989, o Presidente George Bush informou que em 1 de dezembro, caças norte - americanos tinham ajudado o governo Aquino a repelir uma tentativa de golpe. Além disso, 100 marines foram enviados para proteger a embaixada dos EUA em Manila.[RL30172]',
+    body: 'Filipinas - Operação Resolução Clássica - Em 2 de dezembro de 1989, o Presidente George Bush informou que em 1 de dezembro, caças norte - americanos tinham ajudado o governo Aquino a repelir uma tentativa de golpe. Além disso, 100 marines foram enviados para proteger a embaixada dos EUA em Manila.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -656,7 +656,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1989',
     title: '1989',
-    body: 'Colômbia, Bolívia e Peru - Iniciativa Andina de Guerra às Drogas - Em 15 de setembro de 1989, o Presidente George Bush anunciou a assistência militar para combater a produção de drogas e o narcotráfico. Em meados de setembro, havia entre 50 e 100 assessores militares na Colômbia, realizando atividades de transporte e treino na utilização de equipamentos militares, além de sete equipes de Forças Especiais cada uma com entre 2 e 12 integrantes para treinar tropas dos três países.[RL30172]',
+    body: 'Colômbia, Bolívia e Peru - Iniciativa Andina de Guerra às Drogas - Em 15 de setembro de 1989, o Presidente George Bush anunciou a assistência militar para combater a produção de drogas e o narcotráfico. Em meados de setembro, havia entre 50 e 100 assessores militares na Colômbia, realizando atividades de transporte e treino na utilização de equipamentos militares, além de sete equipes de Forças Especiais cada uma com entre 2 e 12 integrantes para treinar tropas dos três países.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -665,7 +665,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1989-12-21',
     title: '1989-1990',
-    body: 'Panamá - Operação Causa Justa - Em 21 de dezembro de 1989, o Presidente George Bush informou que tinha ordenado às tropas norte - americanas no Panamá para proteger as vidas dos cidadãos norte - americanos e prender o General Noriega. Até 13 fevereiro de 1990, todas as forças de invasão tinha sido retiradas.[RL30172] Cerca de 200 civis panamenhos foram mortos. O chefe de Estado do Panamá, general Manuel Noriega, foi capturado e levado para os Estados Unidos.',
+    body: 'Panamá - Operação Causa Justa - Em 21 de dezembro de 1989, o Presidente George Bush informou que tinha ordenado às tropas norte - americanas no Panamá para proteger as vidas dos cidadãos norte - americanos e prender o General Noriega. Até 13 fevereiro de 1990, todas as forças de invasão tinha sido retiradas.<a href="#R42738">[R42738]</a> Cerca de 200 civis panamenhos foram mortos. O chefe de Estado do Panamá, general Manuel Noriega, foi capturado e levado para os Estados Unidos.',
   },
   {
     id: 'calendar-days',
@@ -674,7 +674,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1988',
     title: '1988',
-    body: 'Panamá - Em meados de março e abril de 1988, durante um período de instabilidade no Panamá e os EUA aumentaram a pressão para destituir Manuel Noriega, envio de mais 1.000 homens para reforçar a proteção ao canal, às vidas, às propriedades e aos interesses norte - americanos na área, que se somaram aos 10.000 militares norte - americanos que já estavam na Zona do Canal do Panamá.[RL30172]',
+    body: 'Panamá - Em meados de março e abril de 1988, durante um período de instabilidade no Panamá e os EUA aumentaram a pressão para destituir Manuel Noriega, envio de mais 1.000 homens para reforçar a proteção ao canal, às vidas, às propriedades e aos interesses norte - americanos na área, que se somaram aos 10.000 militares norte - americanos que já estavam na Zona do Canal do Panamá.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -719,7 +719,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1986',
     title: '1986',
-    body: 'Líbia - Segundo Incidente sobre o Golfo de Sidra - Em 26 de março de 1986, o Presidente Reagan relatou que entre 24 e 25 de março, unidades militares norte - americanas foram atacadas por mísseis líbios e os EUA responderam atacando posições líbias com mísseis.[RL30172]',
+    body: 'Líbia - Segundo Incidente sobre o Golfo de Sidra - Em 26 de março de 1986, o Presidente Reagan relatou que entre 24 e 25 de março, unidades militares norte - americanas foram atacadas por mísseis líbios e os EUA responderam atacando posições líbias com mísseis.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -728,7 +728,7 @@ const entries = [
     faicon: 'jet-fighter-up',
     datetime: '1986',
     title: '1986',
-    body: 'Líbia - Operação El Dorado Canyon - Em 16 de abril de 1986, o Presidente Reagan informou que fora realizado um bombardeio aeronaval contra instalações militares em Trípoli, alegando que Muammar al - Gaddafi fora responsável por um atentado a bomba em uma discoteca alemã que matou dois soldados norte - americanos.[RL30172]',
+    body: 'Líbia - Operação El Dorado Canyon - Em 16 de abril de 1986, o Presidente Reagan informou que fora realizado um bombardeio aeronaval contra instalações militares em Trípoli, alegando que Muammar al - Gaddafi fora responsável por um atentado a bomba em uma discoteca alemã que matou dois soldados norte - americanos.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -737,7 +737,7 @@ const entries = [
     faicon: 'jet-fighter-up',
     datetime: '1986',
     title: '1986',
-    body: 'Bolívia - Efetivos do Exército e aeronaves apoiam operações antidroga.[RL30172]',
+    body: 'Bolívia - Efetivos do Exército e aeronaves apoiam operações antidroga.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -746,7 +746,7 @@ const entries = [
     faicon: 'water',
     datetime: '1985',
     title: '1985',
-    body: 'Itália - Em 10 de outubro de 1985, pilotos da Marinha interceptaram um avião egípcio e o obrigaram a pousar na Sicília. O avião transportava os sequestradores do navio de cruzeiro italiano Achille Lauro, que tinham matado um cidadão americano durante o sequestro. [RL30172]',
+    body: 'Itália - Em 10 de outubro de 1985, pilotos da Marinha interceptaram um avião egípcio e o obrigaram a pousar na Sicília. O avião transportava os sequestradores do navio de cruzeiro italiano Achille Lauro, que tinham matado um cidadão americano durante o sequestro. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -755,7 +755,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1984',
     title: '1984',
-    body: 'Golfo Pérsico - Em 5 de junho de 1984, um avião - radar AWACS e um avião tanque KC - 10 norte americano foram empregados para auxiliar dois caças sauditas a abater dois caças iranianos sobre uma área do Golfo que fora proclamada como zona protegida para a navegação.[RL30172]',
+    body: 'Golfo Pérsico - Em 5 de junho de 1984, um avião - radar AWACS e um avião tanque KC - 10 norte americano foram empregados para auxiliar dois caças sauditas a abater dois caças iranianos sobre uma área do Golfo que fora proclamada como zona protegida para a navegação.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -764,7 +764,7 @@ const entries = [
     faicon: 'jet-fighter-up',
     datetime: '1983',
     title: 'Operação Fúria Urgente - Golpe de Estado',
-    body: 'Granada - Invasão de Granada (Operação Fúria Urgente) - citando a ameaça crescente de influência soviética e cubana e observando o desenvolvimento de um aeroporto internacional na sequência de um golpe de Estado e alinhamento com a União Soviética e Cuba, os EUA invadem a ilha de Granada. [RL30172]',
+    body: 'Granada - Invasão de Granada (Operação Fúria Urgente) - citando a ameaça crescente de influência soviética e cubana e observando o desenvolvimento de um aeroporto internacional na sequência de um golpe de Estado e alinhamento com a União Soviética e Cuba, os EUA invadem a ilha de Granada. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -773,7 +773,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1983-03-18',
     title: 'Sudão e o Egito solicitaram ajuda',
-    body: 'Egito/Sudão - Depois que um avião líbio ter bombardeado uma cidade no Sudão em 18 de março de 1983, o Sudão e o Egito solicitaram ajuda aos EUA que enviaram um avião - radar AWACS para o Egito.[RL30172]',
+    body: 'Egito/Sudão - Depois que um avião líbio ter bombardeado uma cidade no Sudão em 18 de março de 1983, o Sudão e o Egito solicitaram ajuda aos EUA que enviaram um avião - radar AWACS para o Egito.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -782,7 +782,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1983-08-08',
     title: 'Rebeldes apoiados por forças líbias',
-    body: 'Chade - Em 8 de agosto de 1983, o Presidente Reagan relatou a implantação de dois aviões - radar AWACS, oito caças F - 15, aviões e forças terrestres de apoio logístico para ajudar aquele país contra rebeldes apoiados por forças líbias.[RL30172]',
+    body: 'Chade - Em 8 de agosto de 1983, o Presidente Reagan relatou a implantação de dois aviões - radar AWACS, oito caças F - 15, aviões e forças terrestres de apoio logístico para ajudar aquele país contra rebeldes apoiados por forças líbias.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -791,7 +791,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1986-03-25',
     title: 'Exercícios militares em Honduras',
-    body: '1989 - Honduras - A partir de julho de 1983 foram realizados vários exercícios militares em Honduras, o que segundo alguns poderia levar a um conflito com a Nicarágua. Em 25 de março de 1986, helicópteros militares norte - americanos transportaram tropas hondurenhas até a fronteira com a Nicarágua para repelir tropas nicaraguenses.[RL30172]',
+    body: '1989 - Honduras - A partir de julho de 1983 foram realizados vários exercícios militares em Honduras, o que segundo alguns poderia levar a um conflito com a Nicarágua. Em 25 de março de 1986, helicópteros militares norte - americanos transportaram tropas hondurenhas até a fronteira com a Nicarágua para repelir tropas nicaraguenses.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -800,7 +800,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1982-03-19',
     title: 'Observadores na Península do Sinai',
-    body: 'Sinai - 19 de março de 1982 - O Presidente Reagan relatou o envio de pessoal e equipamentos militares para participar da Força Multinacional de Observadores na Península do Sinai.[RL30172]',
+    body: 'Sinai - 19 de março de 1982 - O Presidente Reagan relatou o envio de pessoal e equipamentos militares para participar da Força Multinacional de Observadores na Península do Sinai.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -809,7 +809,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1982-08-21',
     title: 'Libertação da Palestina de Beirute',
-    body: 'Líbano - Em 21 de agosto de 1982, o Presidente Reagan relatou a expedição de 80 marines para para atuar durante a retirada de membros das forças de Libertação da Palestina de Beirute. Os marines deixaram a região em 20 de setembro de 1982.[RL30172]',
+    body: 'Líbano - Em 21 de agosto de 1982, o Presidente Reagan relatou a expedição de 80 marines para para atuar durante a retirada de membros das forças de Libertação da Palestina de Beirute. Os marines deixaram a região em 20 de setembro de 1982.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -818,7 +818,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1982-09-29',
     title: 'Força Multinacional no Líbano',
-    body: '1983 - Líbano - Força Multinacional no Líbano - Em 29 de setembro de 1982, o Presidente Reagan informou a implantação de 1.200 marines para servir em uma força multinacional temporária para facilitar a retomada do controle do país pelo governo libanês. Em 29 de setembro de 1983, o Congresso aprovou a Resolução (PL 98 - 119) da Força Multinacional no Líbano autorizando a participação continua durante 18 meses. [RL30172]',
+    body: '1983 - Líbano - Força Multinacional no Líbano - Em 29 de setembro de 1982, o Presidente Reagan informou a implantação de 1.200 marines para servir em uma força multinacional temporária para facilitar a retomada do controle do país pelo governo libanês. Em 29 de setembro de 1983, o Congresso aprovou a Resolução (PL 98 - 119) da Força Multinacional no Líbano autorizando a participação continua durante 18 meses. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -827,7 +827,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1981-08-19',
     title: 'Aviões norte - americanos abateram dois aviões líbios',
-    body: 'Líbia - 19 de agosto - Primeiro Incidente sobre o Golfo de Sidra - Aviões norte - americanos abateram dois aviões líbios sobre o Golfo de Sidra. Os Estados Unidos realizavam periodicamente exercícios livres de navegação no Golfo de Sidra, reivindicado pela Líbia como águas territoriais, mas consideradas águas internacionais pelos Estados Unidos. [RL30172]',
+    body: 'Líbia - 19 de agosto - Primeiro Incidente sobre o Golfo de Sidra - Aviões norte - americanos abateram dois aviões líbios sobre o Golfo de Sidra. Os Estados Unidos realizavam periodicamente exercícios livres de navegação no Golfo de Sidra, reivindicado pela Líbia como águas territoriais, mas consideradas águas internacionais pelos Estados Unidos. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -836,7 +836,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1981',
     title: '1981',
-    body: 'El Salvador - Depois de uma ofensiva da guerrilha contra o governo de El Salvador, a quantidade de conselheiros militares norte - americanos naquele país foi elevada para 55, para ajudar no treinamento militar das forças governamentais.[RL30172]',
+    body: 'El Salvador - Depois de uma ofensiva da guerrilha contra o governo de El Salvador, a quantidade de conselheiros militares norte - americanos naquele país foi elevada para 55, para ajudar no treinamento militar das forças governamentais.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -854,7 +854,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1978-05-19',
     title: 'Salvamento belgas e franceses',
-    body: 'Congo (Zaire) - Entre 19 de maio e junho de 1978, aviões de transporte militar norte - americanos prestaram apoio logístico às operações de salvamento belgas e franceses.[RL30172]',
+    body: 'Congo (Zaire) - Entre 19 de maio e junho de 1978, aviões de transporte militar norte - americanos prestaram apoio logístico às operações de salvamento belgas e franceses.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -863,7 +863,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1976-06-22',
     title: 'Helicópteros retiraram 250 americanos e europeus',
-    body: 'Líbano - Entre 22 e 23 de julho de 1976 - Helicópteros foram utilizados para retirar cerca de 250 norte - americanos e europeus durante combates entre facções libanesas, depois que uma tentativa de retirada por meio de um comboio terrestre ter sido inviabilizada pelas hostilidades.[RL30172]',
+    body: 'Líbano - Entre 22 e 23 de julho de 1976 - Helicópteros foram utilizados para retirar cerca de 250 norte - americanos e europeus durante combates entre facções libanesas, depois que uma tentativa de retirada por meio de um comboio terrestre ter sido inviabilizada pelas hostilidades.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -872,7 +872,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1976',
     title: 'Americanos foram mortos por soldados norte - coreanos',
-    body: 'Coreia do Sul - Envio de forças adicionais depois que dois soldados norte - americanos foram mortos por soldados norte - coreanos na zona desmilitarizada entre as duas Coreias, enquanto cortavam uma árvore (Incidente Axe).[RL30172]',
+    body: 'Coreia do Sul - Envio de forças adicionais depois que dois soldados norte - americanos foram mortos por soldados norte - coreanos na zona desmilitarizada entre as duas Coreias, enquanto cortavam uma árvore (Incidente Axe).<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -881,7 +881,7 @@ const entries = [
     faicon: 'jet-fighter-up',
     datetime: '1975-04-30',
     title: '70 helicópteros de evacuação',
-    body: 'Vietnã do Sul. Em 30 de abril de 1975, o presidente Ford informou que uma força de 70 helicópteros de evacuação e 865 fuzileiros navais tinham evacuado cerca de 1.400 cidadãos estadunidenses e 5.500 de outros países e sul - vietnamitas de zonas de desembarque e em torno da Embaixada dos EUA em Saigon e do Aeroporto de Tan Son Nhut.[RL30172]',
+    body: 'Vietnã do Sul. Em 30 de abril de 1975, o presidente Ford informou que uma força de 70 helicópteros de evacuação e 865 fuzileiros navais tinham evacuado cerca de 1.400 cidadãos estadunidenses e 5.500 de outros países e sul - vietnamitas de zonas de desembarque e em torno da Embaixada dos EUA em Saigon e do Aeroporto de Tan Son Nhut.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -890,7 +890,7 @@ const entries = [
     faicon: 'ship',
     datetime: '1975-04-03',
     title: 'Operação Vento Constante',
-    body: 'Vietnã - Operação Vento Constante - Em 3 de abril de 1975, o presidente Ford informou que embarcações navais dos Estados Unidos, helicópteros, e os fuzileiros navais foram enviados para ajudar na evacuação de refugiados e cidadãos estadunidenses do Vietnã.[RL30172]',
+    body: 'Vietnã - Operação Vento Constante - Em 3 de abril de 1975, o presidente Ford informou que embarcações navais dos Estados Unidos, helicópteros, e os fuzileiros navais foram enviados para ajudar na evacuação de refugiados e cidadãos estadunidenses do Vietnã.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -899,7 +899,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1975-05-12',
     title: 'Incidente Mayagüez',
-    body: 'Camboja - Entre 12 e 15 de maio de 1975 - Incidente Mayagüez - O Presidente Gerald Ford relatou que havia ordenado a retomada do Mayagüez SS, um navio mercante que fora apreendido por barcos de patrulha naval cambojanos nas águas internacionais e obrigado a ir para uma ilha próxima.[RL30172]',
+    body: 'Camboja - Entre 12 e 15 de maio de 1975 - Incidente Mayagüez - O Presidente Gerald Ford relatou que havia ordenado a retomada do Mayagüez SS, um navio mercante que fora apreendido por barcos de patrulha naval cambojanos nas águas internacionais e obrigado a ir para uma ilha próxima.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -908,7 +908,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1975',
     title: '1975',
-    body: 'Camboja - Em 12 de abril de 1975, o presidente Ford informou que havia ordenado as forças militares dos Estados Unidos para prosseguir com a evacuação planejada de cidadãos estadunidenses do Camboja. [RL30172]',
+    body: 'Camboja - Em 12 de abril de 1975, o presidente Ford informou que havia ordenado as forças militares dos Estados Unidos para prosseguir com a evacuação planejada de cidadãos estadunidenses do Camboja. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -917,7 +917,7 @@ const entries = [
     faicon: 'ship',
     datetime: '1974',
     title: '1974',
-    body: 'Evacuação de Chipre. Forças navais dos Estados Unidos evacuaram civis norte - americanos durante a invasão turca de Chipre. [RL30172]',
+    body: 'Evacuação de Chipre. Forças navais dos Estados Unidos evacuaram civis norte - americanos durante a invasão turca de Chipre. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -935,7 +935,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1970',
     title: '1970',
-    body: 'Campanha do Camboja. Tropas estadunidenses foram requisitadas no Camboja para "limpar" santuários comunistas do qual o Viet Cong e norte - vietnamitas atacavam as forças americanas e sul - vietnamitas no Vietnã. O objeto deste ataque, que durou de 30 de abril a 30 de junho, foi garantir a retirada contínua das forças de segurança americanas do Vietnã do Sul e para apoiar o programa de vietnamização.[RL30172]',
+    body: 'Campanha do Camboja. Tropas estadunidenses foram requisitadas no Camboja para "limpar" santuários comunistas do qual o Viet Cong e norte - vietnamitas atacavam as forças americanas e sul - vietnamitas no Vietnã. O objeto deste ataque, que durou de 30 de abril a 30 de junho, foi garantir a retirada contínua das forças de segurança americanas do Vietnã do Sul e para apoiar o programa de vietnamização.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -953,7 +953,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1967',
     title: '1967',
-    body: 'República Democrática do Congo (então Zaire) - Envio de três aviões de transporte militar com tripulações para fornecer ao governo central apoio logístico durante uma revolta.[RL30172]',
+    body: 'República Democrática do Congo (então Zaire) - Envio de três aviões de transporte militar com tripulações para fornecer ao governo central apoio logístico durante uma revolta.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -971,7 +971,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1965',
     title: 'Proteger vidas e propriedade',
-    body: 'República Dominicana - Invasão da República Dominicana - Intervenção para proteger vidas e propriedade durante uma revolta, com envio de 20 mil soldados norte - americanos, devido aos receios crescentes de que as forças revolucionárias estavam guiando cada vez mais sob controle comunista. [RL30172]',
+    body: 'República Dominicana - Invasão da República Dominicana - Intervenção para proteger vidas e propriedade durante uma revolta, com envio de 20 mil soldados norte - americanos, devido aos receios crescentes de que as forças revolucionárias estavam guiando cada vez mais sob controle comunista. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -980,7 +980,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1964',
     title: '1964',
-    body: 'República Democrática do Congo (então Zaire). Envio de quatro aviões de transporte aéreo para as tropas congolesas durante uma rebelião e para o transporte de pára - quedistas belgas para proteger estrangeiros.[RL30172]',
+    body: 'República Democrática do Congo (então Zaire). Envio de quatro aviões de transporte aéreo para as tropas congolesas durante uma rebelião e para o transporte de pára - quedistas belgas para proteger estrangeiros.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -998,7 +998,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1962',
     title: '1962',
-    body: 'Tailândia - Em 17 de maio de 1962, ocorreu um desembarque de 5.000 marines para apoiar o país perante a ameaça operações comunistas partindo do exterior; até 30 de julho, os 5.000 marines foram retirados[RL30172]',
+    body: 'Tailândia - Em 17 de maio de 1962, ocorreu um desembarque de 5.000 marines para apoiar o país perante a ameaça operações comunistas partindo do exterior; até 30 de julho, os 5.000 marines foram retirados<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1007,7 +1007,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1962',
     title: '1962',
-    body: 'Cuba - Crise dos mísseis de Cuba - Em 22 de outubro, o presidente Kennedy instituiu um bloqueio naval seletivo ("quarentena") para evitar a transferência de mísseis soviéticos ofensivos para Cuba. Também alertou a União Soviética que o lançamento de um míssil de Cuba contra as nações do Hemisfério Ocidental acarretaria em uma retaliação nuclear estadunidense contra a União Soviética. Um acordo negociado foi obtido em poucos dias.[RL30172]',
+    body: 'Cuba - Crise dos mísseis de Cuba - Em 22 de outubro, o presidente Kennedy instituiu um bloqueio naval seletivo ("quarentena") para evitar a transferência de mísseis soviéticos ofensivos para Cuba. Também alertou a União Soviética que o lançamento de um míssil de Cuba contra as nações do Hemisfério Ocidental acarretaria em uma retaliação nuclear estadunidense contra a União Soviética. Um acordo negociado foi obtido em poucos dias.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1016,7 +1016,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1962',
     title: '1962',
-    body: '1975 - Laos - De Outubro de 1962 até 1975, os Estados Unidos desempenharam um papel importante no apoio militar de forças anticomunistas no Laos.[RL30172]',
+    body: '1975 - Laos - De Outubro de 1962 até 1975, os Estados Unidos desempenharam um papel importante no apoio militar de forças anticomunistas no Laos.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1025,7 +1025,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1959',
     title: '1959',
-    body: '1975 - Guerra do Vietnã - Conselheiros militares atuaram no Vietname do Sul durante uma década, e seu efetivo foi aumentado na medida em que a posição militar do governo de Saigon tornava - se mais débil. O presidente Johnson, agosto de 1964, depois de citar o que ele chamou de ataques destruidores no Golfo de Tonkin, propôs resolução manifestando determinação em apoiar a liberdade e proteger a paz no Sudeste Asiático. O Congresso respondeu com a Resolução do Golfo de Tonkin, manifestando apoio a "todas as medidas necessárias" para repelir os ataques armados contra as forças estadunidenses e evitar novas agressões. Na sequência desta resolução, e na sequência de um ataque comunista a uma instalação norte - americana na região central do Vietnã, os EUA intensificaram sua participação na guerra, chegaram a um pico de 543 mil militares em Abril de 1969.[RL30172]',
+    body: '1975 - Guerra do Vietnã - Conselheiros militares atuaram no Vietname do Sul durante uma década, e seu efetivo foi aumentado na medida em que a posição militar do governo de Saigon tornava - se mais débil. O presidente Johnson, agosto de 1964, depois de citar o que ele chamou de ataques destruidores no Golfo de Tonkin, propôs resolução manifestando determinação em apoiar a liberdade e proteger a paz no Sudeste Asiático. O Congresso respondeu com a Resolução do Golfo de Tonkin, manifestando apoio a "todas as medidas necessárias" para repelir os ataques armados contra as forças estadunidenses e evitar novas agressões. Na sequência desta resolução, e na sequência de um ataque comunista a uma instalação norte - americana na região central do Vietnã, os EUA intensificaram sua participação na guerra, chegaram a um pico de 543 mil militares em Abril de 1969.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1034,7 +1034,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1959',
     title: '1959',
-    body: '1960 - Caribe - Proteger cidadãos norte - americanos durante a Revolução Cubana.[RL30172]',
+    body: '1960 - Caribe - Proteger cidadãos norte - americanos durante a Revolução Cubana.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1043,7 +1043,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1958',
     title: '1958',
-    body: 'Líbano - Crise do Líbano de 1958 - Desembarque de marines a pedido do presidente Camille Chamoun para ajudar a protegê - lo contra uma insurreição apoiada do exterior, a ação foi apoiada por uma resolução aprovada pelo Congresso em 1957 que autorizou tais ações nessa área do mundo.[RL30172]',
+    body: 'Líbano - Crise do Líbano de 1958 - Desembarque de marines a pedido do presidente Camille Chamoun para ajudar a protegê - lo contra uma insurreição apoiada do exterior, a ação foi apoiada por uma resolução aprovada pelo Congresso em 1957 que autorizou tais ações nessa área do mundo.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1052,7 +1052,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1956',
     title: '1956',
-    body: 'Egito - Um batalhão de marines retirou norte - americanos e outras pessoas de Alexandria durante a Crise do Suez.[RL30172]',
+    body: 'Egito - Um batalhão de marines retirou norte - americanos e outras pessoas de Alexandria durante a Crise do Suez.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1070,7 +1070,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1954',
     title: '1954',
-    body: '1955 - República Popular da China - Retirada de civis e militares das Ilhas Tachen.[RL30172]',
+    body: '1955 - República Popular da China - Retirada de civis e militares das Ilhas Tachen.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1079,7 +1079,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1950',
     title: '1950',
-    body: '1955 - Formosa (Taiwan) - Em junho de 1950, no início da Guerra da Coreia, o presidente Harry Truman ordenou que a Sétima Frota que impedisse ataques entre a República Popular da China e Formosa.[RL30172]',
+    body: '1955 - Formosa (Taiwan) - Em junho de 1950, no início da Guerra da Coreia, o presidente Harry Truman ordenou que a Sétima Frota que impedisse ataques entre a República Popular da China e Formosa.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1088,7 +1088,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1950',
     title: '1950',
-    body: '1953 - Guerra da Coreia - Os EUA intervieram no conflito entre a Coreia do Norte e a Coreia do Sul, apoiados por resoluções do Conselho de Segurança das Nações Unidas. No último ano do conflito havia mais de 300 mil norte - americanos na Coreia do Sul. Mais de 36 600 militares norte - americanos foram mortos em ação.[RL30172]',
+    body: '1953 - Guerra da Coreia - Os EUA intervieram no conflito entre a Coreia do Norte e a Coreia do Sul, apoiados por resoluções do Conselho de Segurança das Nações Unidas. No último ano do conflito havia mais de 300 mil norte - americanos na Coreia do Sul. Mais de 36 600 militares norte - americanos foram mortos em ação.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1097,7 +1097,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1948',
     title: '1948',
-    body: 'Palestina - Envio de marines para Jerusalém para proteger o cônsul - geral norte - americano.[RL30172]',
+    body: 'Palestina - Envio de marines para Jerusalém para proteger o cônsul - geral norte - americano.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1106,7 +1106,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1948',
     title: '1948',
-    body: 'Berlim - Bloqueio de Berlim (entre 24 de junho de 1948 e maio de 1949) - A União Soviética estabeleceu um bloqueio por terra aos setores de Berlim controlados pelas potências ocidentais (Estados Unidos, Império Britânico e Império Francês), que passaram a fornecer suprimentos para Berlim por via aérea.[RL30172]',
+    body: 'Berlim - Bloqueio de Berlim (entre 24 de junho de 1948 e maio de 1949) - A União Soviética estabeleceu um bloqueio por terra aos setores de Berlim controlados pelas potências ocidentais (Estados Unidos, Império Britânico e Império Francês), que passaram a fornecer suprimentos para Berlim por via aérea.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1115,7 +1115,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1948',
     title: '1948',
-    body: '1949 - China - Envio de marines para Nanking para proteger a embaixada dos EUA, quando a cidade foi tomada pelas tropas comunistas, e para Xangai para ajudar na proteção e evacuação de norte - americanos.[RL30172]',
+    body: '1949 - China - Envio de marines para Nanking para proteger a embaixada dos EUA, quando a cidade foi tomada pelas tropas comunistas, e para Xangai para ajudar na proteção e evacuação de norte - americanos.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1133,7 +1133,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1945',
     title: '1945',
-    body: 'China - Em outubro, 50.000 marines foram enviados para o norte da China para ajudar as autoridades chinesas nacionalistas a desarmar e repatriar os japoneses na China e no controle dos portos, ferrovias e aeroportos. Isto em adição aos aproximadamente 60 mil soldados remanescentes na China no final da Segunda Guerra Mundial.[RL30172]',
+    body: 'China - Em outubro, 50.000 marines foram enviados para o norte da China para ajudar as autoridades chinesas nacionalistas a desarmar e repatriar os japoneses na China e no controle dos portos, ferrovias e aeroportos. Isto em adição aos aproximadamente 60 mil soldados remanescentes na China no final da Segunda Guerra Mundial.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1187,7 +1187,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1941',
     title: 'Islândia - Foi colocada sob a proteção',
-    body: 'Islândia - Foi colocada sob a proteção dos Estados Unidos com o consentimento de seu governo com a substituição pelas tropas britânicas, por razões estratégicas.[RL30172]',
+    body: 'Islândia - Foi colocada sob a proteção dos Estados Unidos com o consentimento de seu governo com a substituição pelas tropas britânicas, por razões estratégicas.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1196,7 +1196,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1941',
     title: 'Ocupassão da Guiana Holandesa',
-    body: 'Guiana Holandesa (Suriname) - Em novembro, o presidente ordenou que as tropas estadunidenses ocupassem a Guiana Holandesa, mas em acordo com o governo holandês no exílio, o Brasil colaborou para proteger o fornecimento de alumínio das minas de bauxita no Suriname.[RL30172]',
+    body: 'Guiana Holandesa (Suriname) - Em novembro, o presidente ordenou que as tropas estadunidenses ocupassem a Guiana Holandesa, mas em acordo com o governo holandês no exílio, o Brasil colaborou para proteger o fornecimento de alumínio das minas de bauxita no Suriname.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1205,7 +1205,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1941',
     title: 'Groelândia foi colocada sob a proteção',
-    body: 'Groelândia - Em abril, a Groelândia foi colocada sob a proteção dos Estados Unidos.[RL30172]',
+    body: 'Groelândia - Em abril, a Groelândia foi colocada sob a proteção dos Estados Unidos.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1214,7 +1214,7 @@ const entries = [
     faicon: 'water',
     datetime: '1941',
     title: 'Marinha recebeu ordens para proteger comboios de navios',
-    body: 'Alemanha - Na primavera, a Marinha recebeu ordens para proteger comboios de navios para a Europa. Em setembro, navios de guerra atacaram os submarinos alemães. Em novembro, a Lei de Neutralidade foi parcialmente revogada para proteger a ajuda militar ao Império Britânico. [RL30172]',
+    body: 'Alemanha - Na primavera, a Marinha recebeu ordens para proteger comboios de navios para a Europa. Em setembro, navios de guerra atacaram os submarinos alemães. Em novembro, a Lei de Neutralidade foi parcialmente revogada para proteger a ajuda militar ao Império Britânico. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1223,7 +1223,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1941-12-08',
     title: 'Segunda Guerra Mundial',
-    body: 'Em 8 de dezembro de 1941, os Estados Unidos declararam guerra contra o Império Japonês em resposta ao bombardeio de Pearl Harbor, posteriormente, os Estados Unidos declararam guerra contra a Alemanha, Bulgária, Hungria, Itália e Romênia, em resposta às declarações de guerra, destas nações contra os Estados Unidos.[RL30172]',
+    body: 'Em 8 de dezembro de 1941, os Estados Unidos declararam guerra contra o Império Japonês em resposta ao bombardeio de Pearl Harbor, posteriormente, os Estados Unidos declararam guerra contra a Alemanha, Bulgária, Hungria, Itália e Romênia, em resposta às declarações de guerra, destas nações contra os Estados Unidos.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1232,7 +1232,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1940',
     title: 'Império Britânico',
-    body: 'Terra Nova, Bermudas, Santa Lúcia, Bahamas, Jamaica, Antigua, Trinidad e Guiana Britânica - Envio de tropas para proteger bases aéreas e navais obtidas por meio de negociações com o Império Britânico em troca de destróiers.[12][RL30172]',
+    body: 'Terra Nova, Bermudas, Santa Lúcia, Bahamas, Jamaica, Antigua, Trinidad e Guiana Britânica - Envio de tropas para proteger bases aéreas e navais obtidas por meio de negociações com o Império Britânico em troca de destróiers.[12]<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1241,7 +1241,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1934',
     title: 'Proteger o consulado norte - americano',
-    body: 'China - Desembarque de marines em Fuzhou para proteger o consulado norte - americano.[RL30172]',
+    body: 'China - Desembarque de marines em Fuzhou para proteger o consulado norte - americano.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1250,7 +1250,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1933',
     title: 'Demonstração de forças',
-    body: 'Cuba - Demonstração de forças, mas sem desembarque de marines, durante um levante contra as forças do presidente Gerardo Machado.[RL30172]',
+    body: 'Cuba - Demonstração de forças, mas sem desembarque de marines, durante um levante contra as forças do presidente Gerardo Machado.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1259,7 +1259,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1932',
     title: 'Desembarque de marines para proteger interesses',
-    body: 'China - Desembarque de marines para proteger interesses norte - americanos durante a ocupação japonesa de Xangai.[RL30172]',
+    body: 'China - Desembarque de marines para proteger interesses norte - americanos durante a ocupação japonesa de Xangai.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1268,7 +1268,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1927',
     title: 'A luta em Xangai exigiu um acréscimos de forças',
-    body: 'China - Em fevereiro - A luta em Xangai exigiu um acréscimos de forças navais e de marines. Em março, uma guarnição naval foi posta no consulado americano em Nanking, depois que forças nacionalistas capturaram a cidade. Destróiers americanos e britânicos dispararam para proteger norte - americanos e outros estrangeiros. Posteriormente, efetivos adicionais de marines e mais navios de guerra foram estacionados nas proximidades de Xangai e Tientsin.[RL30172]',
+    body: 'China - Em fevereiro - A luta em Xangai exigiu um acréscimos de forças navais e de marines. Em março, uma guarnição naval foi posta no consulado americano em Nanking, depois que forças nacionalistas capturaram a cidade. Destróiers americanos e britânicos dispararam para proteger norte - americanos e outros estrangeiros. Posteriormente, efetivos adicionais de marines e mais navios de guerra foram estacionados nas proximidades de Xangai e Tientsin.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1277,7 +1277,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1926-08-30',
     title: 'Desembarque de marines para proteger cidadãos',
-    body: 'China - Entre agosto e setembro - Desembarque de marines para proteger cidadãos norte - americanos no contexto de um ataque nacionalista em Hankow. Uma pequena guarnição foi mantida no consulado geral, mesmo depois de 16 de setembro, quando o restante das tropas foi retirada. Do mesmo modo, entre 4 e 6 de novembro, houve um novo desembarque de marines para a proteção de estrangeiros, quando as forças nacionalistas capturaram Chiuchiang.[RL30172]',
+    body: 'China - Entre agosto e setembro - Desembarque de marines para proteger cidadãos norte - americanos no contexto de um ataque nacionalista em Hankow. Uma pequena guarnição foi mantida no consulado geral, mesmo depois de 16 de setembro, quando o restante das tropas foi retirada. Do mesmo modo, entre 4 e 6 de novembro, houve um novo desembarque de marines para a proteção de estrangeiros, quando as forças nacionalistas capturaram Chiuchiang.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1286,7 +1286,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1926-05-07',
     title: 'Golpe de Estado do General Emiliano Chamorro',
-    body: '1933 - Nicarágua - Entre 7 de maio e 5 de junho de 1926, e, entre 27 de agosto de 1926 e 3 de janeiro de 1933 - O golpe de Estado do General Emiliano Chamorro despertou atividades revolucionárias levando ao desembarque de marines para proteger os interesses dos Estados Unidos. Operações intermitentes ocorrem até 3 de janeiro de 1933.[RL30172]',
+    body: '1933 - Nicarágua - Entre 7 de maio e 5 de junho de 1926, e, entre 27 de agosto de 1926 e 3 de janeiro de 1933 - O golpe de Estado do General Emiliano Chamorro despertou atividades revolucionárias levando ao desembarque de marines para proteger os interesses dos Estados Unidos. Operações intermitentes ocorrem até 3 de janeiro de 1933.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1295,7 +1295,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1925-10-12',
     title: 'Desembarque de 600 soldados',
-    body: 'Panamá - Entre 12 e 23 de outubro - Desembarque de cerca de 600 soldados norte - americanos para manter a ordem e proteger os interesses norte - americanos contra greves e protestos.[RL30172]',
+    body: 'Panamá - Entre 12 e 23 de outubro - Desembarque de cerca de 600 soldados norte - americanos para manter a ordem e proteger os interesses norte - americanos contra greves e protestos.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1304,7 +1304,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1925-04-19',
     title: 'Proteção aos estrangeiros em La Ceiba',
-    body: 'Honduras - Entre 19 e 21 de abril - Proteção aos estrangeiros em La Ceiba, durante uma revolta política.[RL30172]',
+    body: 'Honduras - Entre 19 e 21 de abril - Proteção aos estrangeiros em La Ceiba, durante uma revolta política.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1313,7 +1313,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1925-01-15',
     title: 'Proteção de Área Internacional em Xangai',
-    body: 'China - Entre 15 de janeiro e 29 de agosto, desembarque de marines para proteger vidas e propriedade na Área Internacional em Xangai durante tumultos e manifestações.[RL30172]',
+    body: 'China - Entre 15 de janeiro e 29 de agosto, desembarque de marines para proteger vidas e propriedade na Área Internacional em Xangai durante tumultos e manifestações.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1322,7 +1322,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1924-02-28',
     title: 'Hostilidades em disputas eleitorais',
-    body: 'Honduras - Entre 28 de fevereiro e 31 de março, e, entre 10 e 15 de setembro - Proteção de vidas norte - americanas durante hostilidades em disputas eleitorais.[RL30172]',
+    body: 'Honduras - Entre 28 de fevereiro e 31 de março, e, entre 10 e 15 de setembro - Proteção de vidas norte - americanas durante hostilidades em disputas eleitorais.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1331,7 +1331,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1924',
     title: 'Hostilidades entre facções chinesas',
-    body: 'China - em setembro, desembarque de marines para proteger norte - americanos e outros estrangeiros em Xangai durante hostilidades entre facções chinesas.[RL30172]',
+    body: 'China - em setembro, desembarque de marines para proteger norte - americanos e outros estrangeiros em Xangai durante hostilidades entre facções chinesas.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1340,7 +1340,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1922',
     title: 'Nacionalistas turcos entraram em (Esmirna',
-    body: 'Império Otomano - Entre setembro e outubro - Desembarque de marines com o consentimento de autoridades gregas e turcas, para proteger vidas e propriedades norte - americanas, quando os nacionalistas turcos entraram em (Esmirna).[RL30172]',
+    body: 'Império Otomano - Entre setembro e outubro - Desembarque de marines com o consentimento de autoridades gregas e turcas, para proteger vidas e propriedades norte - americanas, quando os nacionalistas turcos entraram em (Esmirna).<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1349,7 +1349,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1922',
     title: 'Períodos de instabilidade',
-    body: '1923 - China - Entre abril de 1922 e novembro de 1923 - marines foram desembarcados cinco vezes para proteger a população em períodos de instabilidade.[RL30172]',
+    body: '1923 - China - Entre abril de 1922 e novembro de 1923 - marines foram desembarcados cinco vezes para proteger a população em períodos de instabilidade.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1358,7 +1358,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1921',
     title: '1921',
-    body: 'Panamá e Costa Rica - Abril - Demonstração de forças utilizando esquadrões navais de ambos os lados do istmo para impedir uma guerra entre os dois países devido a uma disputa de fronteiras.[RL30172]',
+    body: 'Panamá e Costa Rica - Abril - Demonstração de forças utilizando esquadrões navais de ambos os lados do istmo para impedir uma guerra entre os dois países devido a uma disputa de fronteiras.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1367,7 +1367,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1920',
     title: '1920',
-    body: 'Guatemala - Entre 9 e 27 de abril - forças para proteção da representação e outros interesses norte - americanos, durante um período de conflito entre sindicalistas e o Governo da Guatemala.[RL30172]',
+    body: 'Guatemala - Entre 9 e 27 de abril - forças para proteção da representação e outros interesses norte - americanos, durante um período de conflito entre sindicalistas e o Governo da Guatemala.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1376,7 +1376,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1920',
     title: '1920',
-    body: 'China - 14 de março - Desembarque de marines por algumas horas para proteger vidas norte - americanas durante uma agitação na Chiuchiang.[RL30172]',
+    body: 'China - 14 de março - Desembarque de marines por algumas horas para proteger vidas norte - americanas durante uma agitação na Chiuchiang.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1385,7 +1385,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1920',
     title: '1920',
-    body: '1922 - União Soviética (Sibéria) - Entre 16 de fevereiro de 1920 e 19 de novembro de 1922. Proteção a uma estação de rádio e propriedades norte - americanas em uma ilha na Baía de Vladivostok.[RL30172]',
+    body: '1922 - União Soviética (Sibéria) - Entre 16 de fevereiro de 1920 e 19 de novembro de 1922. Proteção a uma estação de rádio e propriedades norte - americanas em uma ilha na Baía de Vladivostok.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1628,7 +1628,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1907',
     title: '1907',
-    body: 'Honduras - Entre 18 de março e 8 de junho - Para proteger interesses norte - americanos durante a guerra entre Honduras e Nicarágua, envio de tropas para Trujillo, Ceiba, Puerto Cortes, San Pedro Sula, Laguna e Choloma.[RL30172]',
+    body: 'Honduras - Entre 18 de março e 8 de junho - Para proteger interesses norte - americanos durante a guerra entre Honduras e Nicarágua, envio de tropas para Trujillo, Ceiba, Puerto Cortes, San Pedro Sula, Laguna e Choloma.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1637,7 +1637,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1906',
     title: '1906',
-    body: '1909 - Cuba - Entre setembro de 1906 e 23 de janeiro de 1909 - Restaurar a ordem, proteger estrangeiros e estabelecer um governo estável após grave atividade revolucionária.[RL30172]',
+    body: '1909 - Cuba - Entre setembro de 1906 e 23 de janeiro de 1909 - Restaurar a ordem, proteger estrangeiros e estabelecer um governo estável após grave atividade revolucionária.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1646,7 +1646,7 @@ const entries = [
     faicon: 'water',
     datetime: '1904',
     title: '1904',
-    body: 'República Dominicana - Entre 2 de janeiro e 11 de fevereiro - Operação conjunta com a marinha do Império Britânico para estabelecer uma zona em que combates não seriam permitidos para proteção dos interesses norte - americanos em Puerto Plata (Sosúa) e Santo Domingo durante uma luta revolucionária.[RL30172]',
+    body: 'República Dominicana - Entre 2 de janeiro e 11 de fevereiro - Operação conjunta com a marinha do Império Britânico para estabelecer uma zona em que combates não seriam permitidos para proteção dos interesses norte - americanos em Puerto Plata (Sosúa) e Santo Domingo durante uma luta revolucionária.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1655,7 +1655,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1904',
     title: '1904',
-    body: 'Panamá - Entre 17 e 24 de novembro - Proteção a vidas e propriedades norte - americanas em Ancon durante uma insurreição ameaçada.[RL30172]',
+    body: 'Panamá - Entre 17 e 24 de novembro - Proteção a vidas e propriedades norte - americanas em Ancon durante uma insurreição ameaçada.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1664,7 +1664,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1904',
     title: 'libertação de um norte americano sequestrado',
-    body: 'Marrocos (Tanger) - Operação para libertação de um norte - americano sequestrado, desembarque de marines para proteger o cônsul - geral.[RL30172]',
+    body: 'Marrocos (Tanger) - Operação para libertação de um norte - americano sequestrado, desembarque de marines para proteger o cônsul - geral.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1673,7 +1673,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1904',
     title: '1904',
-    body: '05 - Coreia - Entre 5 de janeiro de 1904 e 11 novembro de 1905. Envio de marines para proteger a representação norte - americana em Seul durante a Guerra Russo - Japonesa.[RL30172]',
+    body: '05 - Coreia - Entre 5 de janeiro de 1904 e 11 novembro de 1905. Envio de marines para proteger a representação norte - americana em Seul durante a Guerra Russo - Japonesa.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1682,7 +1682,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1903-09-07',
     title: 'Proteção ao consulado',
-    body: 'Síria - Entre 7 e 12 de setembro - Proteção ao consulado norte - americano em Beirute, quando uma revolta muçulmana era temida.[RL30172]',
+    body: 'Síria - Entre 7 e 12 de setembro - Proteção ao consulado norte - americano em Beirute, quando uma revolta muçulmana era temida.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1691,7 +1691,7 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1903',
     title: 'Proteger os interesses',
-    body: 'República Dominicana - Entre 30 de março e 21 de abril - Desembarque de marines para proteger os interesses norte - americanos na cidade de Santo Domingo, durante um surto revolucionário.[RL30172]',
+    body: 'República Dominicana - Entre 30 de março e 21 de abril - Desembarque de marines para proteger os interesses norte - americanos na cidade de Santo Domingo, durante um surto revolucionário.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1700,7 +1700,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1903-03-23',
     title: 'Proteção do consulado',
-    body: 'Honduras - Entre 23 e 30 ou 31 de março - Proteção do consulado americano e o cais para navios a vapor em Puerto Cortes, durante um período de atividade revolucionária.[RL30172]',
+    body: 'Honduras - Entre 23 e 30 ou 31 de março - Proteção do consulado americano e o cais para navios a vapor em Puerto Cortes, durante um período de atividade revolucionária.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1709,16 +1709,16 @@ const entries = [
     faicon: 'person-rifle',
     datetime: '1903-11-04',
     title: 'Proteção dos interesses',
-    body: '1914 - Panamá - Proteção dos interesses e vidas norte - americanas durante e após a revolução para Independência do Panamá e durante a construção do Canal do Panamá. Com breves intervalos, os marines dos Estados Unidos estiveram estacionados no Istmo de 4 de novembro de 1903 a 21 de janeiro de 1914 para proteger os interesses americanos. [RL30172]',
+    body: '1914 - Panamá - Proteção dos interesses e vidas norte - americanas durante e após a revolução para Independência do Panamá e durante a construção do Canal do Panamá. Com breves intervalos, os marines dos Estados Unidos estiveram estacionados no Istmo de 4 de novembro de 1903 a 21 de janeiro de 1914 para proteger os interesses americanos. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
-    categories: ['Etiópia', 'Marines'],
+    categories: ['Etiópia', 'Marines', 'África'],
     color: 'navy',
     faicon: 'person-rifle',
     datetime: '1903',
     title: '1903',
-    body: '1904 - Etiópia - Vinte e cinco marines foram enviados para proteger o Cônsul - Geral norte - americano, enquanto negociava um tratado.[RL30172]',
+    body: '1904 - Etiópia - Vinte e cinco marines foram enviados para proteger o Cônsul - Geral norte - americano, enquanto negociava um tratado.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1727,7 +1727,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1902',
     title: '1902',
-    body: 'Colômbia (Estado do Panamá) - Entre 17 de setembro e 18 de novembro - os Estados Unidos colocam guardas armados em todos os trens que cruzam o Istmo para manter a linha ferroviária aberta e navios estacionados em ambos os lados do Panamá para impedir o desembarque de tropas colombianas. [RL30172]',
+    body: 'Colômbia (Estado do Panamá) - Entre 17 de setembro e 18 de novembro - os Estados Unidos colocam guardas armados em todos os trens que cruzam o Istmo para manter a linha ferroviária aberta e navios estacionados em ambos os lados do Panamá para impedir o desembarque de tropas colombianas. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1736,7 +1736,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1902',
     title: '1902',
-    body: 'Colômbia (Estado do Panamá) - Entre 16 e 23 de abril - Proteção a vidas propriedades norte - americanas em Bocas del Toro, durante uma guerra civil.[RL30172]',
+    body: 'Colômbia (Estado do Panamá) - Entre 16 e 23 de abril - Proteção a vidas propriedades norte - americanas em Bocas del Toro, durante uma guerra civil.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1745,7 +1745,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1901',
     title: '1901',
-    body: 'Colômbia (Estado do Panamá) - Entre 20 de novembro e 4 de dezembro - Proteção às propriedades norte - americanas no istmo (Ferrovia do Panamá), evitar o fechamento do trânsito durante graves distúrbios revolucionários.[RL30172]',
+    body: 'Colômbia (Estado do Panamá) - Entre 20 de novembro e 4 de dezembro - Proteção às propriedades norte - americanas no istmo (Ferrovia do Panamá), evitar o fechamento do trânsito durante graves distúrbios revolucionários.<a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -1754,7 +1754,7 @@ const entries = [
     faicon: 'dragon',
     datetime: '1900',
     title: '1900',
-    body: 'China - Entre 24 de maio e 28 de setembro - Guerra dos boxers - Soldados americanos participaram nas operações para proteger a vida de estrangeiros, especialmente em Pequim, sendo que a presença militar em Pequim se prolongou por muitos anos após esse conflito. [RL30172]',
+    body: 'China - Entre 24 de maio e 28 de setembro - Guerra dos boxers - Soldados americanos participaram nas operações para proteger a vida de estrangeiros, especialmente em Pequim, sendo que a presença militar em Pequim se prolongou por muitos anos após esse conflito. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
@@ -2015,7 +2015,7 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1870',
     title: '1870',
-    body: 'Reino do Havaí - 21 de setembro - Militares colocam a bandeira americana no mastro meia após a morte da Rainha Kalama, quando o cônsul americano em Honolulu não assumir a responsabilidade de fazê - lo. [RL30172]',
+    body: 'Reino do Havaí - 21 de setembro - Militares colocam a bandeira americana no mastro meia após a morte da Rainha Kalama, quando o cônsul americano em Honolulu não assumir a responsabilidade de fazê - lo. <a href="#R42738">[R42738]</a>',
   },
   {
     id: 'calendar-days',
