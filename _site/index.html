@@ -14,7 +14,13 @@
   rel="stylesheet"
   type="text/css"
 />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/main.css" />
 <link rel="icon" type="image/png" href="img/favicon.png" />
@@ -23,6 +29,34 @@
 <meta property="og:image" content="img/og-image.jpg" />
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/scrolltopcontrol.min.js"></script>
+<style>
+  body {
+    --sb-track-color: #0070C0;
+    --sb-thumb-color: #999999;
+    --sb-size: 12px;
+  }
+  body::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 12px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 12px;
+    border: 2px solid #FFC000;
+  }
+
+  @supports not selector(::-webkit-scrollbar) {
+    body {
+      scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    }
+  }
+</style>
+
   </head>
   <body>
     
@@ -716,6 +750,41 @@
         
         <div
           class="timeline-entry"
+          data-category="Paquistão,Iêmen,Somália"
+          aria-hidden="false"
+        >
+          <div class="timeline-icon orange" title="location-crosshairs">
+            
+            <i class="fas fa-location-crosshairs" aria-hidden="true"></i>
+            
+          </div>
+          <div class="timeline-description">
+            <span class="timestamp"
+              ><time datetime="2013-10-24"
+                >October 24, 2013 12:00 AM</time
+              ></span
+            >
+            <h2>
+              <a id="calendar-days" href="#calendar-days"><i class="fas fa-link"></i></a>Ataques de drones dos EUA no Paquistão: ineficazes e ilegítimos
+            </h2>
+             
+            <p>
+               Os ataques por veículos aéreos de combate não tripulados, ou drones armados, tornaram-se a táctica preferida nos esforços antiterroristas dos EUA no Iémen, na Somália e no Paquistão. Mas a falta de transparência, a eficácia duvidosa, as baixas civis e as consequências negativas para a segurança nacional dos EUA significam que Washington precisa de reavaliar a sua abordagem. <br/>De 2004 até hoje, ocorreram 376 ataques conhecidos de drones dos EUA no Paquistão. De acordo com o Bureau of Investigative Journalism (BIJ), com sede no Reino Unido, entre 407 e 926 civis, incluindo 168 a 200 crianças, foram mortos nestes ataques. De acordo com um relatório vazado do governo paquistanês citado pelo BIJ, pelo menos 147 das 746 pessoas mortas nos 75 ataques de drones no Paquistão entre 2006 e 2009 eram civis. Dos mortos, cerca de 94 eram crianças. 
+            </p>
+             
+            <ul>
+              
+              <li>
+                <a href="https://pt.openbriefing.org/publica%C3%A7%C3%B5es/relat%C3%B3rio-e-artigos/EUA-atacam-drones-no-Paquist%C3%A3o/" target="_blank">Ataques de drones dos EUA no Paquistão: ineficazes e ilegítimos</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+        
+        <div
+          class="timeline-entry"
           data-category="Somália"
           aria-hidden="false"
         >
@@ -989,7 +1058,7 @@
           data-category="Somália,Iêmen"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="location-crosshairs">
+          <div class="timeline-icon orange" title="location-crosshairs">
             
             <i class="fas fa-location-crosshairs" aria-hidden="true"></i>
             

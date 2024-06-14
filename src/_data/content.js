@@ -57,6 +57,20 @@ const entries = [
   },
   {
     id: 'calendar-days',
+    categories: ['Paquistão', 'Iêmen', 'Somália'],
+    color: 'orange',
+    faicon: 'location-crosshairs',
+    datetime: '2013-10-24',
+    title: 'Ataques de drones dos EUA no Paquistão: ineficazes e ilegítimos',
+    body: 'Os ataques por veículos aéreos de combate não tripulados, ou drones armados, tornaram-se a táctica preferida nos esforços antiterroristas dos EUA no Iémen, na Somália e no Paquistão. Mas a falta de transparência, a eficácia duvidosa, as baixas civis e as consequências negativas para a segurança nacional dos EUA significam que Washington precisa de reavaliar a sua abordagem. <br/>De 2004 até hoje, ocorreram 376 ataques conhecidos de drones dos EUA no Paquistão. De acordo com o Bureau of Investigative Journalism (BIJ), com sede no Reino Unido, entre 407 e 926 civis, incluindo 168 a 200 crianças, foram mortos nestes ataques. De acordo com um relatório vazado do governo paquistanês citado pelo BIJ, pelo menos 147 das 746 pessoas mortas nos 75 ataques de drones no Paquistão entre 2006 e 2009 eram civis. Dos mortos, cerca de 94 eram crianças.',
+    links: [
+      {
+        href: 'https://pt.openbriefing.org/publica%C3%A7%C3%B5es/relat%C3%B3rio-e-artigos/EUA-atacam-drones-no-Paquist%C3%A3o/',
+        linkText: 'Ataques de drones dos EUA no Paquistão: ineficazes e ilegítimos',
+      }],
+  },
+  {
+    id: 'calendar-days',
     categories: ['Somália'],
     color: 'yellow',
     faicon: 'calendar-days',
@@ -148,7 +162,7 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Somália', 'Iêmen'],
-    color: 'yellow',
+    color: 'orange',
     faicon: 'location-crosshairs',
     datetime: '2011',
     title: '2011',

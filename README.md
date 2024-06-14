@@ -9,7 +9,8 @@ Easily create a static timeline webpage like my [Wikimedia timeline](https://www
 
 **Contents**
 
-- [Static timeline generator](#static-timeline-generator)
+- [Cronologia das operações militares dos Estados Unidos](#cronologia-das-operações-militares-dos-estados-unidos)
+  - [Static timeline generator](#static-timeline-generator)
   - [Install](#install)
   - [Customize](#customize)
     - [Primary content](#primary-content)
@@ -23,7 +24,7 @@ Easily create a static timeline webpage like my [Wikimedia timeline](https://www
   - [Browser compatibility](#browser-compatibility)
   - [Under the hood](#under-the-hood)
 
-![Screenshot of a timeline page with dummy content](docs/browser.png)
+![Screenshot of a timeline page with dummy content](docs/screenshot.jpeg)
 
 ## Install
 
