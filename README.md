@@ -1,6 +1,7 @@
 # Cronologia das operações militares dos Estados Unidos
 
   - [cronologia-operacoes-eua](https://cronologia-operacoes-eua.vercel.app/)
+  - [source](https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations)
 
 ## Static timeline generator
 
