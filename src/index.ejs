@@ -22,7 +22,11 @@
           <ul>
             <li>
               <input type="checkbox" name="filter-shortcut" id="all" checked />
-              <label for="all">All</label>
+              <label for="all">Todos</label>
+            </li>
+            <li>
+              <input type="checkbox" name="filter-shortcut" id="none" />
+              <label for="all">Nenhum</label>
             </li>
             <% content.filters.forEach(function(filter){ %>
             <li>
@@ -93,9 +97,9 @@
       </p>
       <% } %>
       <p>
-        Built with Molly White's
-        <a href="https://github.com/molly/static-timeline-generator" target="_blank"
-          >static timeline generator</a
+        By
+        <a href="https://www.artesdosul.com" target="_blank"
+          >artesdosul</a
         >.
       </p>
     </footer>

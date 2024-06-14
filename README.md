@@ -4,17 +4,19 @@ Easily create a static timeline webpage like my [Wikimedia timeline](https://www
 
 **Contents**
 
-- [Install](#install)
-- [Customize](#customize)
-  - [Primary content](#primary-content)
-  - [Meta](#meta)
-- [Additional customization](#additional-customization)
-- [Deploy](#deploy)
-  - [GitHub Pages](#github-pages)
-  - [Other services](#other-services)
-- [Responsiveness](#responsiveness)
-- [Browser compatibility](#browser-compatibility)
-- [Under the hood](#under-the-hood)
+- [Static timeline generator](#static-timeline-generator)
+  - [Install](#install)
+  - [Customize](#customize)
+    - [Primary content](#primary-content)
+    - [Meta](#meta)
+  - [Additional customization](#additional-customization)
+  - [Deploy](#deploy)
+    - [GitHub pages](#github-pages)
+    - [Other services](#other-services)
+  - [Responsiveness](#responsiveness)
+  - [Colors](#colors)
+  - [Browser compatibility](#browser-compatibility)
+  - [Under the hood](#under-the-hood)
 
 ![Screenshot of a timeline page with dummy content](docs/browser.png)
 
@@ -104,6 +106,41 @@ or mobile devices:
 
 <img src="docs/phone.png" alt="Screenshot rendered on a phone" width="400"/>
 
+## Colors
+
+To add new icon colors, just add a new entry to this map and then use it in your content.js file!
+
+```
+$icon-colors: (
+    "green": "#59bf51", 
+    "green2": "#26A69A",
+    "green3": "#2a9235",
+    "red": "#bf413e", 
+    "grey": "#999999", 
+    "yellow":"#ffd966", 
+    "yellow2": "#FFC000",
+    "blue": "#7acbff",
+    "blue2": "#0070C0", 
+    "brown": "#ce7e00",
+    "navy": "#6296B7",
+    "pink": "#FF4081",
+    "orange": "#FF6347"
+)
+```
+
+- Exported from: https://colors-visualizer.vercel.app/4CAF50-2a9235-333333-FFC107-e6fbe3-0a490a
+- Palette: #4CAF50-#2a9235-#333333-#FFC107-#e6fbe3-#0a490a
+- Share link https://colors-visualizer.vercel.app/4CAF50-2a9235-333333-FFC107-e6fbe3-0a490a
+```
+#FFC000
+#0070C0
+#6296B7
+#FF4081
+#FF6347
+#408D86
+#26A69A
+```
+
 ## Browser compatibility
 
 This should work well on all modern browsers. IE <9 is not supported.
@@ -122,3 +159,4 @@ This project uses
 - [classlist-polyfill](https://github.com/eligrey/classList.js)
 
 It is released under the [MIT license](https://github.com/molly/static-timeline-generator/blob/main/LICENSE).
+
