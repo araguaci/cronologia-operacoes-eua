@@ -14,6 +14,7 @@ function hideUnchecked() {
   var checkedBoxes = document.querySelectorAll('input[type="checkbox"][name="filter"]:checked');
   if (checkedBoxes.length < allBoxes.length) {
     document.querySelector('input[type="checkbox"]#all').checked = false;
+    document.querySelector('input[type="checkbox"]#none').checked = false;
     //alert('false');
   } else {
     document.querySelector('input[type="checkbox"]#all').checked = true;

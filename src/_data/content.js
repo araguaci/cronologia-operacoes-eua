@@ -98,7 +98,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Korea'],
+    categories: ['Coreia'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '2013',
@@ -881,7 +881,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Korea'],
+    categories: ['Coreia'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1976',
@@ -1097,7 +1097,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Koreia'],
+    categories: ['Coreia'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1950',
@@ -1178,7 +1178,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Korea'],
+    categories: ['Coreia'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1949',
@@ -1682,7 +1682,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Koreia', 'Marines'],
+    categories: ['Coreia', 'Marines'],
     color: 'navy',
     faicon: 'person-rifle',
     datetime: '1904',
@@ -1853,7 +1853,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Koreia', 'Marines'],
+    categories: ['Coreia', 'Marines'],
     color: 'navy',
     faicon: 'person-rifle',
     datetime: '1894',
@@ -1943,7 +1943,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Koreia', 'Marines'],
+    categories: ['Coreia', 'Marines'],
     color: 'navy',
     faicon: 'person-rifle',
     datetime: '1888',
@@ -2015,7 +2015,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Koreia'],
+    categories: ['Coreia'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1871',
