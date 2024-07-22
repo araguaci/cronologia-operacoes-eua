@@ -5,6 +5,35 @@ const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline
  * **/
 const entries = [
   {
+    id: '20240721',
+    categories: ['Ártico'],
+    color: 'blue',
+    faicon: 'water',
+    datetime: '2024-07-21',
+    title: 'Rússia intercepta bombardeiros nucleares dos EUA em missão inédita',
+    body: 'Moscou e Washington vivem o pior momento político desde a Guerra Fria.',
+    links: [
+      {
+        href: 'https://www.otempo.com.br/mundo/2024/7/21/russia-intercepta-bombardeiros-nucleares-dos-eua-em-missao-inedi',
+        linkText: 'Navios da Frota do Norte da Marinha Russa partindo da Baía de Kola para as águas abertas do Mar de Barents',
+      },
+    ],   
+  },
+  {
+    id: '20240428',
+    categories: ['Níger'],
+    color: 'navy',
+    faicon: 'person-rifle',
+    datetime: '2024-04-28',
+    title: 'Grupo Wagner substitui tropas dos EUA no Níger',
+    body: 'Com o início da retirada de tropas norte-americanas do Níger, a Rússia ganha influência no Norte e Centro da África, principalmente, com a operação de militares privados do Grupo Wagner. A troca traz dificuldades para o combate aos grupos terroristas da Al Qaeda e do Estado Islâmico, além de garantir a Moscou acesso a reservas de urânio e vantagens sobre a Otan na disputa pelo Mar Mediterrâneo. Saiba mais em Vasto Mundo com o jornalista e mestre em relações internacionais Frederico Duboc.',
+    links: [
+      {
+        href: 'https://www.youtube.com/watch?v=NhmDzbdcG6M&t=1s',
+        linkText: 'Grupo Wagner substitui tropas dos EUA no Níger | Podcast Vasto Mundo | Ep 208',
+      },
+    ],   
+  },{
     id: '20231218',
     categories: ['Houthis'],
     color: 'blue',
