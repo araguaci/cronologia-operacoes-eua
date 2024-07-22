@@ -20,6 +20,21 @@ const entries = [
     ],   
   },
   {
+    id: '20240707',
+    categories: ['Ucrânia'],
+    color: 'brown',
+    faicon: 'location-crosshairs',
+    datetime: '2024-07-07',
+    title: 'Biden anuncia que EUA e outros países da Otan enviarão sistemas Patriot à Ucrânia',
+    body: 'Washington, 10 jul (EFE).- O presidente dos Estados Unidos, Joe Biden, anunciou nesta terça-feira que tanto o país como Alemanha, Holanda, Romênia e Itália enviarão nos próximos meses à Ucrânia cinco sistemas de defesa aérea, entre eles quatro Patriot, atendendo a um dos principais pedidos de Kiev nos últimos meses.',
+    links: [
+      {
+        href: 'https://www.youtube.com/watch?v=bD2weAoY5po',
+        linkText: 'EUA e outros países da Otan enviarão sistemas Patriot à Ucrânia',
+      },
+    ],   
+  },
+  {
     id: '20240428',
     categories: ['Níger'],
     color: 'navy',
@@ -137,8 +152,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Turquia'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'brown',
+    faicon: 'location-crosshairs',
     datetime: '2012',
     title: '2012',
     body: 'Turquia: 400 soldados e duas baterias de mísseis Patriot para a Turquia para impedir quaisquer ataques de mísseis da Síria.',
@@ -425,8 +440,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Afeganistão', 'Sudão'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'brown',
+    faicon: 'location-crosshairs',
     datetime: '1998',
     title: '1998',
     body: 'Afeganistão e Sudão: Operação Infinite Reach. No dia 20 de agosto, o presidente Clinton ordenou um ataque com mísseis contra dois supostos campos de treinamento de terroristas no Afeganistão e uma suposta fábrica química no Sudão.<a href="#R42738">[R42738]</a>',
@@ -758,8 +773,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Líbia'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'brown',
+    faicon: 'location-crosshairs',
     datetime: '1986',
     title: '1986',
     body: 'Líbia - Segundo Incidente sobre o Golfo de Sidra - Em 26 de março de 1986, o Presidente Reagan relatou que entre 24 e 25 de março, unidades militares norte - americanas foram atacadas por mísseis líbios e os EUA responderam atacando posições líbias com mísseis.<a href="#R42738">[R42738]</a>',
@@ -1046,8 +1061,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Cuba'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'brown',
+    faicon: 'location-crosshairs',
     datetime: '1962',
     title: '1962',
     body: 'Cuba - Crise dos mísseis de Cuba - Em 22 de outubro, o presidente Kennedy instituiu um bloqueio naval seletivo ("quarentena") para evitar a transferência de mísseis soviéticos ofensivos para Cuba. Também alertou a União Soviética que o lançamento de um míssil de Cuba contra as nações do Hemisfério Ocidental acarretaria em uma retaliação nuclear estadunidense contra a União Soviética. Um acordo negociado foi obtido em poucos dias.<a href="#R42738">[R42738]</a>',
