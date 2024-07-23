@@ -55,8 +55,9 @@
   }
   .timeline-filter-wrapper ul { 
     padding: 0;
-    display:table;
-    width:100%;
+    display: flex;
+    flex-flow: row wrap;
+    width:fit-content;
     box-sizing:border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -64,8 +65,10 @@
   .timeline-filter-wrapper li {
       background-color: #D0D0D0;
       display:table-cell;
+      width: 14%;
+      min-width: 14%;
   }
   .timeline-filter-wrapper li:nth-child(2n) {
-      background-color: #C0C0C0;
+      background-color: #e0e0e0;
   }  
 </style>
