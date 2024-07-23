@@ -1,8 +1,20 @@
 # Cronologia das operações militares dos Estados Unidos
 
+Esta linha do tempo das operações militares do governo dos Estados Unidos, baseada em parte em relatórios do Serviço de Pesquisa do Congresso, mostra os anos e lugares em que as unidades militares dos EUA participaram de conflitos armados ou ocupação de territórios estrangeiros. Os itens em negrito são as guerras, na maioria das vezes consideradas como grandes conflitos pelos historiadores e pelo público em geral.
+
+Note-se que os casos em que o governo dos EUA deu ajuda sozinho, sem envolvimento de militares, estão excluídos, assim como as operações da Agência Central de Inteligência. Em disputas domésticas em tempos de paz, como motins e questões trabalhistas, apenas as operações realizadas por militares da ativa (também conhecidos como "tropas federais" ou "militares dos EUA") são descritas neste artigo; as forças de defesa estaduais e a Guarda Nacional não estão incluídas, pois não estão totalmente integradas às forças armadas dos EUA, mesmo que sejam federalizadas para o serviço dentro dos EUA.
+
   - [tinyurl.com-operacoes-eua](https://tinyurl.com/operacoes-eua)
   - [cronologia-operacoes-eua](https://cronologia-operacoes-eua.vercel.app/)
   - [source](https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations)
+
+## Fontes da Linha do Tempo
+
+  - [Timeline of United States military operations](https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations)
+  - [R42738: Instances of Use of United States Armed Forces Abroad, 1798-2023](https://crsreports.congress.gov/product/pdf/R/R42738)
+
+
+---
 
 ## Static timeline generator
 
