@@ -5,6 +5,26 @@ const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline
  * **/
 const entries = [
   {
+    id: '20240722',
+    categories: ['Finlândia', 'OTAN'],
+    color: 'green2',
+    faicon: 'jet-fighter-up',
+    datetime: '2024-07-22',
+    title: 'Caças russos interceptam aviões da OTAN',
+    body: 'Bombardeiros nucleares dos EUA se aproximam da Rússia em vôo histórico.',    
+    image: {
+      link: 'https://www.clmbrasil.com.br/bombardeiros-nucleares-dos-eua-se-aproximam-da-russia-em-voo-historico-cacas-russos-interceptam-avioes-da-otan',
+      src: 'https://www.clmbrasil.com.br/wp-content/uploads/2024/07/images-1-15.jpeg',
+      alt: 'Caças russos interceptam aviões da OTAN',
+      caption: 'Caças russos',
+    },
+    links: [
+      {
+        href: 'https://www.clmbrasil.com.br/bombardeiros-nucleares-dos-eua-se-aproximam-da-russia-em-voo-historico-cacas-russos-interceptam-avioes-da-otan/',
+        linkText: 'Caças russos interceptam aviões da OTAN',
+      },
+    ],   
+  },{
     id: '20240721',
     categories: ['Ártico'],
     color: 'blue',
@@ -21,7 +41,7 @@ const entries = [
   },
   {
     id: '20240707',
-    categories: ['Ucrânia'],
+    categories: ['Ucrânia', 'OTAN'],
     color: 'brown',
     faicon: 'location-crosshairs',
     datetime: '2024-07-07',
@@ -36,7 +56,7 @@ const entries = [
   },
   {
     id: '20240428',
-    categories: ['Níger'],
+    categories: ['Níger', 'OTAN'],
     color: 'navy',
     faicon: 'person-rifle',
     datetime: '2024-04-28',
@@ -84,7 +104,7 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Síria'],
-    color: 'navy',
+    color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '2014',
     title: 'Resgate do fotojornalista James Foley',
@@ -170,8 +190,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Chade', 'África'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'diplomat',
+    faicon: 'building-flag',
     datetime: '2012',
     title: '2012',
     body: 'Chade: 50 soldados norte - americanos destacados para o Chade para ajudar a evacuar os cidadãos e pessoal da embaixada estadunidense da capital Bangui da vizinha República Centro - Africana em face ao avanço rebelde em direção à cidade.',
@@ -233,9 +253,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Somália'],
-    color: 'yellow',
-    faicon: 'calendar-days',
-    datetime: '2007',
+    color: 'green2',
+    faicon: 'jet-fighter-up',
     title: '2007',
     body: 'Somália: Batalha de Ras Kamboni, em 8 de janeiro de 2007, enquanto o conflito entre a União dos Tribunais Islâmicos e o Governo Federal de Transição continua, um caça AC - 130 realiza um ataque aéreo contra um suposto agente da Al - Qaeda, juntamente com outros combatentes islâmicos, na Ilha Badmadow perto de Ras Kamboni no sul da Somália.[24]',
   },
@@ -260,8 +279,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Haiti'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'diplomat',
+    faicon: 'building-flag',
     datetime: '2004',
     title: 'Golpe de Estado no Haiti',
     body: 'Haiti: o golpe de Estado no Haiti de 2004 ocorre, os Estados Unidos enviaram pela primeira vez 55 combates militares equipados para aumentar as forças de segurança da Embaixada dos EUA ali e para proteger os cidadãos e propriedades americanos. Mais tarde, 200 equipados de combate e pessoal militar adicionais dos Estados Unidos foram enviados para preparar o caminho para a Força Multinacional Interina das Nações Unidas, a MINUSTAH. <a href="#R42738">[R42738]</a>',
@@ -287,8 +306,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Libéria'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'diplomat',
+    faicon: 'building-flag',
     datetime: '2003',
     title: 'Segunda Guerra Civil da Libéria',
     body: 'Libéria: Segunda Guerra Civil da Libéria, em 9 de junho de 2003, o presidente Bush informou, que em 8 de junho enviou cerca de 35 fuzileiros navais dos EUA em Monróvia, na Libéria, para ajudar a proteger a Embaixada dos EUA em Nouakchott, na Mauritânia, e para auxiliar em qualquer evacuação necessária seja da Libéria ou da Mauritânia. <a href="#R42738">[R42738]</a>',
@@ -394,7 +413,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Iugoslávia'],
+    categories: ['Iugoslávia', 'OTAN'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1999',
@@ -413,8 +432,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Libéria'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'diplomat',
+    faicon: 'building-flag',
     datetime: '1998',
     title: '1998',
     body: 'Libéria: Em 27 de setembro de 1998, os Estados Unidos enviaram uma força de evacuação de 30 militares norte - americanos para aumentar a força de segurança na Embaixada dos Estados Unidos em Monróvia. [1] <a href="#R42738">[R42738]</a>',
@@ -431,8 +450,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Guiné Bissau'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'diplomat',
+    faicon: 'building-flag',
     datetime: '1998',
     title: '1998',
     body: 'Guiné - Bissau: Operação Shepherd Venture. Em 10 de junho de 1998, em resposta a um motim do exército na Guiné - Bissau, que colocava em risco a embaixada dos Estados Unidos, o presidente Clinton enviou uma força de evacuação de militares estadunidenses para Dakar, Senegal, para evacuar a cidade de Bissau. <a href="#R42738">[R42738]</a>',
@@ -449,8 +468,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Quênia', 'Tanzânia'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'diplomat',
+    faicon: 'building-flag',
     datetime: '1998',
     title: '1998',
     body: '1999 - Quênia e Tanzânia. Militares estadunidenses foram enviados para Nairóbi, no Quênia, para coordenar a assistência médica e de desastres relacionadas com os atentados terroristas às embaixadas dos Estados Unidos no Quênia e na Tanzânia. <a href="#R42738">[R42738]</a>',
@@ -503,8 +522,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Libéria'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'diplomat',
+    faicon: 'building-flag',
     datetime: '1996',
     title: '1996',
     body: 'Libéria: Operação Assured Response. No dia 11 de abril de 1996, o presidente Clinton informou que, em 9 de abril de 1996, devido à "deterioração das condições de segurança e da consequente ameaça para os cidadãos americanos" na Libéria, havia ordenado que as forças militares estadunidenses evacuassem daquele país "cidadãos norte - americanos e alguns nacionais de outros países que haviam se refugiado no complexo da Embaixada dos Estados Unidos..." <a href="#R42738">[R42738]</a>',
@@ -520,7 +539,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Bósnia'],
+    categories: ['Bósnia', 'OTAN'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1996',
@@ -529,7 +548,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Bósnia', 'Herzegovina'],
+    categories: ['Bósnia', 'Herzegovina', 'OTAN'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1995',
@@ -547,9 +566,9 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Bósnia', 'Herzegovina'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    categories: ['Bósnia', 'Herzegovina', 'OTAN'],
+    color: 'green2',
+    faicon: 'jet-fighter-up',
     datetime: '1994',
     title: '1994',
     body: 'Bósnia e Herzegovina: incidente de Banja Luka. A OTAN se envolveu na primeira situação de combate quando jatos F - 16 da OTAN da Força Aérea dos Estados Unidos derrubaram quatro dos seis jatos de ataque leve monopostos J - 21 Jastreb bósnios sérvios por violar a zona de exclusão aérea mandatada pelas Nações Unidas.',
@@ -574,7 +593,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Bósnia'],
+    categories: ['Bósnia', 'OTAN'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1993',
@@ -665,8 +684,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Libéria'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'green',
+    faicon: 'building-flag',
     datetime: '1990',
     title: '1990',
     body: 'Libéria: Em 6 de agosto de 1990, o presidente Bush informou que uma companhia armada de rifles tinha sido enviada para fornecer segurança adicional para a embaixada dos Estados Unidos em Monróvia, e que equipes de helicópteros evacuaram cidadãos estadunidenses da Libéria. <a href="#R42738">[R42738]</a>',
@@ -701,8 +720,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Filipinas', 'Marines'],
-    color: 'navy',
-    faicon: 'person-rifle',
+    color: 'green2',
+    faicon: 'jet-fighter-up',
     datetime: '1989',
     title: '1989',
     body: 'Filipinas - Operação Resolução Clássica - Em 2 de dezembro de 1989, o Presidente George Bush informou que em 1 de dezembro, caças norte - americanos tinham ajudado o governo Aquino a repelir uma tentativa de golpe. Além disso, 100 marines foram enviados para proteger a embaixada dos EUA em Manila.<a href="#R42738">[R42738]</a>',
@@ -782,7 +801,7 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Líbia'],
-    color: 'navy',
+    color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '1986',
     title: '1986',
@@ -791,7 +810,7 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Bolívia'],
-    color: 'navy',
+    color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '1986',
     title: '1986',
@@ -809,8 +828,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Golfo Pérsico'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'green2',
+    faicon: 'jet-fighter-up',
     datetime: '1984',
     title: '1984',
     body: 'Golfo Pérsico - Em 5 de junho de 1984, um avião - radar AWACS e um avião tanque KC - 10 norte americano foram empregados para auxiliar dois caças sauditas a abater dois caças iranianos sobre uma área do Golfo que fora proclamada como zona protegida para a navegação.<a href="#R42738">[R42738]</a>',
@@ -818,7 +837,7 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Granada'],
-    color: 'navy',
+    color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '1983',
     title: 'Operação Fúria Urgente - Golpe de Estado',
@@ -836,8 +855,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Chade'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'green2',
+    faicon: 'jet-fighter-up',
     datetime: '1983-08-08',
     title: 'Rebeldes apoiados por forças líbias',
     body: 'Chade - Em 8 de agosto de 1983, o Presidente Reagan relatou a implantação de dois aviões - radar AWACS, oito caças F - 15, aviões e forças terrestres de apoio logístico para ajudar aquele país contra rebeldes apoiados por forças líbias.<a href="#R42738">[R42738]</a>',
@@ -935,7 +954,7 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Vietnã'],
-    color: 'navy',
+    color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '1975-04-30',
     title: '70 helicópteros de evacuação',
@@ -998,8 +1017,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Camboja'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'green2',
+    faicon: 'jet-fighter-up',
     datetime: '1968',
     title: '1968',
     body: 'Laos e Camboja - Início de uma campanha de bombardeios contra alvos secretos ao longo da Trilha Ho Chi Minh nas nações soberanas do Camboja e do Laos, campanha que irá durar pelo menos dois anos (Operação Comando de Caça).',
@@ -1825,7 +1844,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Filipinas'],
+    categories: ['Filipinas', 'OTAN'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1899',
@@ -1943,8 +1962,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Estreito de Bering'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'green2',
+    faicon: 'jet-fighter-up',
     datetime: '1891',
     title: '1891',
     body: 'Estreito de Bering - Entre 2 julho e 5 de outubro. Opertação Naval contra a caça clandestina de focas.',
@@ -2159,8 +2178,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Japão'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'diplomat',
+    faicon: 'building-flag',
     datetime: '1864',
     title: '1864',
     body: 'Japão - Entre 14 julho e 03 agosto - Proteção ao embaixador dos EUA no Japão durante visita à Yedo, em uma ocasião em que eram negociadas algumas reivindicações americanas, também tratava - se de uma demonstração de forças para favorecer os EUA naquelas negociações.',
@@ -2519,8 +2538,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Grécia'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'green2',
+    faicon: 'jet-fighter-up',
     datetime: '1827',
     title: '1827',
     body: 'Grécia - Em outubro e novembro desembarque de pequenos destacamentos para caçar piratas nas ilhas de Argenteire, Míconos e Andros.',

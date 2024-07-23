@@ -59,6 +59,22 @@
       scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
     }
   }
+  .timeline-filter-wrapper ul { 
+    padding: 0;
+    display:table;
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+  }
+  .timeline-filter-wrapper li {
+      background-color: #D0D0D0;
+      display:table-cell;
+  }
+  .timeline-filter-wrapper li:nth-child(2n) {
+      background-color: #C0C0C0;
+  }
+  }    
 </style>
 
   </head>
@@ -233,6 +249,11 @@
             <li>
               <input type="checkbox" name="filter" id="Filipinas" checked />
               <label for="Filipinas">Filipinas </label>
+            </li>
+            
+            <li>
+              <input type="checkbox" name="filter" id="Finlândia" checked />
+              <label for="Finlândia">Finlândia </label>
             </li>
             
             <li>
@@ -456,6 +477,11 @@
             </li>
             
             <li>
+              <input type="checkbox" name="filter" id="OTAN" checked />
+              <label for="OTAN">Otan </label>
+            </li>
+            
+            <li>
               <input type="checkbox" name="filter" id="Oregon" checked />
               <label for="Oregon">Oregon </label>
             </li>
@@ -571,6 +597,11 @@
             </li>
             
             <li>
+              <input type="checkbox" name="filter" id="Ucrânia" checked />
+              <label for="Ucrânia">Ucrânia </label>
+            </li>
+            
+            <li>
               <input type="checkbox" name="filter" id="Uganda" checked />
               <label for="Uganda">Uganda </label>
             </li>
@@ -619,6 +650,51 @@
         
         <div
           class="timeline-entry"
+          data-category="Finlândia,OTAN"
+          aria-hidden="false"
+        >
+          <div class="timeline-icon green2" title="jet-fighter-up">
+            
+            <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
+            
+          </div>
+          <div class="timeline-description">
+            <span class="timestamp"
+              ><time datetime="2024-07-22"
+                >July 22, 2024 12:00 AM</time
+              ></span
+            >
+            <h2>
+              <a id="20240722" href="#20240722"><i class="fas fa-link"></i></a>Caças russos interceptam aviões da OTAN
+            </h2>
+            
+            <div class="captioned-image image-right">
+              <a href="https://www.clmbrasil.com.br/bombardeiros-nucleares-dos-eua-se-aproximam-da-russia-em-voo-historico-cacas-russos-interceptam-avioes-da-otan"
+                >
+                <img src="https://www.clmbrasil.com.br/wp-content/uploads/2024/07/images-1-15.jpeg" alt="https://www.clmbrasil.com.br/wp-content/uploads/2024/07/images-1-15.jpeg" />
+                </a
+              > 
+              <span class="caption">Caças russos</span>
+              
+            </div>
+             
+            <p>
+               Bombardeiros nucleares dos EUA se aproximam da Rússia em vôo histórico. 
+            </p>
+             
+            <ul>
+              
+              <li>
+                <a href="https://www.clmbrasil.com.br/bombardeiros-nucleares-dos-eua-se-aproximam-da-russia-em-voo-historico-cacas-russos-interceptam-avioes-da-otan/" target="_blank">Caças russos interceptam aviões da OTAN</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+        
+        <div
+          class="timeline-entry"
           data-category="Ártico"
           aria-hidden="false"
         >
@@ -654,7 +730,42 @@
         
         <div
           class="timeline-entry"
-          data-category="Níger"
+          data-category="Ucrânia,OTAN"
+          aria-hidden="false"
+        >
+          <div class="timeline-icon brown" title="location-crosshairs">
+            
+            <i class="fas fa-location-crosshairs" aria-hidden="true"></i>
+            
+          </div>
+          <div class="timeline-description">
+            <span class="timestamp"
+              ><time datetime="2024-07-07"
+                >July 7, 2024 12:00 AM</time
+              ></span
+            >
+            <h2>
+              <a id="20240707" href="#20240707"><i class="fas fa-link"></i></a>Biden anuncia que EUA e outros países da Otan enviarão sistemas Patriot à Ucrânia
+            </h2>
+             
+            <p>
+               Washington, 10 jul (EFE).- O presidente dos Estados Unidos, Joe Biden, anunciou nesta terça-feira que tanto o país como Alemanha, Holanda, Romênia e Itália enviarão nos próximos meses à Ucrânia cinco sistemas de defesa aérea, entre eles quatro Patriot, atendendo a um dos principais pedidos de Kiev nos últimos meses. 
+            </p>
+             
+            <ul>
+              
+              <li>
+                <a href="https://www.youtube.com/watch?v=bD2weAoY5po" target="_blank">EUA e outros países da Otan enviarão sistemas Patriot à Ucrânia</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+        
+        <div
+          class="timeline-entry"
+          data-category="Níger,OTAN"
           aria-hidden="false"
         >
           <div class="timeline-icon navy" title="person-rifle">
@@ -781,7 +892,7 @@
           data-category="Síria"
           aria-hidden="false"
         >
-          <div class="timeline-icon navy" title="jet-fighter-up">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
             <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
@@ -978,9 +1089,9 @@
           data-category="Turquia"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon brown" title="location-crosshairs">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-location-crosshairs" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -1032,9 +1143,9 @@
           data-category="Chade,África"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon diplomat" title="building-flag">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-building-flag" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -1221,15 +1332,15 @@
           data-category="Somália"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
             <span class="timestamp"
-              ><time datetime="2007"
-                >January 1, 2007 12:00 AM</time
+              ><time datetime=""
+                >July 22, 2024</time
               ></span
             >
             <h2>
@@ -1302,9 +1413,9 @@
           data-category="Haiti"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon diplomat" title="building-flag">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-building-flag" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -1383,9 +1494,9 @@
           data-category="Libéria"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon diplomat" title="building-flag">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-building-flag" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -1704,7 +1815,7 @@
         
         <div
           class="timeline-entry"
-          data-category="Iugoslávia"
+          data-category="Iugoslávia,OTAN"
           aria-hidden="false"
         >
           <div class="timeline-icon yellow" title="calendar-days">
@@ -1761,9 +1872,9 @@
           data-category="Libéria"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon diplomat" title="building-flag">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-building-flag" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -1815,9 +1926,9 @@
           data-category="Guiné Bissau"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon diplomat" title="building-flag">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-building-flag" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -1842,9 +1953,9 @@
           data-category="Afeganistão,Sudão"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon brown" title="location-crosshairs">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-location-crosshairs" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -1869,9 +1980,9 @@
           data-category="Quênia,Tanzânia"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon diplomat" title="building-flag">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-building-flag" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -2031,9 +2142,9 @@
           data-category="Libéria"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon diplomat" title="building-flag">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-building-flag" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -2082,7 +2193,7 @@
         
         <div
           class="timeline-entry"
-          data-category="Bósnia"
+          data-category="Bósnia,OTAN"
           aria-hidden="false"
         >
           <div class="timeline-icon yellow" title="calendar-days">
@@ -2109,7 +2220,7 @@
         
         <div
           class="timeline-entry"
-          data-category="Bósnia,Herzegovina"
+          data-category="Bósnia,Herzegovina,OTAN"
           aria-hidden="false"
         >
           <div class="timeline-icon yellow" title="calendar-days">
@@ -2163,12 +2274,12 @@
         
         <div
           class="timeline-entry"
-          data-category="Bósnia,Herzegovina"
+          data-category="Bósnia,Herzegovina,OTAN"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -2244,7 +2355,7 @@
         
         <div
           class="timeline-entry"
-          data-category="Bósnia"
+          data-category="Bósnia,OTAN"
           aria-hidden="false"
         >
           <div class="timeline-icon yellow" title="calendar-days">
@@ -2517,9 +2628,9 @@
           data-category="Libéria"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon green" title="building-flag">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-building-flag" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -2625,9 +2736,9 @@
           data-category="Filipinas,Marines"
           aria-hidden="false"
         >
-          <div class="timeline-icon navy" title="person-rifle">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
-            <i class="fas fa-person-rifle" aria-hidden="true"></i>
+            <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -2841,9 +2952,9 @@
           data-category="Líbia"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon brown" title="location-crosshairs">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-location-crosshairs" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -2868,7 +2979,7 @@
           data-category="Líbia"
           aria-hidden="false"
         >
-          <div class="timeline-icon navy" title="jet-fighter-up">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
             <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
@@ -2895,7 +3006,7 @@
           data-category="Bolívia"
           aria-hidden="false"
         >
-          <div class="timeline-icon navy" title="jet-fighter-up">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
             <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
@@ -2949,9 +3060,9 @@
           data-category="Golfo Pérsico"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -2976,7 +3087,7 @@
           data-category="Granada"
           aria-hidden="false"
         >
-          <div class="timeline-icon navy" title="jet-fighter-up">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
             <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
@@ -3030,9 +3141,9 @@
           data-category="Chade"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -3327,7 +3438,7 @@
           data-category="Vietnã"
           aria-hidden="false"
         >
-          <div class="timeline-icon navy" title="jet-fighter-up">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
             <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
@@ -3516,9 +3627,9 @@
           data-category="Camboja"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -3705,9 +3816,9 @@
           data-category="Cuba"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon brown" title="location-crosshairs">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-location-crosshairs" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -5997,7 +6108,7 @@
         
         <div
           class="timeline-entry"
-          data-category="Filipinas"
+          data-category="Filipinas,OTAN"
           aria-hidden="false"
         >
           <div class="timeline-icon yellow" title="calendar-days">
@@ -6351,9 +6462,9 @@
           data-category="Estreito de Bering"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -6999,9 +7110,9 @@
           data-category="Japão"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon diplomat" title="building-flag">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-building-flag" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">
@@ -8079,9 +8190,9 @@
           data-category="Grécia"
           aria-hidden="false"
         >
-          <div class="timeline-icon yellow" title="calendar-days">
+          <div class="timeline-icon green2" title="jet-fighter-up">
             
-            <i class="fas fa-calendar-days" aria-hidden="true"></i>
+            <i class="fas fa-jet-fighter-up" aria-hidden="true"></i>
             
           </div>
           <div class="timeline-description">

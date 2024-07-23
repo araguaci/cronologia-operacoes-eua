@@ -91,9 +91,16 @@ footer.page-footer
 		background: $timeline-line-color
 		border: 1px solid #999999
 
+.timeline-description 
+	li 
+		margin-right: 35px !important
+
 .timeline-entry
 	position: relative
 	margin-top: -75px	
+
+	li 
+		margin-right: 35px !important
 
 	&.first
 		margin-top: 10px
@@ -134,6 +141,9 @@ footer.page-footer
 	z-index: 1
 	border-radius: 5px
 	border: 1px solid #999999 
+
+	li 
+		margin-right: 35px
 
 	.timestamp
 		font-style: italic
@@ -241,7 +251,7 @@ footer.page-footer
 @media only screen and (min-width: 415px)
 	.timeline-description:after
 		top: 20px
-		border: solid transparent
+		border: solid transparent 
 		content: ' '
 		height: 0
 		width: 0
@@ -292,6 +302,7 @@ footer.page-footer
 	.timeline-entry.odd .timeline-description,
 	.timeline-entry.even .timeline-description
 		margin-left: 35px
+		margin-bottom: 15px
 
 // DARK MODE
 @media (prefers-color-scheme: dark)
