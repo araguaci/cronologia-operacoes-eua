@@ -2,7 +2,7 @@ const header = 'Cronologia das operações militares dos Estados Unidos';
 const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations">Timeline of United States military operations</a></li><li><a id="R42738" href="https://crsreports.congress.gov/product/pdf/R/R42738">R42738: Instances of Use of United States Armed Forces Abroad, 1798-2023</a></li><br/>';
 /** 
  * faicon: https://fontawesome.com/search?q=plane&o=r&m=free 
-,  
+  ,  
   {
     id: '20231027',
     categories: ['Síria'],
@@ -24,7 +24,6 @@ const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline
       },
     ],
   }
-   
  * **/
 const entries = [
   {
