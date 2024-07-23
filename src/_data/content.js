@@ -27,11 +27,17 @@ const entries = [
   },{
     id: '20240721',
     categories: ['Ártico'],
-    color: 'blue',
-    faicon: 'water',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '2024-07-21',
     title: 'Rússia intercepta bombardeiros nucleares dos EUA em missão inédita',
     body: 'Moscou e Washington vivem o pior momento político desde a Guerra Fria.',
+    image: {
+      link: 'https://www.otempo.com.br/mundo/2024/7/21/russia-intercepta-bombardeiros-nucleares-dos-eua-em-missao-inedi',
+      src: 'https://www.otempo.com.br/adobe/dynamicmedia/deliver/dm-aid--740b989c-692b-4497-aa55-268271a72cec/mundo-nuclear-arma-guerra-russia-ucrania-ameacas-1708979874.jpg?width=1200&preferwebp=true&quality=90',
+      alt: 'Navios da Frota do Norte da Marinha Russa partindo da Baía de Kola para as águas abertas do Mar de Barents',
+      caption: 'Marinha Russa',
+    },
     links: [
       {
         href: 'https://www.otempo.com.br/mundo/2024/7/21/russia-intercepta-bombardeiros-nucleares-dos-eua-em-missao-inedi',
@@ -68,14 +74,63 @@ const entries = [
         linkText: 'Grupo Wagner substitui tropas dos EUA no Níger | Podcast Vasto Mundo | Ep 208',
       },
     ],   
-  },{
+  },
+  {
+    id: '20231221',
+    categories: ['Houthis', 'Iêmen', 'OTAN'],
+    color: 'blue2',
+    faicon: 'ship',
+    datetime: '2023-12-21',
+    title: 'Como os navios de guerra dos EUA estão abatendo drones Houthi no Mar Vermelho e o que pode acontecer agora',
+    body: 'Navios americanos têm lutado contra um número crescente de armas disparadas por Houthis nas últimas semanas, com um destróier dos EUA abatendo mais de uma dúzia de drones em um dia.',    
+    image: {
+      link: 'https://www.cnnbrasil.com.br/internacional/analise-como-os-navios-de-guerra-dos-eua-estao-abatendo-drones-houthi-no-mar-vermelho-e-o-que-pode-acontecer-agora/',
+      src: 'https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/06/Captura-de-tela-2023-06-03-145111.jpg?w=499&h=265&crop=1&quality=50',
+      alt: 'Navio Destróier, classe Arleigh Burke, dos EUA',
+      caption: 'Navio Destróier, classe Arleigh Burke',
+    },
+    links: [
+      {
+        href: 'https://www.cnnbrasil.com.br/internacional/analise-como-os-navios-de-guerra-dos-eua-estao-abatendo-drones-houthi-no-mar-vermelho-e-o-que-pode-acontecer-agora/',
+        linkText: 'Navios de guerra dos EUA estão abatendo drones Houthi no Mar Vermelho',
+      },
+    ],   
+  },  
+  {
+    id: '20231220',
+    categories: ['Houthis', 'Iêmen'],
+    color: 'blue',
+    faicon: 'water',
+    datetime: '2023-12-20',
+    title: 'Após ataques a navios, coalizão encabeçada pelos EUA vai criar corredor seguro no Mar Vermelho; líder rebelde diz que responderá com mísseis',
+    body: 'Chamada de "Guardião da Prosperidade" e ainda em fase inicial, a operação visa enfrentar a recente escalada de ataques dos houthis. Nos últimos dias, os houthis começaram a atacar um novo alvo com foguetes e drones: os navios cargueiros que passam pelo Mar Vermelho com destino ao Canal de Suez.',
+    image: {
+      link: 'https://g1.globo.com/mundo/noticia/2023/12/20/apos-ataques-a-navios-coalizao-encabecada-pelos-eua-vai-criar-corredor-seguro-no-mar-vermelho-lider-rebelde-diz-que-respondera-com-misseis.ghtml',
+      src: 'https://s2-g1.glbimg.com/4tc5A1pcSA8EFmZJl0Uce2rnmcU=/0x0:5000x2901/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/j/H/noYvzaSzmBZeps5hf6Ug/2023-12-16t182834z-222510349-rc2zq4al3dwz-rtrmadp-3-israel-palestinians-yemen-ships.jpg',
+      alt: 'Homens armados em praia do Iêmen com navio cargueiro ao fundo — Foto: Khaled Abdullah/Reuters',
+      caption: 'Homens armados, praia do Iêmen',
+    },
+    links: [
+      {
+        href: 'https://g1.globo.com/mundo/noticia/2023/12/20/apos-ataques-a-navios-coalizao-encabecada-pelos-eua-vai-criar-corredor-seguro-no-mar-vermelho-lider-rebelde-diz-que-respondera-com-misseis.ghtml',
+        linkText: 'Após ataques a navios, coalizão encabeçada pelos EUA vai criar corredor seguro no Mar Vermelho',
+      },
+    ],
+  },
+  {
     id: '20231218',
-    categories: ['Houthis'],
+    categories: ['Houthis', 'Iêmen', 'OTAN'],
     color: 'blue',
     faicon: 'water',
     datetime: '2023-12-18',
     title: 'Operação Guardião da Prosperidade',
     body: 'Em 18 de dezembro de 2023, o secretário de Defesa dos Estados Unidos, Lloyd Austin, anunciou a formação de uma força de segurança marítima internacional no âmbito da "Operação Guardião da Prosperidade", que visa combater as ameaças das forças houthis contra o comércio marítimo internacional após semanas de ataques contra embarcações comerciais.',
+    links: [
+      {
+        href: 'https://www.cnnbrasil.com.br/internacional/mais-de-20-paises-vao-integrar-coalizao-de-protecao-no-mar-vermelho-dizem-eua/',
+        linkText: 'Mais de 20 países vão integrar coalizão de proteção no Mar Vermelho, dizem EUA',
+      },
+    ],
   },
   {
     id: '20220721',
@@ -85,6 +140,16 @@ const entries = [
     datetime: '2022-07-21',
     title: 'Líder da Al-Qaeda, Ayman al-Zawahiri',
     body: 'Em 31 de julho de 2022, o líder da Al-Qaeda, Ayman al-Zawahiri, foi morto no Afeganistão em um ataque de drone americano.',
+    links: [
+      {
+        href: 'https://www.bbc.com/portuguese/internacional-62390197',
+        linkText: 'Ayman al-Zawahiri: quem era o líder da Al-Qaeda morto pelos EUA no Afeganistão',
+      },
+      {
+        href: 'https://www.cnnbrasil.com.br/internacional/de-medico-a-arquiteto-do-11-de-setembro-quem-foi-ayman-al-zawahiri/',
+        linkText: 'De médico a arquiteto dos ataques de 11 de setembro: Quem foi Ayman al-Zawahiri',
+      },
+    ],
   },
   {
     id: '20141001',
@@ -576,8 +641,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Haiti'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1995',
     title: '1995',
     body: '1995 - Haiti: Operação Uphold Democracy. Navios estadunidenses iniciaram um embargo contra o Haiti. Até 20.000 tropas militares dos Estados Unidos foram posteriormente implantadas no Haiti para restaurar o presidente democraticamente eleito do Haiti, Jean - Bertrand Aristide, de um regime militar que assumiu o poder em 1991, depois de um grande golpe. <a href="#R42738">[R42738]</a>',
@@ -765,8 +830,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Golfo Pérsico'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1988',
     title: '1988',
     body: 'Golfo Pérsico - Navio de Guerra norte - americano abate avião civil iraniano com 290 pessoas a bordo.',
@@ -783,8 +848,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Golfo Pérsico'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1987',
     title: '1987-1988',
     body: 'Golfo Pérsico - Durante a Guerra dos Petroleiros (fase da Guerra Irã - Iraque) ocorreram em diversos incidentes militares naquela região, os EUA incrementaram as operações militares conjuntas e escoltaram navios petroleiros do Kuwait pelo Golfo (Operação Decisão Séria). Incluindo a tomada de um navio iraniano que colocava minas no Golfo. Incidentes em 08 e 19 de outubro de 1987 e em 18 de abril (Operação Louva - a - deus Orando), 3 e 14 de julho de 1988. Redução gradual dos efetivos depois do cessar - fogo entre o Irão e o Iraque em 20 de agosto de 1988. Foi a maior operação de escolta naval desde a Segunda Guerra Mundial.[16] Ver também Operação Primeira Chance',
@@ -972,8 +1037,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Camboja'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1975-05-12',
     title: 'Incidente Mayagüez',
     body: 'Camboja - Entre 12 e 15 de maio de 1975 - Incidente Mayagüez - O Presidente Gerald Ford relatou que havia ordenado a retomada do Mayagüez SS, um navio mercante que fora apreendido por barcos de patrulha naval cambojanos nas águas internacionais e obrigado a ir para uma ilha próxima.<a href="#R42738">[R42738]</a>',
@@ -1035,8 +1100,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Israel'],
-    color: 'blue',
-    faicon: 'water',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1967',
     title: '1967',
     body: 'Israel - Incidente USS Liberty em 8 de junho quando um navio de pesquisa técnica da Marinha foi atacado em 1967 pelas forças armadas israelenses, matando 34 e ferindo mais de 170 membros da tripulação norte - americana.',
@@ -1287,8 +1352,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Alemanha'],
-    color: 'blue',
-    faicon: 'water',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1941',
     title: 'Marinha recebeu ordens para proteger comboios de navios',
     body: 'Alemanha - Na primavera, a Marinha recebeu ordens para proteger comboios de navios para a Europa. Em setembro, navios de guerra atacaram os submarinos alemães. Em novembro, a Lei de Neutralidade foi parcialmente revogada para proteger a ajuda militar ao Império Britânico. <a href="#R42738">[R42738]</a>',
@@ -1539,8 +1604,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Alemanha'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1917-04-06',
     title: 'Primeira Guerra Mundial',
     body: '1918 - Primeira Guerra Mundial - Em 6 de abril de 1917, os EUA declararam guerra contra o Império Alemão e em 7 de dezembro de 1917, contra o Império Austro - Húngaro, atitude provocada pela utilização de submarinos alemães contra os navios neutros e pelo Telegrama Zimmermann.',
@@ -1773,8 +1838,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Honduras'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1903-03-23',
     title: 'Proteção do consulado',
     body: 'Honduras - Entre 23 e 30 ou 31 de março - Proteção do consulado americano e o cais para navios a vapor em Puerto Cortes, durante um período de atividade revolucionária.<a href="#R42738">[R42738]</a>',
@@ -1800,8 +1865,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Panamá'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1902',
     title: '1902',
     body: 'Colômbia (Estado do Panamá) - Entre 17 de setembro e 18 de novembro - os Estados Unidos colocam guardas armados em todos os trens que cruzam o Istmo para manter a linha ferroviária aberta e navios estacionados em ambos os lados do Panamá para impedir o desembarque de tropas colombianas. <a href="#R42738">[R42738]</a>',
@@ -1998,8 +2063,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Haiti'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1888-12-20',
     title: '1888',
     body: 'Haiti - 20 de dezembro - Exibição de força para persuadir o governo haitiano a desistir da apreensão de um navio norte - americano que havia sido apreendido sob a acusação de violação de bloqueio.',
@@ -2097,8 +2162,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['México'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1870',
     title: '1870',
     body: 'México - 17 e 18 de junho - Destruição de um navio pirata, que tinha sido encalhado a cerca de 64 km acima da foz do Rio Tecapan.',
@@ -2196,8 +2261,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Japão'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1863',
     title: '1863',
     body: 'Japão - 16 de julho - Batalha Naval do Estreito de Shimonoseki - Retaliação em decorrência de tiros disparados contra navio americano em Shimonoseki.',
@@ -2214,8 +2279,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Angola'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1860',
     title: '1860',
     body: 'Angola, então parte do Império Português - 1 de março. Norte - americanos residentes em Kissembo chamaram navios americanos e britânicos para proteger vidas e propriedades durante conflitos com nativos.',
@@ -2430,8 +2495,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Costa do Marfim'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1843',
     title: 'Pirataria e o tráfico de escravos',
     body: 'Costa do Marfim - Entre 29 novembro e 16 dezembro. Operações para desencorajar a pirataria e o tráfico de escravos, com punição aos nativos em decorrência de ataques contra a navios mercantes.',
@@ -2484,8 +2549,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Sumatra'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1838',
     title: '1838',
     body: '1839 - Sumatra - Entre 24 de dezembro de 1838 e 4 de janeiro de 1839, ocorreu uma expedição punitiva contra nativos das cidades de Quallah Battoo e Muckie (Mukki), por depredações de um navio mercante Segunda Expedição Punitiva à Sumatra.',
@@ -2520,8 +2585,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Sumatra'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1832',
     title: '1832',
     body: 'Sumatra - Indonésia - Entre 6 e 9 de fevereiro, forças comandadas por John Downes, atacaram a região de Quallah Battoo para punir os nativos pelo saque de um navio mercante americano (Primeira Expedição Punitiva à Sumatra).[7]',
@@ -2601,8 +2666,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Oregon'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1818',
     title: '1818',
     body: 'Oregon. Em agosto é realizado um desembarque no Rio Columbia a partir de um navio (U.S.S. Ontario) enviado a partir de Washington, por meio do qual tomou - se posse do território de Oregon. O Império Britânico havia concedido a soberania, mas os Impérios Russo e Espanhol também reivindicavam a área.',
@@ -2664,8 +2729,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Caribe'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1814',
     title: '1814',
     body: '1825 - Caribe. Três mil ataques de piratas contra navios mercantes foram relatados entre 1815 e 1823 em terra e no mar de Cuba, Porto Rico, Santo Domingo, e Yucatán, em 1822 o Comodoro James Biddle emprega uma esquadra para combater os piratas.',
@@ -2682,8 +2747,8 @@ const entries = [
   {
     id: 'calendar-days',
     categories: ['Ilhas Marquesas'],
-    color: 'yellow',
-    faicon: 'calendar-days',
+    color: 'blue2',
+    faicon: 'ship',
     datetime: '1813',
     title: '1813',
     body: '1814 - Ilhas Marquesas. foi construída uma fortaleza na Ilha de Nuku Hiva para proteger três navios capturados dos britânicos.',
