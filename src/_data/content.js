@@ -2,6 +2,29 @@ const header = 'Cronologia das operações militares dos Estados Unidos';
 const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations">Timeline of United States military operations</a></li><li><a id="R42738" href="https://crsreports.congress.gov/product/pdf/R/R42738">R42738: Instances of Use of United States Armed Forces Abroad, 1798-2023</a></li><br/>';
 /** 
  * faicon: https://fontawesome.com/search?q=plane&o=r&m=free 
+,  
+  {
+    id: '20231027',
+    categories: ['Síria'],
+    color: 'blue',
+    faicon: 'water',
+    datetime: '2023-10-27',
+    title: '',
+    body: '',
+    image: {
+      link: '',
+      src: '',
+      alt: '',
+      caption: '',
+    },
+    links: [
+      {
+        href: '',
+        linkText: '',
+      },
+    ],
+  }
+   
  * **/
 const entries = [
   {
@@ -74,6 +97,27 @@ const entries = [
         linkText: 'Grupo Wagner substitui tropas dos EUA no Níger | Podcast Vasto Mundo | Ep 208',
       },
     ],   
+  },  
+  {
+    id: '20240207',
+    categories: ['Iraque', 'Bagdá', 'Hezbollah'],
+    color: 'brown',
+    faicon: 'location-crosshairs',
+    datetime: '2024-02-07',
+    title: 'Militares dos EUA afirmam ter realizado eliminação do comandante do Hezbollah',
+    body: 'Os militares dos EUA realizaram um ataque unilateral em Bagdá, resultando na morte do comandante do Kataib Hezbollah, responsável pelos ataques militantes às forças dos EUA em todo o Oriente Médio, conforme anunciado pelo Comando Central dos EUA (CENTCOM) em um comunicado à imprensa.',
+    image: {
+      link: 'https://noticiabrasil.net.br/20240207/militares-dos-eua-afirmam-ter-realizado-ataque-no-iraque-que-matou-comandante-do-hezbollah-32946498.html',
+      src: 'https://cdn.noticiabrasil.net.br/img/07e8/01/02/32342704_0:156:3000:1844_1920x0_80_0_0_b86b53143b97170000aa10dd4870ee03.jpg.webp',
+      alt: '',
+      caption: '',
+    },
+    links: [
+      {
+        href: 'https://noticiabrasil.net.br/20240207/militares-dos-eua-afirmam-ter-realizado-ataque-no-iraque-que-matou-comandante-do-hezbollah-32946498.html',
+        linkText: 'EUA afirmam ataque no Iraque que matou comandante do Hezbollah',
+      },
+    ],
   },
   {
     id: '20231221',
@@ -129,6 +173,27 @@ const entries = [
       {
         href: 'https://www.cnnbrasil.com.br/internacional/mais-de-20-paises-vao-integrar-coalizao-de-protecao-no-mar-vermelho-dizem-eua/',
         linkText: 'Mais de 20 países vão integrar coalizão de proteção no Mar Vermelho, dizem EUA',
+      },
+    ],
+  },  
+  {
+    id: '20231027',
+    categories: ['Síria'],
+    color: 'green2',
+    faicon: 'jet-fighter-up',
+    datetime: '2023-10-27',
+    title: 'EUA realizam ataques aéreos em alvos iranianos na Síria',
+    body: 'Os Estados Unidos realizaram ataques aéreos em dois locais na Síria que eram usados pelo Corpo de Guardiões da Revolução Islâmica (IRGC, na sigla em inglês) e por grupos pró-iranianos, disse o chefe do Pentágono, Lloyd Austin.',
+    image: {
+      link: 'https://noticiabrasil.net.br/20231027/eua-realiza-ataques-aereos-em-alvos-iranianos-na-siria-31098612.html',
+      src: 'https://cdn.noticiabrasil.net.br/img/07e7/03/01/27881723_0:44:1024:620_1920x0_80_0_0_156d9344dd4db75534c035c2e9ff33a6.jpg.webp',
+      alt: 'Sargento técnico Kevin J. Gruenwald, Força Aérea dos EUA',
+      caption: 'Força Aérea dos EUA',
+    },
+    links: [
+      {
+        href: 'https://noticiabrasil.net.br/20231027/eua-realiza-ataques-aereos-em-alvos-iranianos-na-siria-31098612.html',
+        linkText: 'EUA realizam ataques aéreos em alvos iranianos na Síria',
       },
     ],
   },
@@ -325,7 +390,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Líbano', 'Israel'],
+    categories: ['Líbano', 'Israel', 'Hezbollah'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '2006',
