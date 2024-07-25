@@ -27,6 +27,27 @@ const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline
  * **/
 const entries = [
   {
+    id: '20240724',
+    categories: ['Alasca', 'OTAN'],
+    color: 'green2',
+    faicon: 'jet-fighter-up',
+    datetime: '2024-07-24',
+    title: 'NORAD detecta, rastreia e intercepta aeronaves russas e da RPC que operam no Alasca ADIZ',
+    body: 'COLORADO SPRINGS, Colorado - O NORAD detectou, rastreou e interceptou duas aeronaves militares russas TU-95 e duas aeronaves militares H-6 da RPC operando na Zona de Identificação de Defesa Aérea do Alasca (ADIZ) em 24 de julho de 2024. Caças NORAD dos Estados Unidos e Canadá realizaram a interceptação.',    
+    image: {
+      link: 'https://www.norad.mil/Newsroom/Press-Releases/Article/3849184/norad-detects-tracks-and-intercepts-russian-and-prc-aircraft-operating-in-the-a/',
+      src: 'https://media.defense.gov/2023/Aug/17/2003282701/1920/1080/0/230817-F-TH920-001.PNG',
+      alt: 'NORAD detects, tracks and intercepts Russian and PRC aircraft operating in the Alaska ADIZ',
+      caption: 'North American Aerospace Defense Command Public Affairs',
+    },
+    links: [
+      {
+        href: 'https://www.norad.mil/Newsroom/Press-Releases/Article/3849184/norad-detects-tracks-and-intercepts-russian-and-prc-aircraft-operating-in-the-a/',
+        linkText: 'NORAD detects, tracks and intercepts Russian and PRC aircraft operating in the Alaska ADIZ',
+      },
+    ],   
+  },
+  {
     id: '20240722',
     categories: ['Finlândia', 'OTAN'],
     color: 'green2',
