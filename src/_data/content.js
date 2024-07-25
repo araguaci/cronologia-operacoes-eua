@@ -117,6 +117,27 @@ const entries = [
         linkText: 'EUA afirmam ataque no Iraque que matou comandante do Hezbollah',
       },
     ],
+  },  
+  {
+    id: '20240202',
+    categories: ['Iraque', 'Síria', 'Hezbollah'],
+    color: 'brown',
+    faicon: 'location-crosshairs',
+    datetime: '2024-02-02',
+    title: 'EUA bombardeiam instalações da Guarda Revolucionária iraniana no Iraque e na Síria',
+    body: 'Os Estados Unidos bombardearam hoje mais de 85 alvos e instalações ligadas à Guarda Revolucionária do Irão e a grupos pró-iranianos no Iraque e na Síria, em resposta ao ataque da semana passada que matou três militares norte-americanos.',
+    image: {
+      link: 'https://www.rtp.pt/noticias/mundo/eua-bombardeiam-instalacoes-da-guarda-revolucionaria-iraniana-no-iraque-e-na-siria_n1548137',
+      src: 'https://cdn-images.rtp.pt/icm/noticias/images/f3/f329ab73145bae5daf984c5cfe72e1e1?w=1200&q=90&rect=0,19,1224,671&auto=format',
+      alt: '',
+      caption: '',
+    },
+    links: [
+      {
+        href: 'https://www.rtp.pt/noticias/mundo/eua-bombardeiam-instalacoes-da-guarda-revolucionaria-iraniana-no-iraque-e-na-siria_n1548137',
+        linkText: '',
+      },
+    ],
   },
   {
     id: '20231221',
@@ -172,6 +193,27 @@ const entries = [
       {
         href: 'https://www.cnnbrasil.com.br/internacional/mais-de-20-paises-vao-integrar-coalizao-de-protecao-no-mar-vermelho-dizem-eua/',
         linkText: 'Mais de 20 países vão integrar coalizão de proteção no Mar Vermelho, dizem EUA',
+      },
+    ],
+  },  
+  {
+    id: '20231121',
+    categories: ['Bagdá'],
+    color: 'brown',
+    faicon: 'location-crosshairs',
+    datetime: '2023-11-21',
+    title: 'Ataque dos EUA matou combatentes pró-iranianos no Iraque, indica Pentágono',
+    body: 'Um ataque norte-americano no Iraque, efetuado em resposta a um ataque a militares norte-americanos na região, matou vários combatentes de milícias pró-iranianas, indicou hoje um porta-voz do Pentágono.',
+    image: {
+      link: 'https://observador.pt/2023/11/21/ataque-dos-eua-matou-combatentes-pro-iranianos-no-iraque/',
+      src: 'https://bordalo.observador.pt/v2/q:84/c:2000:1126:nowe:0:160/rs:fill:980/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2021/08/03164157/24904500.jpg',
+      alt: '',
+      caption: '',
+    },
+    links: [
+      {
+        href: 'https://observador.pt/2023/11/21/ataque-dos-eua-matou-combatentes-pro-iranianos-no-iraque/',
+        linkText: 'Ataque dos EUA matou combatentes pró-iranianos no Iraque',
       },
     ],
   },  
