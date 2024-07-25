@@ -156,7 +156,7 @@ const entries = [
     links: [
       {
         href: 'https://www.rtp.pt/noticias/mundo/eua-bombardeiam-instalacoes-da-guarda-revolucionaria-iraniana-no-iraque-e-na-siria_n1548137',
-        linkText: '',
+        linkText: 'EUA bombardeiam instalações da Guarda Revolucionária iraniana no Iraque e na Síria',
       },
     ],
   },
