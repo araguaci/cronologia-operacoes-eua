@@ -1,31 +1,32 @@
 const header = 'Cronologia das operações militares dos Estados Unidos';
-const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations">Timeline of United States military operations</a></li><li><a id="R42738" href="https://crsreports.congress.gov/product/pdf/R/R42738">R42738: Instances of Use of United States Armed Forces Abroad, 1798-2023</a></li><li><a href="https://forms.gle/SMJVgcswVpt1dicH6">Informe se você sabe de algum evento que ainda não esteja nesta linha de tempo. Obrigado.</a></li><br/>';
+const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations">Timeline of United States military operations</a></li><li><a id="RL30172" href="https://web.archive.org/web/20190719075855/http://www.au.af.mil/au/awc/awcgate/crs/rl30172.htm">RL30172: Instances of Use of United States Armed Forces Abroad, 1798 - 2004</a></li><li><a id="R42738" href="https://crsreports.congress.gov/product/pdf/R/R42738">R42738: Instances of Use of United States Armed Forces Abroad, 1798-2023</a></li><li><a href="https://forms.gle/SMJVgcswVpt1dicH6">Informe se você sabe de algum evento que ainda não esteja nesta linha de tempo. Obrigado.</a></li><br/>';
+
 /** 
  * faicon: https://fontawesome.com/search?q=plane&o=r&m=free 
-  ,  
+ * sources: https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations#ref_Slave_TrafficSlave_Traffic
+**/
+const entries = [
   {
-    id: '20231027',
-    categories: ['Síria'],
-    color: 'blue',
-    faicon: 'water',
-    datetime: '2023-10-27',
-    title: '',
-    body: '',
+    id: '20240725',
+    categories: ['Houthi', 'Iêmen'],
+    color: 'green2',
+    faicon: 'jet-fighter-up',
+    datetime: '2024-07-24',
+    title: 'Comando Central dos EUA (USCENTCOM) destruíram com sucesso um lançador de veículo aéreo não tripulado (UAV) Houthi',
+    body: 'USCENTCOM destruíram com sucesso um lançador de veículo aéreo não tripulado (UAV) Houthi apoiado pelo Irã em uma área do Iêmen controlada pelos Houthi.<br/> Foi determinado que este lançador representava uma ameaça iminente aos EUA, às forças da coalizão e aos navios mercantes na região. Estas ações foram tomadas para proteger a liberdade de navegação e tornar as águas internacionais mais seguras e protegidas.',    
     image: {
-      link: '',
-      src: '',
-      alt: '',
-      caption: '',
+      link: 'https://x.com/CENTCOM/status/1816567367226515619',
+      src: 'https://pbs.twimg.com/media/GTW-ZJwXIAAtCcx?format=jpg&name=900x900',
+      alt: 'U.S. Central Command',
+      caption: 'U.S. Central Command',
     },
     links: [
       {
-        href: '',
-        linkText: '',
+        href: 'https://x.com/CENTCOM/status/1816567367226515619',
+        linkText: 'July 25 U.S. Central Command Update',
       },
-    ],
-  }
- * **/
-const entries = [
+    ],   
+  },
   {
     id: '20240724',
     categories: ['Alasca', 'OTAN'],
@@ -628,7 +629,17 @@ const entries = [
     faicon: 'building-flag',
     datetime: '1998',
     title: '1998',
-    body: 'Libéria: Em 27 de setembro de 1998, os Estados Unidos enviaram uma força de evacuação de 30 militares norte - americanos para aumentar a força de segurança na Embaixada dos Estados Unidos em Monróvia. [1] <a href="#R42738">[R42738]</a>',
+    body: 'Libéria: Em 27 de setembro de 1998, os Estados Unidos enviaram uma força de evacuação de 30 militares norte - americanos para aumentar a força de segurança na Embaixada dos Estados Unidos em Monróvia.  <a href="#R42738">[R42738]</a>',
+    links: [
+      {
+        href: 'https://web.archive.org/web/20110721004708/http://ftp.resource.org/gpo.gov/documents/105/hd318.pdf',
+        linkText: 'A REPORT ON THE SITUATION IN MONROVIA, LIBERIA AND THE INCREASED SECURITY AT THE U.S. EMBASSY THERE',
+      },
+      {
+        href: 'https://crsreports.congress.gov/product/pdf/R/R42738',
+        linkText: 'Instances of Use of United States Armed Forces Abroad, 1798-2023',
+      },
+    ],
   },
   {
     id: 'calendar-days',
@@ -2783,12 +2794,32 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['África'],
-    color: 'yellow',
-    faicon: 'calendar-days',
-    datetime: '1820',
-    title: '1820',
-    body: '1823 - África. Unidades navais reprimem o tráfico de escravos nos termos de uma Lei de 1819, que declarou infame o tráfico de escravos.[5]',
+    categories: ['África', 'Arikara'],
+    color: 'blue2',
+    faicon: 'ship',
+    datetime: '1823',
+    title: '1823',
+    body: '1823<li>África. Unidades navais reprimem o tráfico de escravos nos termos de uma Lei de 1819, que declarou infame o tráfico de escravos.</li><li>A Guerra Arikara foi um conflito militar entre os Estados Unidos e Arikara em 1823 travado nas Grandes Planícies ao longo do Alto Rio Missouri no Território Não Organizado (atualmente dentro de Dakota do Sul).</li>',
+    links: [
+      {
+        href: 'http://www.globalsecurity.org/military/ops/slave.htm',
+        linkText: '"African Slave Trade Patrol – 1820–1861". GlobalSecurity.org. Retrieved April 15, 2007',
+      },
+      {
+        href: 'https://en.wikipedia.org/wiki/Arikara_War',
+        linkText: '"Guerra Arikara',
+      },
+      {
+        href: 'https://www.sdhspress.com/journal/south-dakota-history-14-2/backdrop-for-disaster-causes-of-the-arikara-war-of-1823/vol-14-no-2-backdrop-for-disaster.pdf',
+        linkText: '"Backdrop for Disaster: Causes of the Arikara War of 1823',
+      },
+    ],
+    image: {
+      link: 'https://en.wikipedia.org/wiki/Arikara_War',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/An_Arrikara_warrior_0027v.jpg/300px-An_Arrikara_warrior_0027v.jpg',
+      alt: 'Um guerreiro Arikara, do artista Karl Bodmer',
+      caption: 'Um guerreiro Arikara',
+    },    
   },
   {
     id: 'calendar-days',
@@ -2815,7 +2846,13 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1816',
     title: '1816',
-    body: 'Florida, então território do Império Espanhol - Destruição do Forte Nicholls (também conhecido como Forte Negro), atual Forte Gadsden, onde se abrigavam escravos negros fugitivos.[4]',
+    body: 'Florida, então território do Império Espanhol - Destruição do Forte Nicholls (também conhecido como Forte Negro), atual Forte Gadsden, onde se abrigavam escravos negros fugitivos.',
+    links: [
+      {
+        href: 'https://web.archive.org/web/20240624050653/https://www.history.com/topics/native-american-history/american-indian-wars',
+        linkText: 'American Indian Wars: Timeline Retrieved 7 May 2024',
+      },
+    ],
   },
   {
     id: 'calendar-days',
@@ -2869,7 +2906,13 @@ const entries = [
     faicon: 'calendar-days',
     datetime: '1813',
     title: '1813',
-    body: 'General James Wilkinson, com 600 soldados, autorizado pelo Congresso, tomou a Baía de Mobile e o território em disputa com a Flórida Ocidental até o Rio Perdido, a pequena guarnição espanhola não ofereceu resistência,[3] e, a partir de então o território tomado passou a fazer parte do Estado do Alabama.',
+    body: 'General James Wilkinson, com 600 soldados, autorizado pelo Congresso, tomou a Baía de Mobile e o território em disputa com a Flórida Ocidental até o Rio Perdido, a pequena guarnição espanhola não ofereceu resistência, e, a partir de então o território tomado passou a fazer parte do Estado do Alabama.',
+    links: [
+      {
+        href: 'https://web.archive.org/web/20190719075855/http://www.au.af.mil/au/awc/awcgate/crs/rl30172.htm',
+        linkText: 'Instances of Use of United States Armed Forces Abroad, 1798 - 2004',
+      },
+    ], 
   },
   {
     id: 'calendar-days',
@@ -2934,52 +2977,34 @@ const entries = [
     title: '1798',
     body: '1800 - Guerra Naval não declarada contra a França. Inclui ações de terra, como na cidade de Puerto Plata na República Dominicana, onde fuzileiros navais capturaram um corsário francês, em ação autorizada pelo Congresso.',
   },
-  /*
-  {
-    id: 'calendar-days',
-    categories: ['calendar-days'],
-    color: 'yellow',
-    faicon: 'calendar-days',
-    datetime: '2021-01-01 05:00',
-    title: 'Cats are very good',
-    image: {
-      link: 'http://placekitten.com',
-      src: 'http://placekitten.com/200/300',
-      alt: 'A placeholder kitten',
-      caption: 'Kitten!',
-    },
-    body: "The best thing in the universe is a cardboard box. Chirp at birds catasstrophe for meowwww for hiding behind the couch until lured out by a feathery toy for morning beauty routine of licking self sugar, my siamese, stalks me (in a good way), day and night lick the other cats. Pushed the mug off the table shove bum in owner's face like camera lens or tickle my belly at your own peril i will pester for food when you're in the kitchen even if it's salad and grass smells good, licks your face, but hiiiiiiiiii feed me now.",
-    links: [
-      {
-        href: 'https://en.wikipedia.org/wiki/Cat',
-        linkText: 'calendar-days',
-      },
-    ],
-  },
-  {
-    id: 'dog',
-    categories: ['dog'],
-    color: 'yellow',
-    faicon: 'dog',
-    datetime: '2021-05-01 23:55',
-    title: 'Puppies are great too',
-    image: {
-      link: 'http://place-puppy.com',
-      src: 'https://place-puppy.com/300x300',
-      alt: 'A placeholder puppy',
-      caption: 'Puppy!',
-    },
-    body: 'Doggo ipsum sub woofer smol wow very biscit aqua doggo pupper dat tungg tho big ol pupper, very jealous pupper mlem heckin angery woofer very jealous pupper. Blep waggy wags long doggo, corgo. Tungg wow such tempt mlem very jealous pupper boofers lotsa pats, snoot smol big ol ruff doge super chub, long doggo heckin good boys and girls h*ck heck. Shoober blop many pats borkf, such treat. Big ol what a nice floof long water shoob wrinkler heck sub woofer, pupper porgo wow very biscit.',
-    links: [
-      {
-        href: 'https://en.wikipedia.org/wiki/Dog',
-        linkText: 'Dog',
-      },
-    ],
-  },
-  */
 ];
-
+/** 
+ * faicon: https://fontawesome.com/search?q=plane&o=r&m=free 
+ * sources: https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations#ref_Slave_TrafficSlave_Traffic
+  {
+    id: '20231027',
+    categories: ['Síria'],
+    color: 'blue',
+    faicon: 'water',
+    datetime: '2023-10-27',
+    title: '',
+    body: '',
+    image: {
+      link: '',
+      src: '',
+      alt: '',
+      caption: '',
+    },
+    links: [
+      {
+        href: '',
+        linkText: '',
+      },
+    ],
+  },
+ *
+ *
+**/
 // Page details
 const pageTitle = 'Cronologia das operações militares dos Estados Unidos'; // The title of the page that shows in the browser tab
 const pageDescription = 'Cronologia das operações militares dos Estados Unidos'; // The description of the page for search engines
