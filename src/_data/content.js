@@ -12,7 +12,7 @@ const entries = [
     color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '2024-07-25',
-    title: 'Comando Central dos EUA (USCENTCOM) destruíram com sucesso um lançador de veículo aéreo não tripulado (UAV) Houthi',
+    title: 'Comando Central destroi lançador (UAV) Houthi',
     body: 'USCENTCOM destruíram com sucesso um lançador de veículo aéreo não tripulado (UAV) Houthi apoiado pelo Irã em uma área do Iêmen controlada pelos Houthi.<br/> Foi determinado que este lançador representava uma ameaça iminente aos EUA, às forças da coalizão e aos navios mercantes na região. Estas ações foram tomadas para proteger a liberdade de navegação e tornar as águas internacionais mais seguras e protegidas.',    
     image: {
       link: 'https://x.com/CENTCOM/status/1816567367226515619',
@@ -23,7 +23,7 @@ const entries = [
     links: [
       {
         href: 'https://x.com/CENTCOM/status/1816567367226515619',
-        linkText: 'July 25 U.S. Central Command Update',
+        linkText: 'Comando Central destroi lançador (UAV) Houthi',
       },
     ],   
   },
@@ -33,8 +33,8 @@ const entries = [
     color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '2024-07-24',
-    title: 'USCENTCOM destruíram com sucesso dois mísseis Houthi apoiados pelo Irã',
-    body: 'Nas últimas 24 horas, as forças do Comando Central dos EUA (USCENTCOM) destruíram com sucesso dois mísseis Houthi apoiados pelo Irã em lançadores em uma área do Iêmen controlada pelos Houthi. <br/>Foi determinado que estas armas representavam uma ameaça iminente aos EUA, às forças da coligação e aos navios mercantes na região. Estas ações foram tomadas para proteger a liberdade de navegação e tornar as águas internacionais mais seguras e protegidas.',    
+    title: 'USCENTCOM destroi mísseis Houthi apoiados pelo Irã',
+    body: 'As forças do Comando Central dos EUA (USCENTCOM) destruíram com sucesso dois mísseis Houthi apoiados pelo Irã em lançadores em uma área do Iêmen controlada pelos Houthi. <br/>Foi determinado que estas armas representavam uma ameaça iminente aos EUA, às forças da coligação e aos navios mercantes na região. Estas ações foram tomadas para proteger a liberdade de navegação e tornar as águas internacionais mais seguras e protegidas.',    
     image: {
       link: 'https://x.com/CENTCOM/status/1816255346190524818',
       src: 'https://pbs.twimg.com/media/GTW-ZJwXIAAtCcx?format=jpg&name=900x900',
@@ -44,7 +44,7 @@ const entries = [
     links: [
       {
         href: 'https://x.com/CENTCOM/status/1816255346190524818',
-        linkText: 'July 24 U.S. Central Command Update',
+        linkText: 'USCENTCOM destroi mísseis Houthi apoiados pelo Irã',
       },
     ],   
   },
