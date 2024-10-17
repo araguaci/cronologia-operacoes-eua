@@ -7,6 +7,48 @@ const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline
 **/
 const entries = [
   {
+    id: '20241017',
+    categories: ['Houthi', 'Iêmen'],
+    color: 'green2',
+    faicon: 'jet-fighter-up',
+    datetime: '2024-10-17',
+    title: 'Bombardeiros furtivos dos EUA atacam bunkers subterrâneos dos rebeldes houthis do Iêmen',
+    body: 'EUA enviam bombardeiros furtivos B-2 para atingir os rebeldes Houthi do Iêmen! Pela primeira vez desde 2017, B-2s foram usados ​​em combate, atingindo 5 locais de armazenamento subterrâneo de armas com GBU-57 Massive Ordnance Penetrators (MOP) - as bombas mais pesadas do arsenal dos EUA.',    
+    image: {
+      link: 'https://time.com/7093958/us-stealth-bombers-yemen-houthi-rebels-bunkers/',
+      src: 'https://api.time.com/wp-content/uploads/2024/10/US-B2-stealth-bomber.jpg?quality=75&w=1024',
+      alt: 'Um sobrevoo do bombardeiro Northrop B-2 Spirit durante um show aéreo na Base Aérea de Whiteman, Mississippi, em julho de 2024 - Zhengyang Li',
+      caption: 'Viaduto Northrop B-2 Spirit Bomber',
+    },
+    links: [
+      {
+        href: 'https://time.com/7093958/us-stealth-bombers-yemen-houthi-rebels-bunkers/',
+        linkText: 'U.S. Stealth Bombers Target Underground Bunkers of Yemen’s Houthi Rebels',
+      },
+    ],   
+  },
+  {
+    id: '20240727',
+    categories: ['Houthi', 'Iêmen'],
+    color: 'green2',
+    faicon: 'jet-fighter-up',
+    datetime: '2024-07-27',
+    title: 'Comando Central destroi lançador (UAV) Houthi',
+    body: 'Aeronaves e helicópteros dos EUA podem ser ouvidos sobre a cidade de Deir ez-Zor, no leste da Síria, após o ataque às tropas americanas na Base da Coalizão dos EUA nos campos de petróleo de Al-Omar e no MSS Eufrates no campo de gás de Conoco anteriormente por foguetes disparado pelas forças apoiadas pelo Irã.',    
+    image: {
+      link: 'https://x.com/sentdefender/status/1817315557437506024',
+      src: 'https://pbs.twimg.com/media/GTW-ZJwXIAAtCcx?format=jpg&name=900x900',
+      alt: 'U.S. Central Command',
+      caption: 'U.S. Central Command',
+    },
+    links: [
+      {
+        href: 'https://x.com/sentdefender/status/1817315557437506024',
+        linkText: 'Comando Central destroi lançador (UAV) Houthi',
+      },
+    ],   
+  },
+  {
     id: '20240725',
     categories: ['Houthi', 'Iêmen'],
     color: 'green2',
