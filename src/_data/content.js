@@ -18,12 +18,16 @@ const entries = [
       link: 'https://time.com/7093958/us-stealth-bombers-yemen-houthi-rebels-bunkers/',
       src: 'https://api.time.com/wp-content/uploads/2024/10/US-B2-stealth-bomber.jpg?quality=75&w=1024',
       alt: 'Um sobrevoo do bombardeiro Northrop B-2 Spirit durante um show aéreo na Base Aérea de Whiteman, Mississippi, em julho de 2024 - Zhengyang Li',
-      caption: 'Viaduto Northrop B-2 Spirit Bomber',
+      caption: 'Northrop B-2 Spirit Bomber flyover during an airshow at Whiteman Air Force Base',
     },
     links: [
       {
         href: 'https://time.com/7093958/us-stealth-bombers-yemen-houthi-rebels-bunkers/',
         linkText: 'U.S. Stealth Bombers Target Underground Bunkers of Yemen’s Houthi Rebels',
+      },
+      {
+        href: 'https://x.com/WarNewsNow55/status/1846856358332670068',
+        linkText: 'US deploys B-2 stealth bombers to target Yemens Houthi rebels! For the first time since 2017, B-2s were used in combat, hitting 5 underground weapons storage sites with GBU-57 Massive Ordnance Penetrators (MOP) - the heaviest bombs in the US arsenal',
       },
     ],   
   },
