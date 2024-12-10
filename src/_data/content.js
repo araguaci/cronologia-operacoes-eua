@@ -11,7 +11,7 @@ const entries = [
     categories: ['Síria', 'ISIS'],
     color: 'green2',
     faicon: 'jet-fighter-up',
-    datetime: '2024-10-17',
+    datetime: '2024-12-08',
     title: 'B-52s, F-15s e A-10s realizam ataques aéreos massivos anti-ISIS na Síria após a queda de Assad',
     body: 'Em 8 de dezembro de 2024, os Estados Unidos realizaram uma série de ataques aéreos no centro e leste da Síria visando posições do Estado Islâmico (ISIS). Esses ataques foram executados usando ativos da Força Aérea dos EUA, especificamente bombardeiros B-52 Stratofortress, F-15 Eagles e A-10 Thunderbolt IIs. O objetivo desses ataques era atingir líderes, agentes e campos do ISIS, com o objetivo de degradar as capacidades do grupo e impedi-los de explorar a situação atual na Síria após o colapso do regime de Assad. Essas operações militares fazem parte de uma estratégia mais ampla dos EUA para combater o terrorismo na região, particularmente à luz da agitação política na Síria.',    
     image: {
