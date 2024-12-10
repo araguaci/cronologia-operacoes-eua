@@ -7,6 +7,31 @@ const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline
 **/
 const entries = [
   {
+    id: '20241208',
+    categories: ['Síria', 'ISIS'],
+    color: 'green2',
+    faicon: 'jet-fighter-up',
+    datetime: '2024-10-17',
+    title: 'B-52s, F-15s e A-10s realizam ataques aéreos massivos anti-ISIS na Síria após a queda de Assad',
+    body: 'Em 8 de dezembro de 2024, os Estados Unidos realizaram uma série de ataques aéreos no centro e leste da Síria visando posições do Estado Islâmico (ISIS). Esses ataques foram executados usando ativos da Força Aérea dos EUA, especificamente bombardeiros B-52 Stratofortress, F-15 Eagles e A-10 Thunderbolt IIs. O objetivo desses ataques era atingir líderes, agentes e campos do ISIS, com o objetivo de degradar as capacidades do grupo e impedi-los de explorar a situação atual na Síria após o colapso do regime de Assad. Essas operações militares fazem parte de uma estratégia mais ampla dos EUA para combater o terrorismo na região, particularmente à luz da agitação política na Síria.',    
+    image: {
+      link: 'https://www.airandspaceforces.com/us-b-52-f-15-a-10-massive-airstrikes-isis-syria/',
+      src: 'https://www.airandspaceforces.com/app/uploads/2024/12/8771080-900x600.jpg',
+      alt: 'Um B-52H Stratofortress da Força Aérea dos EUA realiza uma patrulha aérea de combate em apoio à Operação Inherent Resolve sobre a área de responsabilidade do Comando Central dos EUA em 23 de novembro de 2024.',
+      caption: 'Um B-52H Stratofortress da Força Aérea dos EUA realiza uma patrulha aérea de combate em apoio à Operação Inherent Resolve sobre a área de responsabilidade do Comando Central dos EUA em 23 de novembro de 2024.',
+    },
+    links: [
+      {
+        href: 'https://www.airandspaceforces.com/us-b-52-f-15-a-10-massive-airstrikes-isis-syria/',
+        linkText: 'B-52s, F-15s, and A-10s Conduct Massive Anti-ISIS Airstrikes in Syria After Fall of Assad',
+      },
+      {
+        href: 'https://x.com/CENTCOM/status/1865841718366450013',
+        linkText: '𝐔.𝐒. 𝐂𝐞𝐧𝐭𝐫𝐚𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐂𝐨𝐧𝐝𝐮𝐜𝐭𝐬 𝐃𝐨𝐳𝐞𝐧𝐬 𝐨𝐟 𝐀𝐢𝐫𝐬𝐭𝐫𝐢𝐤𝐞𝐬 𝐭𝐨 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐞 𝐈𝐒𝐈𝐒 𝐂𝐚𝐦𝐩𝐬 𝐢𝐧 𝐂𝐞𝐧𝐭𝐫𝐚𝐥 𝐒𝐲𝐫𝐢𝐚',
+      },
+    ],   
+  },
+  {
     id: '20241017',
     categories: ['Houthi', 'Iêmen'],
     color: 'green2',
