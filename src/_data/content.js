@@ -32,6 +32,27 @@ const entries = [
     ],   
   },
   {
+    id: '20241118',
+    categories: ['Ucrânia', 'Russia'],
+    color: 'green2',
+    faicon: 'location-crosshairs',
+    datetime: '2024-11-18',
+    title: 'Biden autoriza a Ucrânia a usar mísseis de longo alcance fornecidos pelos EUA para ataques mais profundos dentro da Rússia',
+    body: 'Joe Biden autorizou a Ucrânia a utilizar mísseis de longo alcance fornecidos pelos Estados Unidos para atacar território russo. Esta decisão, anunciada em várias fontes, representa uma mudança significativa na política americana em relação à guerra entre Ucrânia e Rússia. A autorização foi dada em resposta ao envio de tropas norte-coreanas para apoiar a Rússia em suas operações militares e a uma nova onda de ataques russos contra cidades ucranianas. Os mísseis ATACMS, com um alcance de até 300 km, foram autorizados para uso específico na região de Kursk, onde as forças ucranianas estão em confronto direto com as forças russas e norte-coreanas. Esta decisão foi vista como uma forma de retaliar contra a escalada de tensão e os ataques russos à infraestrutura energética ucraniana.',    
+    image: {
+      link: 'https://apnews.com/article/biden-ukraine-long-range-weapons-russia-52d424158182de2044ecc8bfcf011f9c/',
+      src: 'https://dims.apnews.com/dims4/default/a0dadac/2147483647/strip/true/crop/4896x3264+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fad%2Fb3%2F3bccbcc4469889d22a0ac78c78e8%2F6d1884a666b54f219c7b56b1e744c692',
+      alt: 'Biden authorizes Ukraine to use US-supplied longer range missiles for deeper strikes inside Russia',
+      caption: 'Biden authorizes Ukraine to use US-supplied longer range missiles for deeper strikes inside Russia.',
+    },
+    links: [
+      {
+        href: 'https://apnews.com/article/biden-ukraine-long-range-weapons-russia-52d424158182de2044ecc8bfcf011f9c/',
+        linkText: 'Biden authorizes Ukraine to use US-supplied longer range missiles for deeper strikes inside Russia',
+      },
+    ],   
+  },
+  {
     id: '20241017',
     categories: ['Houthi', 'Iêmen'],
     color: 'green2',
