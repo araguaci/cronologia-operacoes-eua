@@ -7,6 +7,26 @@ const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline
 **/
 const entries = [
   {
+    id: '20241216',
+    categories: ['Síria', 'ISIS'],
+    color: 'brown',
+    faicon: 'location-crosshairs',
+    datetime: '2024-12-16',
+    title: 'Comando Central dos EUA realiza ataques aéreos contra agentes do ISIS',
+    body: 'Tampa, Flórida – As forças do Comando Central dos EUA (CENTCOM) conduziram ataques aéreos de precisão contra campos e agentes conhecidos do ISIS na Síria, em 16 de dezembro, matando 12 terroristas do ISIS. Os ataques contra os líderes, agentes e acampamentos do ISIS foram conduzidos como parte da missão em andamento para interromper, degradar e derrotar o ISIS, impedindo o grupo terrorista de conduzir operações externas e para garantir que o ISIS não busque oportunidades de se reconstituir no centro da Síria.',    
+    image: {
+      link: 'https://x.com/CENTCOM/status/1868708397149036782',
+      src: 'https://pbs.twimg.com/media/Ge78YjlXMAAhiCD?format=jpg&name=900x900',
+      caption: 'U.S. Central Command Conducts Airstrikes Against ISIS Operatives.',
+    },
+    links: [
+      {
+        href: 'https://x.com/CENTCOM/status/1868708397149036782',
+        linkText: 'U.S. Central Command Conducts Airstrikes Against ISIS Operatives.',
+      },
+    ],   
+  },
+  {
     id: '20241208',
     categories: ['Síria', 'ISIS'],
     color: 'green2',
@@ -34,7 +54,7 @@ const entries = [
   {
     id: '20241118',
     categories: ['Ucrânia', 'Russia'],
-    color: 'green2',
+    color: 'brown',
     faicon: 'location-crosshairs',
     datetime: '2024-11-18',
     title: 'Biden autoriza a Ucrânia a usar mísseis de longo alcance fornecidos pelos EUA para ataques mais profundos dentro da Rússia',
