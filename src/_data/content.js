@@ -7,6 +7,166 @@ const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline
 **/
 const entries = [
   {
+    "id": "20250315",
+    "categories": ["Airstrikes", "Yemen"],
+    "color": "brown",
+    "faicon": "bomb",
+    "datetime": "2025-03-15",
+    "title": "Operation Rough Rider: US Attacks in Yemen",
+    "body": "Campanha de ataques aéreos e navais dos EUA contra alvos Houthi no Iêmen, de março a maio de 2025, em resposta a ataques a navios no Mar Vermelho. Incluiu strikes em Sanaa, Saada e outros, com participação do Reino Unido a partir de abril. Encerrada em 6 de maio com cessar-fogo.",
+    "image": {
+      "link": "https://en.wikipedia.org/wiki/March–May_2025_United_States_attacks_in_Yemen",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_%2853245908850%29.jpg/640px-Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_%2853245908850%29.jpg",
+      "caption": "Mapa da crise no Mar Vermelho"
+    },
+    "links": [
+      {
+        "href": "https://en.wikipedia.org/wiki/March–May_2025_United_States_attacks_in_Yemen",
+        "linkText": "Página da Wikipedia"
+      }
+    ]
+  },
+  {
+    "id": "20250410",
+    "categories": ["Exercise", "Europe"],
+    "color": "brown",
+    "faicon": "shield",
+    "datetime": "2025-04-10",
+    "title": "DEFENDER 25: Exercício com Aliados da OTAN",
+    "body": "Exercício em larga escala liderado pelo Exército dos EUA na Europa, de abril a junho de 2025, envolvendo 25.000 tropas em 18 países. Foco em prontidão, interoperabilidade e defesa da OTAN, com fases como Swift Response, Immediate Response e Saber Guardian.",
+    "image": {
+      "link": "https://www.europeafrica.army.mil/ArticleViewPressRelease/Article/4147268/press-release-us-assets-depart-for-defender-25-exercise-alongside-allies-and-pa/",
+      "src": "https://media.defense.gov/2025/Apr/07/2003683353/780/780/0/250109-A-LU981-001.JPG",
+      "caption": "Equipamentos do Exército dos EUA"
+    },
+    "links": [
+      {
+        "href": "https://www.europeafrica.army.mil/ArticleViewPressRelease/Article/4147268/press-release-us-assets-depart-for-defender-25-exercise-alongside-allies-and-pa/",
+        "linkText": "Comunicado de Imprensa"
+      }
+    ]
+  },
+  {
+    "id": "20250601",
+    "categories": ["Humanitarian", "Latin America"],
+    "color": "brown",
+    "faicon": "medkit",
+    "datetime": "2025-06-01",
+    "title": "Continuing Promise 2025: Missão Humanitária",
+    "body": "Desdobramento do navio-hospital USNS Comfort de junho a agosto de 2025 na área do Comando Sul, visitando Grenada, Panamá, Colômbia, Equador, Costa Rica e República Dominicana. Atividades incluem cuidados médicos, veterinários, projetos de engenharia e treinamento para desastres.",
+    "image": {
+      "link": "https://www.southcom.mil/MEDIA/NEWS-ARTICLES/Article/4186371/continuing-promise-2025-set-to-begin/",
+      "src": "https://media.defense.gov/2015/Apr/10/2003715028/1920/1080/0/150410-N-DJ347-103.jpg",
+      "caption": "Navio USNS Comfort"
+    },
+    "links": [
+      {
+        "href": "https://www.southcom.mil/MEDIA/NEWS-ARTICLES/Article/4186371/continuing-promise-2025-set-to-begin/",
+        "linkText": "Artigo do SOUTHCOM"
+      }
+    ]
+  },
+  {
+    "id": "20250713",
+    "categories": ["Exercise", "Pacific"],
+    "color": "brown",
+    "faicon": "handshake",
+    "datetime": "2025-07-13",
+    "title": "Exercise Talisman Sabre 2025: Aliança EUA-Austrália",
+    "body": "Exercício bienal de 13 de julho a 4 de agosto de 2025 na Austrália e Papua Nova Guiné, com mais de 35.000 tropas de múltiplos países. Foco em interoperabilidade, manobras anfíbias, operações aéreas, marítimas e especiais para manter um Indo-Pacífico livre.",
+    "image": {
+      "link": "https://www.army.mil/article/286395/exercise_talisman_sabre_2025_to_showcase_us_australia_alliance",
+      "src": "https://api.army.mil/e2/c/images/2025/06/16/961d3d86/original.jpg",
+      "caption": "Tropas em treinamento"
+    },
+    "links": [
+      {
+        "href": "https://www.army.mil/article/286395/exercise_talisman_sabre_2025_to_showcase_us_australia_alliance",
+        "linkText": "Artigo do Exército dos EUA"
+      }
+    ]
+  },
+  {
+    "id": "20250421",
+    "categories": ["Exercise", "Philippines"],
+    "color": "brown",
+    "faicon": "users",
+    "datetime": "2025-04-21",
+    "title": "Exercise Balikatan 2025: Treinamento Bilateral EUA-Filipinas",
+    "body": "40ª iteração do exercício anual de 21 de abril a 9 de maio de 2025, fortalecendo o Tratado de Defesa Mútua. Atividades incluem operações logísticas, assistência humanitária, exercícios de comando e controle, e marítimos multilaterais com Austrália e Japão.",
+    "image": {
+      "link": "https://www.marines.mil/News/News-Display/Article/4156181/philippine-us-troops-kick-off-exercise-balikatan-2025/",
+      "src": "https://media.defense.gov/2025/Apr/11/2003689970/780/780/0/250408-M-RA226-1280.JPG",
+      "caption": "Tropas Filipinas e EUA"
+    },
+    "links": [
+      {
+        "href": "https://www.marines.mil/News/News-Display/Article/4156181/philippine-us-troops-kick-off-exercise-balikatan-2025/",
+        "linkText": "Artigo dos Marines"
+      }
+    ]
+  },
+  {
+    "id": "20250411",
+    "categories": ["Border Security", "Domestic"],
+    "color": "brown",
+    "faicon": "fence",
+    "datetime": "2025-04-11",
+    "title": "Military Mission for Sealing the Southern Border",
+    "body": "Memorando de abril de 2025 direcionando o uso de forças militares para selar a fronteira sul, transferindo jurisdição de terras federais para construção de barreiras e monitoramento. Foco em repelir invasões e proteger a soberania, com avaliação em 45 dias.",
+    "image": {
+      "link": "https://www.whitehouse.gov/presidential-actions/2025/04/military-mission-for-sealing-the-southern-border-of-the-united-states-and-repelling-invasions/",
+      "src": "https://www.whitehouse.gov/wp-content/themes/whitehouse/assets/img/whitehouse-47-logo.webp",
+      "caption": "Fronteira sul dos EUA"
+    },
+    "links": [
+      {
+        "href": "https://www.whitehouse.gov/presidential-actions/2025/04/military-mission-for-sealing-the-southern-border-of-the-united-states-and-repelling-invasions/",
+        "linkText": "Memorando da Casa Branca"
+      }
+    ]
+  },
+  {
+    "id": "20250401",
+    "categories": ["Exercise", "Special Operations"],
+    "color": "brown",
+    "faicon": "star",
+    "datetime": "2025-04-01",
+    "title": "CAPEX 2025: Army Special Operations Capability Exercise",
+    "body": "Exercício de uma semana em abril de 2025 em Fort Bragg, NC, demonstrando capacidades e equipamentos das Operações Especiais do Exército dos EUA. Foco em tecnologias emergentes, inovação e modernização para conflitos multi-domínio.",
+    "image": {
+      "link": "https://arsof-history.org/capex-2025/index.html",
+      "src": "https://arsof-history.org/capex-2025/images/usasoc_dui.png",
+      "caption": "Demonstração de ARSOF"
+    },
+    "links": [
+      {
+        "href": "https://arsof-history.org/capex-2025/index.html",
+        "linkText": "Página de História ARSOF"
+      }
+    ]
+  },
+  {
+    "id": "20250414",
+    "categories": ["Exercise", "Africa"],
+    "color": "brown",
+    "faicon": "shield",
+    "datetime": "2025-04-14",
+    "title": "African Lion 25: Exercício Liderado pelos EUA na África",
+    "body": "Exercício anual do Comando África dos EUA iniciado em 14 de abril de 2025 na Tunísia, com atividades em Gana, Senegal e Marrocos. Maior exercício na África, focando em prontidão e interoperabilidade com nações parceiras.",
+    "image": {
+      "link": "https://www.army.mil/article/284494/african_lion_25_largest_us_led_military_exercise_in_africa_kicks_off_across_four_nations",
+      "src": "https://api.army.mil/e2/c/images/2025/04/09/186aab53/size0-full.jpg",
+      "caption": "Tropas em African Lion"
+    },
+    "links": [
+      {
+        "href": "https://www.army.mil/article/284494/african_lion_25_largest_us_led_military_exercise_in_africa_kicks_off_across_four_nations",
+        "linkText": "Artigo do Exército dos EUA"
+      }
+    ]
+  },
+  {
     id: '20241216',
     categories: ['Síria', 'ISIS'],
     color: 'brown',
@@ -230,6 +390,12 @@ const entries = [
     datetime: '2024-07-07',
     title: 'Biden anuncia que EUA e outros países da Otan enviarão sistemas Patriot à Ucrânia',
     body: 'Washington, 10 jul (EFE).- O presidente dos Estados Unidos, Joe Biden, anunciou nesta terça-feira que tanto o país como Alemanha, Holanda, Romênia e Itália enviarão nos próximos meses à Ucrânia cinco sistemas de defesa aérea, entre eles quatro Patriot, atendendo a um dos principais pedidos de Kiev nos últimos meses.',
+    image: {
+      link: 'https://www.youtube.com/watch?v=bD2weAoY5po',
+      src: 'https://img.youtube.com/vi/bD2weAoY5po/maxresdefault.jpg',
+      alt: 'Biden anuncia que EUA e outros países da Otan enviarão sistemas Patriot à Ucrânia',
+      caption: 'sistemas Patriot à Ucrânia',
+    },
     links: [
       {
         href: 'https://www.youtube.com/watch?v=bD2weAoY5po',
