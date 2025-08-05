@@ -7,186 +7,250 @@ const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline
 **/
 const entries = [
   {
-    "id": "20250713",
-    "categories": ["Exercise", "Pacific"],
-    "color": "brown",
-    "faicon": "handshake",
-    "datetime": "2025-07-13",
-    "title": "Exercise Talisman Sabre 2025: Aliança EUA-Austrália",
-    "body": "Exercício bienal de 13 de julho a 4 de agosto de 2025 na Austrália e Papua Nova Guiné, com mais de 35.000 tropas de múltiplos países. Foco em interoperabilidade, manobras anfíbias, operações aéreas, marítimas e especiais para manter um Indo-Pacífico livre.",
-    "image": {
-      "link": "https://www.army.mil/article/286395/exercise_talisman_sabre_2025_to_showcase_us_australia_alliance",
-      "src": "https://api.army.mil/e2/c/images/2025/06/16/961d3d86/original.jpg",
-      "caption": "Tropas em treinamento"
+    id: '20250713',
+    categories: ['Exercise', 'Pacific'],
+    color: 'brown',
+    faicon: 'handshake',
+    datetime: '2025-07-13',
+    title: 'Exercise Talisman Sabre 2025: Aliança EUA-Austrália',
+    body: 'Exercício bienal de grande escala de 13 de julho a 4 de agosto de 2025 na Austrália e Papua Nova Guiné, envolvendo mais de 35.000 tropas de 19 países. Foco em interoperabilidade, manobras anfíbias, operações aéreas, marítimas e especiais para manter um Indo-Pacífico livre e aberto.',
+    image: {
+      link: 'https://www.army.mil/article/286395/exercise_talisman_sabre_2025_to_showcase_us_australia_alliance',
+      src: 'https://api.army.mil/e2/c/images/2025/06/16/961d3d86/original.jpg',
+      caption: 'Tropas em treinamento durante Talisman Sabre'
     },
-    "links": [
+    links: [
       {
-        "href": "https://www.army.mil/article/286395/exercise_talisman_sabre_2025_to_showcase_us_australia_alliance",
-        "linkText": "Artigo do Exército dos EUA"
+        href: 'https://www.army.mil/article/286395/exercise_talisman_sabre_2025_to_showcase_us_australia_alliance',
+        linkText: 'Artigo do Exército dos EUA'
       }
     ]
   },
   {
-    "id": "20250622",
-    "categories": ["Airstrikes", "Iran"],
-    "color": "brown",
-    "faicon": "bomb",
-    "datetime": "2025-06-22",
-    "title": "Operation Midnight Hammer: Ataques dos EUA a Sítios Nucleares Iranianos",
-    "body": "Em 22 de junho de 2025, bombardeiros B-2 Spirit dos EUA lançaram 14 bombas GBU-57 Massive Ordnance Penetrator (MOP) contra as instalações nucleares de Fordow e Natanz no Irã, visando destruir alvos subterrâneos fortificados. A operação envolveu mísseis Tomahawk em Isfahan e marcou o primeiro uso em combate do MOP.",
-    "image": {
-      "link": "https://en.wikipedia.org/wiki/Massive_Ordnance_Penetrator",
-      "src": "https://defensescoop.com/wp-content/uploads/sites/8/2025/06/B-2.jpg",
-      "caption": "Bomba GBU-57 MOP"
+    id: '20250710',
+    categories: ['Exercise', 'Pacific'],
+    color: 'brown',
+    faicon: 'plane',
+    datetime: '2025-07-10',
+    title: 'REFORPAC 2025: Maior Exercício Aéreo no Pacífico',
+    body: 'Exercício de resposta a contingências lançado em 10 de julho de 2025 pelas Forças Aéreas do Pacífico dos EUA com aliados, o maior do tipo já realizado. Envolve treinamento em múltiplos domínios para aprimorar a prontidão contra ameaças regionais.',
+    image: {
+      link: 'https://www.af.mil/News/Article-Display/Article/4240598/us-allies-launch-largest-pacific-air-exercise-with-reforpac-2025/',
+      src: 'https://media.defense.gov/2025/Jul/10/2003751935/1200/1200/0/250709-F-VQ736-1021.JPG',
+      caption: 'Aeronaves em formação durante REFORPAC'
     },
-    "links": [
+    links: [
       {
-        "href": "https://defensescoop.com/2025/06/22/air-force-mop-gbu-57-bomb-iranian-nuclear-sites-midnight-hammer/",
-        "linkText": "Artigo Defense Scoop"
+        href: 'https://www.af.mil/News/Article-Display/Article/4240598/us-allies-launch-largest-pacific-air-exercise-with-reforpac-2025/',
+        linkText: 'Artigo da Força Aérea dos EUA'
+      }
+    ]
+  },
+  {
+    id: '20250709',
+    categories: ['Exercise', 'Space'],
+    color: 'brown',
+    faicon: 'rocket',
+    datetime: '2025-07-09',
+    title: 'Resolute Space 25: Exercício da Força Espacial',
+    body: 'Exercício em larga escala liderado pela Força Espacial dos EUA iniciado em 9 de julho de 2025, envolvendo mais de 700 Guardiões em todo o mundo. Foco em operações espaciais, defesa e prontidão para ameaças em múltiplos domínios.',
+    image: {
+      link: 'https://www.spaceforce.mil/News/Article-Display/Article/4238192/resolute-space-25-guardians-ready-to-lead-services-largest-exercise/',
+      src: 'https://media.defense.gov/2025/Jul/09/2003750268/1200/1200/0/250708-X-VI177-0034.JPG',
+      caption: 'Guardiões em simulação espacial'
+    },
+    links: [
+      {
+        href: 'https://www.spaceforce.mil/News/Article-Display/Article/4238192/resolute-space-25-guardians-ready-to-lead-services-largest-exercise/',
+        linkText: 'Artigo da Força Espacial'
+      }
+    ]
+  },
+  {
+    id: '20250707',
+    categories: ['Airstrikes', 'Somalia'],
+    color: 'brown',
+    faicon: 'bomb',
+    datetime: '2025-07-07',
+    title: 'Ataque Aéreo dos EUA contra ISIS-Somália',
+    body: 'Em 7 de julho de 2025, forças dos EUA conduziram um airstrike contra o ISIS-Somália a sudeste de Bossaso, Puntland. A operação resultou na morte de múltiplos operativos, sem baixas civis reportadas, visando reduzir ameaças a forças aliadas.',
+    image: {
+      link: 'https://www.africom.mil/pressrelease/35891/us-forces-conduct-strike-targeting-isis-somalia',
+      src: 'https://www.africom.mil/Img/35822/Cover/africom-logo---cut',
+      caption: 'Mapa da região de Puntland'
+    },
+    links: [
+      {
+        href: 'https://www.africom.mil/pressrelease/35891/us-forces-conduct-strike-targeting-isis-somalia',
+        linkText: 'Comunicado do AFRICOM'
+      }
+    ]
+  },
+  {
+    id: '20250622',
+    categories: ['Airstrikes', 'Iran'],
+    color: 'brown',
+    faicon: 'bomb',
+    datetime: '2025-06-22',
+    title: 'Operation Midnight Hammer: Ataques a Sítios Nucleares Iranianos',
+    body: 'Em 22 de junho de 2025, bombardeiros B-2 dos EUA lançaram 14 bombas GBU-57 contra instalações nucleares em Fordow, Natanz e Isfahan no Irã. Primeiro uso em combate da MOP, com mísseis Tomahawk; escalada no conflito Irã-Israel, resultando em retaliações iranianas.',
+    image: {
+      link: 'https://www.npr.org/2025/06/21/nx-s1-5441127/iran-us-strike-nuclear-trump',
+      src: 'https://defensescoop.com/wp-content/uploads/sites/8/2025/06/B-2.jpg',
+      caption: 'Bomba GBU-57 MOP'
+    },
+    links: [
+      {
+        href: 'https://www.npr.org/2025/06/21/nx-s1-5441127/iran-us-strike-nuclear-trump',
+        linkText: 'Artigo NPR'
       },
       {
-        "href": "https://en.wikipedia.org/wiki/Massive_Ordnance_Penetrator",
-        "linkText": "Página da Wikipedia"
+        href: 'https://www.reuters.com/world/middle-east/trump-announces-israel-iran-ceasefire-2025-06-23/',
+        linkText: 'Artigo Reuters'
       }
     ]
   },
   {
-    "id": "20250601",
-    "categories": ["Humanitarian", "Latin America"],
-    "color": "brown",
-    "faicon": "medkit",
-    "datetime": "2025-06-01",
-    "title": "Continuing Promise 2025: Missão Humanitária",
-    "body": "Desdobramento do navio-hospital USNS Comfort de junho a agosto de 2025 na área do Comando Sul, visitando Grenada, Panamá, Colômbia, Equador, Costa Rica e República Dominicana. Atividades incluem cuidados médicos, veterinários, projetos de engenharia e treinamento para desastres.",
-    "image": {
-      "link": "https://www.southcom.mil/MEDIA/NEWS-ARTICLES/Article/4186371/continuing-promise-2025-set-to-begin/",
-      "src": "https://media.defense.gov/2015/Apr/10/2003715028/1920/1080/0/150410-N-DJ347-103.jpg",
-      "caption": "Navio USNS Comfort"
+    id: '20250601',
+    categories: ['Humanitarian', 'Latin America'],
+    color: 'brown',
+    faicon: 'medkit',
+    datetime: '2025-06-01',
+    title: 'Continuing Promise 2025: Missão Humanitária no Comando Sul',
+    body: 'Desdobramento do navio-hospital USNS Comfort de junho a agosto de 2025, visitando Grenada, Panamá, Colômbia, Equador, Costa Rica e República Dominicana. Inclui cuidados médicos, veterinários, engenharia e treinamento para desastres.',
+    image: {
+      link: 'https://www.southcom.mil/MEDIA/NEWS-ARTICLES/Article/4186371/continuing-promise-2025-set-to-begin/',
+      src: 'https://media.defense.gov/2015/Apr/10/2003715028/1920/1080/0/150410-N-DJ347-103.jpg',
+      caption: 'Navio USNS Comfort em operação'
     },
-    "links": [
+    links: [
       {
-        "href": "https://www.southcom.mil/MEDIA/NEWS-ARTICLES/Article/4186371/continuing-promise-2025-set-to-begin/",
-        "linkText": "Artigo do SOUTHCOM"
+        href: 'https://www.southcom.mil/MEDIA/NEWS-ARTICLES/Article/4186371/continuing-promise-2025-set-to-begin/',
+        linkText: 'Artigo do SOUTHCOM'
       }
     ]
   },
   {
-    "id": "20250410",
-    "categories": ["Exercise", "Europe"],
-    "color": "brown",
-    "faicon": "shield",
-    "datetime": "2025-04-10",
-    "title": "DEFENDER 25: Exercício com Aliados da OTAN",
-    "body": "Exercício em larga escala liderado pelo Exército dos EUA na Europa, de abril a junho de 2025, envolvendo 25.000 tropas em 18 países. Foco em prontidão, interoperabilidade e defesa da OTAN, com fases como Swift Response, Immediate Response e Saber Guardian.",
-    "image": {
-      "link": "https://www.europeafrica.army.mil/ArticleViewPressRelease/Article/4147268/press-release-us-assets-depart-for-defender-25-exercise-alongside-allies-and-pa/",
-      "src": "https://media.defense.gov/2025/Apr/07/2003683353/780/780/0/250109-A-LU981-001.JPG",
-      "caption": "Equipamentos do Exército dos EUA"
+    id: '20250421',
+    categories: ['Exercise', 'Philippines'],
+    color: 'brown',
+    faicon: 'users',
+    datetime: '2025-04-21',
+    title: 'Exercise Balikatan 2025: Treinamento Bilateral EUA-Filipinas',
+    body: '40ª iteração anual de 21 de abril a 9 de maio de 2025, fortalecendo o Tratado de Defesa Mútua. Inclui operações logísticas, assistência humanitária, comando e controle, e marítimos multilaterais com Austrália e Japão.',
+    image: {
+      link: 'https://www.marines.mil/News/News-Display/Article/4156181/philippine-us-troops-kick-off-exercise-balikatan-2025/',
+      src: 'https://media.defense.gov/2025/Apr/07/2003683353/780/780/0/250109-A-LU981-001.JPG',
+      caption: 'Tropas EUA e Filipinas em exercício'
     },
-    "links": [
+    links: [
       {
-        "href": "https://www.europeafrica.army.mil/ArticleViewPressRelease/Article/4147268/press-release-us-assets-depart-for-defender-25-exercise-alongside-allies-and-pa/",
-        "linkText": "Comunicado de Imprensa"
+        href: 'https://www.marines.mil/News/News-Display/Article/4156181/philippine-us-troops-kick-off-exercise-balikatan-2025/',
+        linkText: 'Artigo dos Marines'
       }
     ]
   },
   {
-    "id": "20250421",
-    "categories": ["Exercise", "Philippines"],
-    "color": "brown",
-    "faicon": "users",
-    "datetime": "2025-04-21",
-    "title": "Exercise Balikatan 2025: Treinamento Bilateral EUA-Filipinas",
-    "body": "40ª iteração do exercício anual de 21 de abril a 9 de maio de 2025, fortalecendo o Tratado de Defesa Mútua. Atividades incluem operações logísticas, assistência humanitária, exercícios de comando e controle, e marítimos multilaterais com Austrália e Japão.",
-    "image": {
-      "link": "https://www.marines.mil/News/News-Display/Article/4156181/philippine-us-troops-kick-off-exercise-balikatan-2025/",
-      "src": "https://media.defense.gov/2025/Apr/11/2003689970/780/780/0/250408-M-RA226-1280.JPG",
-      "caption": "Tropas Filipinas e EUA"
+    id: '20250414',
+    categories: ['Exercise', 'Africa'],
+    color: 'brown',
+    faicon: 'shield',
+    datetime: '2025-04-14',
+    title: 'African Lion 25: Exercício Liderado pelos EUA na África',
+    body: 'Exercício anual iniciado em 14 de abril de 2025 na Tunísia, com atividades em Gana, Senegal e Marrocos. Maior exercício na África, focando em prontidão e interoperabilidade com nações parceiras.',
+    image: {
+      link: 'https://www.army.mil/article/284494/african_lion_25_largest_us_led_military_exercise_in_africa_kicks_off_across_four_nations',
+      src: 'https://media.defense.gov/2025/Apr/11/2003689970/780/780/0/250408-M-RA226-1280.JPG',
+      caption: 'Tropas em African Lion'
     },
-    "links": [
+    links: [
       {
-        "href": "https://www.marines.mil/News/News-Display/Article/4156181/philippine-us-troops-kick-off-exercise-balikatan-2025/",
-        "linkText": "Artigo dos Marines"
+        href: 'https://www.army.mil/article/284494/african_lion_25_largest_us_led_military_exercise_in_africa_kicks_off_across_four_nations',
+        linkText: 'Artigo do Exército dos EUA'
       }
     ]
   },
   {
-    "id": "20250411",
-    "categories": ["Border Security", "Domestic"],
-    "color": "brown",
-    "faicon": "fence",
-    "datetime": "2025-04-11",
-    "title": "Military Mission for Sealing the Southern Border",
-    "body": "Memorando de abril de 2025 direcionando o uso de forças militares para selar a fronteira sul, transferindo jurisdição de terras federais para construção de barreiras e monitoramento. Foco em repelir invasões e proteger a soberania, com avaliação em 45 dias.",
-    "image": {
-      "link": "https://www.whitehouse.gov/presidential-actions/2025/04/military-mission-for-sealing-the-southern-border-of-the-united-states-and-repelling-invasions/",
-      "src": "https://www.whitehouse.gov/wp-content/themes/whitehouse/assets/img/whitehouse-47-logo.webp",
-      "caption": "Fronteira sul dos EUA"
+    id: '20250410',
+    categories: ['Exercise', 'Europe'],
+    color: 'brown',
+    faicon: 'shield',
+    datetime: '2025-04-10',
+    title: 'DEFENDER 25: Exercício com Aliados da OTAN na Europa',
+    body: 'Exercício em larga escala de abril a junho de 2025, envolvendo 25.000 tropas em 18 países. Foco em prontidão, interoperabilidade e defesa da OTAN, com fases como Swift Response e Saber Guardian.',
+    image: {
+      link: 'https://www.europeafrica.army.mil/ArticleViewPressRelease/Article/4147268/press-release-us-assets-depart-for-defender-25-exercise-alongside-allies-and-pa/',
+      src: 'https://www.whitehouse.gov/wp-content/themes/whitehouse/assets/img/whitehouse-47-logo.webp',
+      caption: 'Equipamentos em trânsito para DEFENDER'
     },
-    "links": [
+    links: [
       {
-        "href": "https://www.whitehouse.gov/presidential-actions/2025/04/military-mission-for-sealing-the-southern-border-of-the-united-states-and-repelling-invasions/",
-        "linkText": "Memorando da Casa Branca"
+        href: 'https://www.europeafrica.army.mil/ArticleViewPressRelease/Article/4147268/press-release-us-assets-depart-for-defender-25-exercise-alongside-allies-and-pa/',
+        linkText: 'Comunicado de Imprensa'
       }
     ]
   },
   {
-    "id": "20250401",
-    "categories": ["Exercise", "Special Operations"],
-    "color": "brown",
-    "faicon": "star",
-    "datetime": "2025-04-01",
-    "title": "CAPEX 2025: Army Special Operations Capability Exercise",
-    "body": "Exercício de uma semana em abril de 2025 em Fort Bragg, NC, demonstrando capacidades e equipamentos das Operações Especiais do Exército dos EUA. Foco em tecnologias emergentes, inovação e modernização para conflitos multi-domínio.",
-    "image": {
-      "link": "https://arsof-history.org/capex-2025/index.html",
-      "src": "https://arsof-history.org/capex-2025/images/usasoc_dui.png",
-      "caption": "Demonstração de ARSOF"
+    id: '20250401',
+    categories: ['Exercise', 'Special Operations'],
+    color: 'brown',
+    faicon: 'star',
+    datetime: '2025-04-01',
+    title: 'CAPEX 2025: Exercício de Capacidades de Operações Especiais',
+    body: 'Exercício de uma semana em abril de 2025 em Fort Bragg, NC, demonstrando capacidades e equipamentos das Operações Especiais do Exército. Foco em tecnologias emergentes e modernização para conflitos multi-domínio.',
+    image: {
+      link: 'https://arsof-history.org/capex-2025/index.html',
+      src: 'https://arsof-history.org/capex-2025/images/usasoc_dui.png',
+      caption: 'Demonstração de forças especiais'
     },
-    "links": [
+    links: [
       {
-        "href": "https://arsof-history.org/capex-2025/index.html",
-        "linkText": "Página de História ARSOF"
+        href: 'https://arsof-history.org/capex-2025/index.html',
+        linkText: 'Página de História ARSOF'
       }
     ]
   },
   {
-    "id": "20250414",
-    "categories": ["Exercise", "Africa"],
-    "color": "brown",
-    "faicon": "shield",
-    "datetime": "2025-04-14",
-    "title": "African Lion 25: Exercício Liderado pelos EUA na África",
-    "body": "Exercício anual do Comando África dos EUA iniciado em 14 de abril de 2025 na Tunísia, com atividades em Gana, Senegal e Marrocos. Maior exercício na África, focando em prontidão e interoperabilidade com nações parceiras.",
-    "image": {
-      "link": "https://www.army.mil/article/284494/african_lion_25_largest_us_led_military_exercise_in_africa_kicks_off_across_four_nations",
-      "src": "https://api.army.mil/e2/c/images/2025/04/09/186aab53/size0-full.jpg",
-      "caption": "Tropas em African Lion"
+    id: '20250325',
+    categories: ['Airstrikes', 'Somalia'],
+    color: 'brown',
+    faicon: 'bomb',
+    datetime: '2025-03-25',
+    title: 'Ataque Aéreo dos EUA contra ISIS-Somália em Puntland',
+    body: 'Em 25 de março de 2025, forças dos EUA conduziram um airstrike contra militantes do ISIS-Somália perto das Montanhas Golis, resultando na morte de múltiplos operativos. Sem baixas civis reportadas, visando ameaças a forças dos EUA e aliadas.',
+    image: {
+      link: 'https://twitter.com/ArlaadiMnetwork/status/1904964110791377288',
+      src: 'https://api.army.mil/e2/c/images/2025/04/09/186aab53/size0-full.jpg',
+      caption: 'Mapa da operação em Puntland'
     },
-    "links": [
+    links: [
       {
-        "href": "https://www.army.mil/article/284494/african_lion_25_largest_us_led_military_exercise_in_africa_kicks_off_across_four_nations",
-        "linkText": "Artigo do Exército dos EUA"
+        href: 'https://twitter.com/ArlaadiMnetwork/status/1904964110791377288',
+        linkText: 'Post no X'
       }
     ]
   },
   {
-    "id": "20250315",
-    "categories": ["Airstrikes", "Yemen"],
-    "color": "brown",
-    "faicon": "bomb",
-    "datetime": "2025-03-15",
-    "title": "Operation Rough Rider: US Attacks in Yemen",
-    "body": "Campanha de ataques aéreos e navais dos EUA contra alvos Houthi no Iêmen, de março a maio de 2025, em resposta a ataques a navios no Mar Vermelho. Incluiu strikes em Sanaa, Saada e outros, com participação do Reino Unido a partir de abril. Encerrada em 6 de maio com cessar-fogo.",
-    "image": {
-      "link": "https://en.wikipedia.org/wiki/March–May_2025_United_States_attacks_in_Yemen",
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_%2853245908850%29.jpg/640px-Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_%2853245908850%29.jpg",
-      "caption": "Mapa da crise no Mar Vermelho"
+    id: '20250315',
+    categories: ['Airstrikes', 'Yemen'],
+    color: 'brown',
+    faicon: 'bomb',
+    datetime: '2025-03-15',
+    title: 'Operation Rough Rider: Ataques dos EUA no Iêmen',
+    body: 'Campanha de airstrikes e ataques navais contra alvos Houthi de março a maio de 2025, em resposta a ataques no Mar Vermelho. Incluiu strikes em Sanaa e Saada; participação do Reino Unido; perdas dos EUA: 3 F/A-18 e 7 MQ-9, totalizando >$412 milhões.',
+    image: {
+      link: 'https://en.wikipedia.org/wiki/March%E2%80%93May_2025_United_States_attacks_in_Yemen',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_%2853245908850%29.jpg/640px-Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_%2853245908850%29.jpg',
+      caption: 'Mapa da crise no Mar Vermelho'
     },
-    "links": [
+    links: [
       {
-        "href": "https://en.wikipedia.org/wiki/March–May_2025_United_States_attacks_in_Yemen",
-        "linkText": "Página da Wikipedia"
+        href: 'https://en.wikipedia.org/wiki/March%E2%80%93May_2025_United_States_attacks_in_Yemen',
+        linkText: 'Página da Wikipedia'
+      },
+      {
+        href: 'https://www.amnesty.org/en/latest/news/2025/05/yemen-us-air-strike-that-has-left-dozens-of-migrants-dead-must-be-investigated/',
+        linkText: 'Relatório Amnesty International'
       }
     ]
   },
