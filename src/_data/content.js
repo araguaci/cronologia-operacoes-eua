@@ -7,42 +7,46 @@ const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline
 **/
 const entries = [
   {
-    "id": "20250315",
-    "categories": ["Airstrikes", "Yemen"],
+    "id": "20250713",
+    "categories": ["Exercise", "Pacific"],
     "color": "brown",
-    "faicon": "bomb",
-    "datetime": "2025-03-15",
-    "title": "Operation Rough Rider: US Attacks in Yemen",
-    "body": "Campanha de ataques aéreos e navais dos EUA contra alvos Houthi no Iêmen, de março a maio de 2025, em resposta a ataques a navios no Mar Vermelho. Incluiu strikes em Sanaa, Saada e outros, com participação do Reino Unido a partir de abril. Encerrada em 6 de maio com cessar-fogo.",
+    "faicon": "handshake",
+    "datetime": "2025-07-13",
+    "title": "Exercise Talisman Sabre 2025: Aliança EUA-Austrália",
+    "body": "Exercício bienal de 13 de julho a 4 de agosto de 2025 na Austrália e Papua Nova Guiné, com mais de 35.000 tropas de múltiplos países. Foco em interoperabilidade, manobras anfíbias, operações aéreas, marítimas e especiais para manter um Indo-Pacífico livre.",
     "image": {
-      "link": "https://en.wikipedia.org/wiki/March–May_2025_United_States_attacks_in_Yemen",
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_%2853245908850%29.jpg/640px-Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_%2853245908850%29.jpg",
-      "caption": "Mapa da crise no Mar Vermelho"
+      "link": "https://www.army.mil/article/286395/exercise_talisman_sabre_2025_to_showcase_us_australia_alliance",
+      "src": "https://api.army.mil/e2/c/images/2025/06/16/961d3d86/original.jpg",
+      "caption": "Tropas em treinamento"
     },
     "links": [
       {
-        "href": "https://en.wikipedia.org/wiki/March–May_2025_United_States_attacks_in_Yemen",
-        "linkText": "Página da Wikipedia"
+        "href": "https://www.army.mil/article/286395/exercise_talisman_sabre_2025_to_showcase_us_australia_alliance",
+        "linkText": "Artigo do Exército dos EUA"
       }
     ]
   },
   {
-    "id": "20250410",
-    "categories": ["Exercise", "Europe"],
+    "id": "20250622",
+    "categories": ["Airstrikes", "Iran"],
     "color": "brown",
-    "faicon": "shield",
-    "datetime": "2025-04-10",
-    "title": "DEFENDER 25: Exercício com Aliados da OTAN",
-    "body": "Exercício em larga escala liderado pelo Exército dos EUA na Europa, de abril a junho de 2025, envolvendo 25.000 tropas em 18 países. Foco em prontidão, interoperabilidade e defesa da OTAN, com fases como Swift Response, Immediate Response e Saber Guardian.",
+    "faicon": "bomb",
+    "datetime": "2025-06-22",
+    "title": "Operation Midnight Hammer: Ataques dos EUA a Sítios Nucleares Iranianos",
+    "body": "Em 22 de junho de 2025, bombardeiros B-2 Spirit dos EUA lançaram 14 bombas GBU-57 Massive Ordnance Penetrator (MOP) contra as instalações nucleares de Fordow e Natanz no Irã, visando destruir alvos subterrâneos fortificados. A operação envolveu mísseis Tomahawk em Isfahan e marcou o primeiro uso em combate do MOP.",
     "image": {
-      "link": "https://www.europeafrica.army.mil/ArticleViewPressRelease/Article/4147268/press-release-us-assets-depart-for-defender-25-exercise-alongside-allies-and-pa/",
-      "src": "https://media.defense.gov/2025/Apr/07/2003683353/780/780/0/250109-A-LU981-001.JPG",
-      "caption": "Equipamentos do Exército dos EUA"
+      "link": "https://en.wikipedia.org/wiki/Massive_Ordnance_Penetrator",
+      "src": "https://defensescoop.com/wp-content/uploads/sites/8/2025/06/B-2.jpg",
+      "caption": "Bomba GBU-57 MOP"
     },
     "links": [
       {
-        "href": "https://www.europeafrica.army.mil/ArticleViewPressRelease/Article/4147268/press-release-us-assets-depart-for-defender-25-exercise-alongside-allies-and-pa/",
-        "linkText": "Comunicado de Imprensa"
+        "href": "https://defensescoop.com/2025/06/22/air-force-mop-gbu-57-bomb-iranian-nuclear-sites-midnight-hammer/",
+        "linkText": "Artigo Defense Scoop"
+      },
+      {
+        "href": "https://en.wikipedia.org/wiki/Massive_Ordnance_Penetrator",
+        "linkText": "Página da Wikipedia"
       }
     ]
   },
@@ -67,22 +71,22 @@ const entries = [
     ]
   },
   {
-    "id": "20250713",
-    "categories": ["Exercise", "Pacific"],
+    "id": "20250410",
+    "categories": ["Exercise", "Europe"],
     "color": "brown",
-    "faicon": "handshake",
-    "datetime": "2025-07-13",
-    "title": "Exercise Talisman Sabre 2025: Aliança EUA-Austrália",
-    "body": "Exercício bienal de 13 de julho a 4 de agosto de 2025 na Austrália e Papua Nova Guiné, com mais de 35.000 tropas de múltiplos países. Foco em interoperabilidade, manobras anfíbias, operações aéreas, marítimas e especiais para manter um Indo-Pacífico livre.",
+    "faicon": "shield",
+    "datetime": "2025-04-10",
+    "title": "DEFENDER 25: Exercício com Aliados da OTAN",
+    "body": "Exercício em larga escala liderado pelo Exército dos EUA na Europa, de abril a junho de 2025, envolvendo 25.000 tropas em 18 países. Foco em prontidão, interoperabilidade e defesa da OTAN, com fases como Swift Response, Immediate Response e Saber Guardian.",
     "image": {
-      "link": "https://www.army.mil/article/286395/exercise_talisman_sabre_2025_to_showcase_us_australia_alliance",
-      "src": "https://api.army.mil/e2/c/images/2025/06/16/961d3d86/original.jpg",
-      "caption": "Tropas em treinamento"
+      "link": "https://www.europeafrica.army.mil/ArticleViewPressRelease/Article/4147268/press-release-us-assets-depart-for-defender-25-exercise-alongside-allies-and-pa/",
+      "src": "https://media.defense.gov/2025/Apr/07/2003683353/780/780/0/250109-A-LU981-001.JPG",
+      "caption": "Equipamentos do Exército dos EUA"
     },
     "links": [
       {
-        "href": "https://www.army.mil/article/286395/exercise_talisman_sabre_2025_to_showcase_us_australia_alliance",
-        "linkText": "Artigo do Exército dos EUA"
+        "href": "https://www.europeafrica.army.mil/ArticleViewPressRelease/Article/4147268/press-release-us-assets-depart-for-defender-25-exercise-alongside-allies-and-pa/",
+        "linkText": "Comunicado de Imprensa"
       }
     ]
   },
@@ -163,6 +167,26 @@ const entries = [
       {
         "href": "https://www.army.mil/article/284494/african_lion_25_largest_us_led_military_exercise_in_africa_kicks_off_across_four_nations",
         "linkText": "Artigo do Exército dos EUA"
+      }
+    ]
+  },
+  {
+    "id": "20250315",
+    "categories": ["Airstrikes", "Yemen"],
+    "color": "brown",
+    "faicon": "bomb",
+    "datetime": "2025-03-15",
+    "title": "Operation Rough Rider: US Attacks in Yemen",
+    "body": "Campanha de ataques aéreos e navais dos EUA contra alvos Houthi no Iêmen, de março a maio de 2025, em resposta a ataques a navios no Mar Vermelho. Incluiu strikes em Sanaa, Saada e outros, com participação do Reino Unido a partir de abril. Encerrada em 6 de maio com cessar-fogo.",
+    "image": {
+      "link": "https://en.wikipedia.org/wiki/March–May_2025_United_States_attacks_in_Yemen",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_%2853245908850%29.jpg/640px-Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_%2853245908850%29.jpg",
+      "caption": "Mapa da crise no Mar Vermelho"
+    },
+    "links": [
+      {
+        "href": "https://en.wikipedia.org/wiki/March–May_2025_United_States_attacks_in_Yemen",
+        "linkText": "Página da Wikipedia"
       }
     ]
   },
