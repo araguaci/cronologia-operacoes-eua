@@ -7,6 +7,26 @@ const footer =
  * sources: https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations#ref_Slave_TrafficSlave_Traffic
  **/
 const entries = [
+    {
+    id: "20250819",
+    categories: ["EUA", "Venezuela", "mar", "poder militar"],
+    color: "brown",
+    faicon: "fa-fighter-jet",
+    datetime: "2025-08-19",
+    title: "EUA deslocam navios de guerra para costa da Venezuela e prometem 'todos os elementos do poder americano' contra Maduro",
+    body: "O governo dos Estados Unidos deslocou três navios de guerra (USS Gravely, USS Jason Dunham e USS Sampson), cerca de 4.000 marinheiros e fuzileiros navais, aviões de vigilância P-8 e ao menos um submarino para o Caribe, prometendo usar todo o poder militar contra o regime de Nicolás Maduro, classificado como 'cartel narcoterrorista'. Maduro respondeu mobilizando 4,5 milhões de milicianos. Essa operação pode se estender por meses.",
+    image: {
+      link: "https://clickpetroleoegas.com.br/apos-envio-de-navios-ao-caribe-governo-trump-promete-usar-todo-poder-americano-contra-maduro-enquanto-militares-aguardam-telefonema-do-rei-da-america-fpsv/",
+      src: "https://clickpetroleoegas.com.br/wp-content/uploads/2025/08/navios-eua-trump-maduro-milicianos.jpg", 
+      caption: "Navios de guerra dos EUA deslocados ao Caribe"
+    },
+    links: [
+      {
+        href: "https://clickpetroleoegas.com.br/apos-envio-de-navios-ao-caribe-governo-trump-promete-usar-todo-poder-americano-contra-maduro-enquanto-militares-aguardam-telefonema-do-rei-da-america-fpsv/",
+        linkText: "Clique para mais detalhes"
+      }
+    ]
+  },
   {
     id: '20250819',
     categories: ['Exercise', 'Air', 'Alaska'],
@@ -46,6 +66,26 @@ const entries = [
         linkText: 'USNI News Article',
       },
     ],
+  },
+    {
+    id: "20250814",
+    categories: ["EUA", "cartéis", "terra", "mar", "ar", "América Latina"],
+    color: "brown",
+    faicon: "fa-flag",
+    datetime: "2025-08-14",
+    title: "EUA enviam tropas para América Latina contra cartéis de drogas após ordem de Trump",
+    body: "Os EUA mobilizaram tropas aéreas, navais e terrestres para a América Latina, voltadas principalmente para operações no sul do Mar do Caribe. A operação - autorizada secretamente pelo presidente Trump - mira combater cartéis como Tren de Aragua e MS-13, com previsão de ataques em solo, mar e via aérea, especialmente em México e Venezuela.",
+    image: {
+      link: "https://g1.globo.com/mundo/noticia/2025/08/14/eua-comecam-a-enviar-tropas-para-america-latina-para-combater-carteis.ghtml",
+      src: "https://s2-g1.glbimg.com/y3X0qCvrDa5JKtF4oJ7urXrTA2U=/0x0:4096x2732/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/6/A/986AJNTT65FncW0cftNA/2025-01-23t222205z-481546762-rc2yfcapuf60-rtrmadp-3-chile-crime-venezuela-politics.jpg", 
+      caption: "Militares dos EUA mobilizados na América Latina"
+    },
+    links: [
+      {
+        "href": "https://g1.globo.com/mundo/noticia/2025/08/14/eua-comecam-a-enviar-tropas-para-america-latina-para-combater-carteis.ghtml",
+        "linkText": "Leia a reportagem completa"
+      }
+    ]
   },
   {
     id: '20250812',
@@ -89,7 +129,7 @@ const entries = [
   },
   {
     id: '20250713',
-    categories: ['Exercise', 'Pacific'],
+    categories: ['Exercise', 'Pacífico'],
     color: 'brown',
     faicon: 'handshake',
     datetime: '2025-07-13',
@@ -109,7 +149,7 @@ const entries = [
   },
   {
     id: '20250710',
-    categories: ['Exercise', 'Pacific'],
+    categories: ['Exercise', 'Pacífico'],
     color: 'brown',
     faicon: 'plane',
     datetime: '2025-07-10',
@@ -3155,7 +3195,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Kiribati', 'Marines'],
+    categories: ['Kiribati', 'Marines', 'Pacífico'],
     color: 'navy',
     faicon: 'person-rifle',
     datetime: '1841',
