@@ -57,7 +57,7 @@ const entries = [
     body: 'Update on U.S. Navy fleet positions, including one guided-missile destroyer operating in the Eastern Mediterranean as an independent deployer.',
     image: {
       link: 'https://news.usni.org/2025/08/18/usni-news-fleet-and-marine-tracker-august-18-2025',
-      src: 'https://news.usni.org/wp-content/uploads/2025/08/9069673-scaled.jpg',
+      src: 'https://pbs.twimg.com/media/GypQgheWwAE3N7x?format=jpg&name=4096x4096',
       caption: 'U.S. Navy vessels',
     },
     links: [
