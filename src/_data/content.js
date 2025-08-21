@@ -1,11 +1,92 @@
 const header = 'Cronologia das operações militares dos Estados Unidos';
-const footer = 'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations">Timeline of United States military operations</a></li><li><a id="RL30172" href="https://web.archive.org/web/20190719075855/http://www.au.af.mil/au/awc/awcgate/crs/rl30172.htm">RL30172: Instances of Use of United States Armed Forces Abroad, 1798 - 2004</a></li><li><a id="R42738" href="https://crsreports.congress.gov/product/pdf/R/R42738">R42738: Instances of Use of United States Armed Forces Abroad, 1798-2023</a></li><li><a href="https://forms.gle/SMJVgcswVpt1dicH6">Informe se você sabe de algum evento que ainda não esteja nesta linha de tempo. Obrigado.</a></li><br/>';
+const footer =
+  'Fontes: <br/><li><a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations">Timeline of United States military operations</a></li><li><a id="RL30172" href="https://web.archive.org/web/20190719075855/http://www.au.af.mil/au/awc/awcgate/crs/rl30172.htm">RL30172: Instances of Use of United States Armed Forces Abroad, 1798 - 2004</a></li><li><a id="R42738" href="https://crsreports.congress.gov/product/pdf/R/R42738">R42738: Instances of Use of United States Armed Forces Abroad, 1798-2023</a></li><li><a href="https://forms.gle/SMJVgcswVpt1dicH6">Informe se você sabe de algum evento que ainda não esteja nesta linha de tempo. Obrigado.</a></li><br/>';
 
-/** 
- * faicon: https://fontawesome.com/search?q=plane&o=r&m=free 
+/**
+ * faicon: https://fontawesome.com/search?q=plane&o=r&m=free
  * sources: https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations#ref_Slave_TrafficSlave_Traffic
-**/
+ **/
 const entries = [
+  {
+    id: '20250819',
+    categories: ['Exercise', 'Air', 'Alaska'],
+    color: 'brown',
+    faicon: 'plane',
+    datetime: '2025-08-19',
+    title: 'Northern Edge 2025: Multi-Domain Exercise in Alaska',
+    body: 'Northern Edge 2025 kicked off across Alaska, involving over 6400 service members, 100 aircraft, and seven U.S. and Canadian vessels. The exercise focuses on high-end warfighting and multi-domain capabilities to ensure readiness.',
+    image: {
+      link: 'https://www.defense.gov/News/News-Stories/Article/Article/4279080/northern-edge-2025-kicks-off-across-alaska/',
+      src: 'https://media.defense.gov/2025/Aug/19/2003783254/825/780/0/250817-F-LX373-1375K.JPG',
+      caption: 'Aircraft participating in Northern Edge 2025',
+    },
+    links: [
+      {
+        href: 'https://www.defense.gov/News/News-Stories/Article/Article/4279080/northern-edge-2025-kicks-off-across-alaska/',
+        linkText: 'Department of Defense Article',
+      },
+    ],
+  },
+  {
+    id: '20250818',
+    categories: ['Fleet Tracker', 'Sea', 'Mediterrâneo'],
+    color: 'brown',
+    faicon: 'ship',
+    datetime: '2025-08-18',
+    title: 'USNI News Fleet and Marine Tracker',
+    body: 'Update on U.S. Navy fleet positions, including one guided-missile destroyer operating in the Eastern Mediterranean as an independent deployer.',
+    image: {
+      link: 'https://news.usni.org/2025/08/18/usni-news-fleet-and-marine-tracker-august-18-2025',
+      src: 'https://news.usni.org/wp-content/uploads/2025/08/9261982-scaled.jpg',
+      caption: 'U.S. Navy vessels',
+    },
+    links: [
+      {
+        href: 'https://news.usni.org/2025/08/18/usni-news-fleet-and-marine-tracker-august-18-2025',
+        linkText: 'USNI News Article',
+      },
+    ],
+  },
+  {
+    id: '20250812',
+    categories: ['Exercise', 'Sea'],
+    color: 'brown',
+    faicon: 'ship',
+    datetime: '2025-08-12',
+    title: 'Large-Scale Exercise 2025 (LSE 2025)',
+    body: 'The U.S. Navy concluded the execution phase of Large-Scale Exercise 2025 on August 8, 2025, focusing on maritime operations and global naval readiness.',
+    image: {
+      link: 'https://centerformaritimestrategy.org/publications/large-scale-exercise-2025/',
+      src: 'https://centerformaritimestrategy.org/wp-content/uploads/2025/08/thumbnail_250805-N-CI480-007-1536x1024.jpg',
+      caption: 'Naval vessels in LSE 2025',
+    },
+    links: [
+      {
+        href: 'https://centerformaritimestrategy.org/publications/large-scale-exercise-2025/',
+        linkText: 'Center for Maritime Strategy',
+      },
+    ],
+  },
+  {
+    id: '20250804',
+    categories: ['Exercise', 'Sea'],
+    color: 'brown',
+    faicon: 'ship',
+    datetime: '2025-08-04',
+    title: 'U.S. and Allies Rehearse Amphibious Landings in Talisman Sabre',
+    body: 'U.S. Navy`s amphibious contribution to Talisman Sabre 2025 centered on USS America (LHA-6) and combined forces practicing simultaneous amphibious landings.',
+    image: {
+      link: 'https://news.usni.org/2025/08/04/u-s-allies-rehearse-simultaneous-amphibious-landings',
+      src: 'https://news.usni.org/wp-content/uploads/2025/08/5-scaled.jpg',
+      caption: 'Amphibious operations',
+    },
+    links: [
+      {
+        href: 'https://news.usni.org/2025/08/04/u-s-allies-rehearse-simultaneous-amphibious-landings',
+        linkText: 'USNI News Article',
+      },
+    ],
+  },
   {
     id: '20250713',
     categories: ['Exercise', 'Pacific'],
@@ -17,14 +98,14 @@ const entries = [
     image: {
       link: 'https://www.army.mil/article/286395/exercise_talisman_sabre_2025_to_showcase_us_australia_alliance',
       src: 'https://api.army.mil/e2/c/images/2025/06/16/961d3d86/original.jpg',
-      caption: 'Tropas em treinamento durante Talisman Sabre'
+      caption: 'Tropas em treinamento durante Talisman Sabre',
     },
     links: [
       {
         href: 'https://www.army.mil/article/286395/exercise_talisman_sabre_2025_to_showcase_us_australia_alliance',
-        linkText: 'Artigo do Exército dos EUA'
-      }
-    ]
+        linkText: 'Artigo do Exército dos EUA',
+      },
+    ],
   },
   {
     id: '20250710',
@@ -37,14 +118,14 @@ const entries = [
     image: {
       link: 'https://www.af.mil/News/Article-Display/Article/4240598/us-allies-launch-largest-pacific-air-exercise-with-reforpac-2025/',
       src: 'https://media.defense.gov/2025/Jul/10/2003751935/1200/1200/0/250709-F-VQ736-1021.JPG',
-      caption: 'Aeronaves em formação durante REFORPAC'
+      caption: 'Aeronaves em formação durante REFORPAC',
     },
     links: [
       {
         href: 'https://www.af.mil/News/Article-Display/Article/4240598/us-allies-launch-largest-pacific-air-exercise-with-reforpac-2025/',
-        linkText: 'Artigo da Força Aérea dos EUA'
-      }
-    ]
+        linkText: 'Artigo da Força Aérea dos EUA',
+      },
+    ],
   },
   {
     id: '20250709',
@@ -57,14 +138,14 @@ const entries = [
     image: {
       link: 'https://www.spaceforce.mil/News/Article-Display/Article/4238192/resolute-space-25-guardians-ready-to-lead-services-largest-exercise/',
       src: 'https://media.defense.gov/2025/Jul/09/2003750268/1200/1200/0/250708-X-VI177-0034.JPG',
-      caption: 'Guardiões em simulação espacial'
+      caption: 'Guardiões em simulação espacial',
     },
     links: [
       {
         href: 'https://www.spaceforce.mil/News/Article-Display/Article/4238192/resolute-space-25-guardians-ready-to-lead-services-largest-exercise/',
-        linkText: 'Artigo da Força Espacial'
-      }
-    ]
+        linkText: 'Artigo da Força Espacial',
+      },
+    ],
   },
   {
     id: '20250707',
@@ -77,14 +158,14 @@ const entries = [
     image: {
       link: 'https://www.africom.mil/pressrelease/35891/us-forces-conduct-strike-targeting-isis-somalia',
       src: 'https://www.africom.mil/Img/35822/Cover/africom-logo---cut',
-      caption: 'Mapa da região de Puntland'
+      caption: 'Mapa da região de Puntland',
     },
     links: [
       {
         href: 'https://www.africom.mil/pressrelease/35891/us-forces-conduct-strike-targeting-isis-somalia',
-        linkText: 'Comunicado do AFRICOM'
-      }
-    ]
+        linkText: 'Comunicado do AFRICOM',
+      },
+    ],
   },
   {
     id: '20250622',
@@ -97,18 +178,18 @@ const entries = [
     image: {
       link: 'https://www.npr.org/2025/06/21/nx-s1-5441127/iran-us-strike-nuclear-trump',
       src: 'https://defensescoop.com/wp-content/uploads/sites/8/2025/06/B-2.jpg',
-      caption: 'Bomba GBU-57 MOP'
+      caption: 'Bomba GBU-57 MOP',
     },
     links: [
       {
         href: 'https://www.npr.org/2025/06/21/nx-s1-5441127/iran-us-strike-nuclear-trump',
-        linkText: 'Artigo NPR'
+        linkText: 'Artigo NPR',
       },
       {
         href: 'https://www.reuters.com/world/middle-east/trump-announces-israel-iran-ceasefire-2025-06-23/',
-        linkText: 'Artigo Reuters'
-      }
-    ]
+        linkText: 'Artigo Reuters',
+      },
+    ],
   },
   {
     id: '20250601',
@@ -121,14 +202,14 @@ const entries = [
     image: {
       link: 'https://www.southcom.mil/MEDIA/NEWS-ARTICLES/Article/4186371/continuing-promise-2025-set-to-begin/',
       src: 'https://media.defense.gov/2015/Apr/10/2003715028/1920/1080/0/150410-N-DJ347-103.jpg',
-      caption: 'Navio USNS Comfort em operação'
+      caption: 'Navio USNS Comfort em operação',
     },
     links: [
       {
         href: 'https://www.southcom.mil/MEDIA/NEWS-ARTICLES/Article/4186371/continuing-promise-2025-set-to-begin/',
-        linkText: 'Artigo do SOUTHCOM'
-      }
-    ]
+        linkText: 'Artigo do SOUTHCOM',
+      },
+    ],
   },
   {
     id: '20250421',
@@ -141,14 +222,14 @@ const entries = [
     image: {
       link: 'https://www.marines.mil/News/News-Display/Article/4156181/philippine-us-troops-kick-off-exercise-balikatan-2025/',
       src: 'https://media.defense.gov/2025/Apr/07/2003683353/780/780/0/250109-A-LU981-001.JPG',
-      caption: 'Tropas EUA e Filipinas em exercício'
+      caption: 'Tropas EUA e Filipinas em exercício',
     },
     links: [
       {
         href: 'https://www.marines.mil/News/News-Display/Article/4156181/philippine-us-troops-kick-off-exercise-balikatan-2025/',
-        linkText: 'Artigo dos Marines'
-      }
-    ]
+        linkText: 'Artigo dos Marines',
+      },
+    ],
   },
   {
     id: '20250414',
@@ -161,14 +242,14 @@ const entries = [
     image: {
       link: 'https://www.army.mil/article/284494/african_lion_25_largest_us_led_military_exercise_in_africa_kicks_off_across_four_nations',
       src: 'https://media.defense.gov/2025/Apr/11/2003689970/780/780/0/250408-M-RA226-1280.JPG',
-      caption: 'Tropas em African Lion'
+      caption: 'Tropas em African Lion',
     },
     links: [
       {
         href: 'https://www.army.mil/article/284494/african_lion_25_largest_us_led_military_exercise_in_africa_kicks_off_across_four_nations',
-        linkText: 'Artigo do Exército dos EUA'
-      }
-    ]
+        linkText: 'Artigo do Exército dos EUA',
+      },
+    ],
   },
   {
     id: '20250410',
@@ -181,14 +262,14 @@ const entries = [
     image: {
       link: 'https://www.europeafrica.army.mil/ArticleViewPressRelease/Article/4147268/press-release-us-assets-depart-for-defender-25-exercise-alongside-allies-and-pa/',
       src: 'https://www.whitehouse.gov/wp-content/themes/whitehouse/assets/img/whitehouse-47-logo.webp',
-      caption: 'Equipamentos em trânsito para DEFENDER'
+      caption: 'Equipamentos em trânsito para DEFENDER',
     },
     links: [
       {
         href: 'https://www.europeafrica.army.mil/ArticleViewPressRelease/Article/4147268/press-release-us-assets-depart-for-defender-25-exercise-alongside-allies-and-pa/',
-        linkText: 'Comunicado de Imprensa'
-      }
-    ]
+        linkText: 'Comunicado de Imprensa',
+      },
+    ],
   },
   {
     id: '20250401',
@@ -201,14 +282,14 @@ const entries = [
     image: {
       link: 'https://arsof-history.org/capex-2025/index.html',
       src: 'https://arsof-history.org/capex-2025/images/usasoc_dui.png',
-      caption: 'Demonstração de forças especiais'
+      caption: 'Demonstração de forças especiais',
     },
     links: [
       {
         href: 'https://arsof-history.org/capex-2025/index.html',
-        linkText: 'Página de História ARSOF'
-      }
-    ]
+        linkText: 'Página de História ARSOF',
+      },
+    ],
   },
   {
     id: '20250325',
@@ -221,14 +302,14 @@ const entries = [
     image: {
       link: 'https://twitter.com/ArlaadiMnetwork/status/1904964110791377288',
       src: 'https://api.army.mil/e2/c/images/2025/04/09/186aab53/size0-full.jpg',
-      caption: 'Mapa da operação em Puntland'
+      caption: 'Mapa da operação em Puntland',
     },
     links: [
       {
         href: 'https://twitter.com/ArlaadiMnetwork/status/1904964110791377288',
-        linkText: 'Post no X'
-      }
-    ]
+        linkText: 'Post no X',
+      },
+    ],
   },
   {
     id: '20250315',
@@ -241,18 +322,18 @@ const entries = [
     image: {
       link: 'https://en.wikipedia.org/wiki/March%E2%80%93May_2025_United_States_attacks_in_Yemen',
       src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_%2853245908850%29.jpg/640px-Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_%2853245908850%29.jpg',
-      caption: 'Mapa da crise no Mar Vermelho'
+      caption: 'Mapa da crise no Mar Vermelho',
     },
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/March%E2%80%93May_2025_United_States_attacks_in_Yemen',
-        linkText: 'Página da Wikipedia'
+        linkText: 'Página da Wikipedia',
       },
       {
         href: 'https://www.amnesty.org/en/latest/news/2025/05/yemen-us-air-strike-that-has-left-dozens-of-migrants-dead-must-be-investigated/',
-        linkText: 'Relatório Amnesty International'
-      }
-    ]
+        linkText: 'Relatório Amnesty International',
+      },
+    ],
   },
   {
     id: '20241216',
@@ -261,7 +342,7 @@ const entries = [
     faicon: 'location-crosshairs',
     datetime: '2024-12-16',
     title: 'Comando Central dos EUA realiza ataques aéreos contra agentes do ISIS',
-    body: 'Tampa, Flórida – As forças do Comando Central dos EUA (CENTCOM) conduziram ataques aéreos de precisão contra campos e agentes conhecidos do ISIS na Síria, em 16 de dezembro, matando 12 terroristas do ISIS. Os ataques contra os líderes, agentes e acampamentos do ISIS foram conduzidos como parte da missão em andamento para interromper, degradar e derrotar o ISIS, impedindo o grupo terrorista de conduzir operações externas e para garantir que o ISIS não busque oportunidades de se reconstituir no centro da Síria.',    
+    body: 'Tampa, Flórida – As forças do Comando Central dos EUA (CENTCOM) conduziram ataques aéreos de precisão contra campos e agentes conhecidos do ISIS na Síria, em 16 de dezembro, matando 12 terroristas do ISIS. Os ataques contra os líderes, agentes e acampamentos do ISIS foram conduzidos como parte da missão em andamento para interromper, degradar e derrotar o ISIS, impedindo o grupo terrorista de conduzir operações externas e para garantir que o ISIS não busque oportunidades de se reconstituir no centro da Síria.',
     image: {
       link: 'https://x.com/CENTCOM/status/1868708397149036782',
       src: 'https://pbs.twimg.com/media/Ge78YjlXMAAhiCD?format=jpg&name=900x900',
@@ -272,7 +353,7 @@ const entries = [
         href: 'https://x.com/CENTCOM/status/1868708397149036782',
         linkText: 'U.S. Central Command Conducts Airstrikes Against ISIS Operatives.',
       },
-    ],   
+    ],
   },
   {
     id: '20241208',
@@ -280,24 +361,28 @@ const entries = [
     color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '2024-12-08',
-    title: 'B-52s, F-15s e A-10s realizam ataques aéreos massivos anti-ISIS na Síria após a queda de Assad',
-    body: 'Em 8 de dezembro de 2024, os Estados Unidos realizaram uma série de ataques aéreos no centro e leste da Síria visando posições do Estado Islâmico (ISIS). Esses ataques foram executados usando ativos da Força Aérea dos EUA, especificamente bombardeiros B-52 Stratofortress, F-15 Eagles e A-10 Thunderbolt IIs. O objetivo desses ataques era atingir líderes, agentes e campos do ISIS, com o objetivo de degradar as capacidades do grupo e impedi-los de explorar a situação atual na Síria após o colapso do regime de Assad. Essas operações militares fazem parte de uma estratégia mais ampla dos EUA para combater o terrorismo na região, particularmente à luz da agitação política na Síria.',    
+    title:
+      'B-52s, F-15s e A-10s realizam ataques aéreos massivos anti-ISIS na Síria após a queda de Assad',
+    body: 'Em 8 de dezembro de 2024, os Estados Unidos realizaram uma série de ataques aéreos no centro e leste da Síria visando posições do Estado Islâmico (ISIS). Esses ataques foram executados usando ativos da Força Aérea dos EUA, especificamente bombardeiros B-52 Stratofortress, F-15 Eagles e A-10 Thunderbolt IIs. O objetivo desses ataques era atingir líderes, agentes e campos do ISIS, com o objetivo de degradar as capacidades do grupo e impedi-los de explorar a situação atual na Síria após o colapso do regime de Assad. Essas operações militares fazem parte de uma estratégia mais ampla dos EUA para combater o terrorismo na região, particularmente à luz da agitação política na Síria.',
     image: {
       link: 'https://www.airandspaceforces.com/us-b-52-f-15-a-10-massive-airstrikes-isis-syria/',
       src: 'https://www.airandspaceforces.com/app/uploads/2024/12/8771080-900x600.jpg',
       alt: 'Um B-52H Stratofortress da Força Aérea dos EUA realiza uma patrulha aérea de combate em apoio à Operação Inherent Resolve sobre a área de responsabilidade do Comando Central dos EUA em 23 de novembro de 2024.',
-      caption: 'Um B-52H Stratofortress da Força Aérea dos EUA realiza uma patrulha aérea de combate em apoio à Operação Inherent Resolve sobre a área de responsabilidade do Comando Central dos EUA em 23 de novembro de 2024.',
+      caption:
+        'Um B-52H Stratofortress da Força Aérea dos EUA realiza uma patrulha aérea de combate em apoio à Operação Inherent Resolve sobre a área de responsabilidade do Comando Central dos EUA em 23 de novembro de 2024.',
     },
     links: [
       {
         href: 'https://www.airandspaceforces.com/us-b-52-f-15-a-10-massive-airstrikes-isis-syria/',
-        linkText: 'B-52s, F-15s, and A-10s Conduct Massive Anti-ISIS Airstrikes in Syria After Fall of Assad',
+        linkText:
+          'B-52s, F-15s, and A-10s Conduct Massive Anti-ISIS Airstrikes in Syria After Fall of Assad',
       },
       {
         href: 'https://x.com/CENTCOM/status/1865841718366450013',
-        linkText: '𝐔.𝐒. 𝐂𝐞𝐧𝐭𝐫𝐚𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐂𝐨𝐧𝐝𝐮𝐜𝐭𝐬 𝐃𝐨𝐳𝐞𝐧𝐬 𝐨𝐟 𝐀𝐢𝐫𝐬𝐭𝐫𝐢𝐤𝐞𝐬 𝐭𝐨 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐞 𝐈𝐒𝐈𝐒 𝐂𝐚𝐦𝐩𝐬 𝐢𝐧 𝐂𝐞𝐧𝐭𝐫𝐚𝐥 𝐒𝐲𝐫𝐢𝐚',
+        linkText:
+          '𝐔.𝐒. 𝐂𝐞𝐧𝐭𝐫𝐚𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐂𝐨𝐧𝐝𝐮𝐜𝐭𝐬 𝐃𝐨𝐳𝐞𝐧𝐬 𝐨𝐟 𝐀𝐢𝐫𝐬𝐭𝐫𝐢𝐤𝐞𝐬 𝐭𝐨 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐞 𝐈𝐒𝐈𝐒 𝐂𝐚𝐦𝐩𝐬 𝐢𝐧 𝐂𝐞𝐧𝐭𝐫𝐚𝐥 𝐒𝐲𝐫𝐢𝐚',
       },
-    ],   
+    ],
   },
   {
     id: '20241118',
@@ -305,20 +390,23 @@ const entries = [
     color: 'brown',
     faicon: 'location-crosshairs',
     datetime: '2024-11-18',
-    title: 'Biden autoriza a Ucrânia a usar mísseis de longo alcance fornecidos pelos EUA para ataques mais profundos dentro da Rússia',
-    body: 'Joe Biden autorizou a Ucrânia a utilizar mísseis de longo alcance fornecidos pelos Estados Unidos para atacar território russo. Esta decisão, anunciada em várias fontes, representa uma mudança significativa na política americana em relação à guerra entre Ucrânia e Rússia. A autorização foi dada em resposta ao envio de tropas norte-coreanas para apoiar a Rússia em suas operações militares e a uma nova onda de ataques russos contra cidades ucranianas. Os mísseis ATACMS, com um alcance de até 300 km, foram autorizados para uso específico na região de Kursk, onde as forças ucranianas estão em confronto direto com as forças russas e norte-coreanas. Esta decisão foi vista como uma forma de retaliar contra a escalada de tensão e os ataques russos à infraestrutura energética ucraniana.',    
+    title:
+      'Biden autoriza a Ucrânia a usar mísseis de longo alcance fornecidos pelos EUA para ataques mais profundos dentro da Rússia',
+    body: 'Joe Biden autorizou a Ucrânia a utilizar mísseis de longo alcance fornecidos pelos Estados Unidos para atacar território russo. Esta decisão, anunciada em várias fontes, representa uma mudança significativa na política americana em relação à guerra entre Ucrânia e Rússia. A autorização foi dada em resposta ao envio de tropas norte-coreanas para apoiar a Rússia em suas operações militares e a uma nova onda de ataques russos contra cidades ucranianas. Os mísseis ATACMS, com um alcance de até 300 km, foram autorizados para uso específico na região de Kursk, onde as forças ucranianas estão em confronto direto com as forças russas e norte-coreanas. Esta decisão foi vista como uma forma de retaliar contra a escalada de tensão e os ataques russos à infraestrutura energética ucraniana.',
     image: {
       link: 'https://apnews.com/article/biden-ukraine-long-range-weapons-russia-52d424158182de2044ecc8bfcf011f9c/',
       src: 'https://dims.apnews.com/dims4/default/a0dadac/2147483647/strip/true/crop/4896x3264+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fad%2Fb3%2F3bccbcc4469889d22a0ac78c78e8%2F6d1884a666b54f219c7b56b1e744c692',
       alt: 'Biden authorizes Ukraine to use US-supplied longer range missiles for deeper strikes inside Russia',
-      caption: 'Biden authorizes Ukraine to use US-supplied longer range missiles for deeper strikes inside Russia.',
+      caption:
+        'Biden authorizes Ukraine to use US-supplied longer range missiles for deeper strikes inside Russia.',
     },
     links: [
       {
         href: 'https://apnews.com/article/biden-ukraine-long-range-weapons-russia-52d424158182de2044ecc8bfcf011f9c/',
-        linkText: 'Biden authorizes Ukraine to use US-supplied longer range missiles for deeper strikes inside Russia',
+        linkText:
+          'Biden authorizes Ukraine to use US-supplied longer range missiles for deeper strikes inside Russia',
       },
-    ],   
+    ],
   },
   {
     id: '20241017',
@@ -326,8 +414,9 @@ const entries = [
     color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '2024-10-17',
-    title: 'Bombardeiros furtivos dos EUA atacam bunkers subterrâneos dos rebeldes houthis do Iêmen',
-    body: 'EUA enviam bombardeiros furtivos B-2 para atingir os rebeldes Houthi do Iêmen! Pela primeira vez desde 2017, B-2s foram usados ​​em combate, atingindo 5 locais de armazenamento subterrâneo de armas com GBU-57 Massive Ordnance Penetrators (MOP) - as bombas mais pesadas do arsenal dos EUA.',    
+    title:
+      'Bombardeiros furtivos dos EUA atacam bunkers subterrâneos dos rebeldes houthis do Iêmen',
+    body: 'EUA enviam bombardeiros furtivos B-2 para atingir os rebeldes Houthi do Iêmen! Pela primeira vez desde 2017, B-2s foram usados ​​em combate, atingindo 5 locais de armazenamento subterrâneo de armas com GBU-57 Massive Ordnance Penetrators (MOP) - as bombas mais pesadas do arsenal dos EUA.',
     image: {
       link: 'https://time.com/7093958/us-stealth-bombers-yemen-houthi-rebels-bunkers/',
       src: 'https://api.time.com/wp-content/uploads/2024/10/US-B2-stealth-bomber.jpg?quality=75&w=1024',
@@ -341,9 +430,10 @@ const entries = [
       },
       {
         href: 'https://x.com/WarNewsNow55/status/1846856358332670068',
-        linkText: 'US deploys B-2 stealth bombers to target Yemens Houthi rebels! For the first time since 2017, B-2s were used in combat, hitting 5 underground weapons storage sites with GBU-57 Massive Ordnance Penetrators (MOP) - the heaviest bombs in the US arsenal',
+        linkText:
+          'US deploys B-2 stealth bombers to target Yemens Houthi rebels! For the first time since 2017, B-2s were used in combat, hitting 5 underground weapons storage sites with GBU-57 Massive Ordnance Penetrators (MOP) - the heaviest bombs in the US arsenal',
       },
-    ],   
+    ],
   },
   {
     id: '20240727',
@@ -352,7 +442,7 @@ const entries = [
     faicon: 'jet-fighter-up',
     datetime: '2024-07-27',
     title: 'Comando Central destroi lançador (UAV) Houthi',
-    body: 'Aeronaves e helicópteros dos EUA podem ser ouvidos sobre a cidade de Deir ez-Zor, no leste da Síria, após o ataque às tropas americanas na Base da Coalizão dos EUA nos campos de petróleo de Al-Omar e no MSS Eufrates no campo de gás de Conoco anteriormente por foguetes disparado pelas forças apoiadas pelo Irã.',    
+    body: 'Aeronaves e helicópteros dos EUA podem ser ouvidos sobre a cidade de Deir ez-Zor, no leste da Síria, após o ataque às tropas americanas na Base da Coalizão dos EUA nos campos de petróleo de Al-Omar e no MSS Eufrates no campo de gás de Conoco anteriormente por foguetes disparado pelas forças apoiadas pelo Irã.',
     image: {
       link: 'https://x.com/sentdefender/status/1817315557437506024',
       src: 'https://pbs.twimg.com/media/GTW-ZJwXIAAtCcx?format=jpg&name=900x900',
@@ -364,7 +454,7 @@ const entries = [
         href: 'https://x.com/sentdefender/status/1817315557437506024',
         linkText: 'Comando Central destroi lançador (UAV) Houthi',
       },
-    ],   
+    ],
   },
   {
     id: '20240725',
@@ -373,7 +463,7 @@ const entries = [
     faicon: 'jet-fighter-up',
     datetime: '2024-07-25',
     title: 'Comando Central destroi lançador (UAV) Houthi',
-    body: 'USCENTCOM destruíram com sucesso um lançador de veículo aéreo não tripulado (UAV) Houthi apoiado pelo Irã em uma área do Iêmen controlada pelos Houthi.<br/> Foi determinado que este lançador representava uma ameaça iminente aos EUA, às forças da coalizão e aos navios mercantes na região. Estas ações foram tomadas para proteger a liberdade de navegação e tornar as águas internacionais mais seguras e protegidas.',    
+    body: 'USCENTCOM destruíram com sucesso um lançador de veículo aéreo não tripulado (UAV) Houthi apoiado pelo Irã em uma área do Iêmen controlada pelos Houthi.<br/> Foi determinado que este lançador representava uma ameaça iminente aos EUA, às forças da coalizão e aos navios mercantes na região. Estas ações foram tomadas para proteger a liberdade de navegação e tornar as águas internacionais mais seguras e protegidas.',
     image: {
       link: 'https://x.com/CENTCOM/status/1816567367226515619',
       src: 'https://pbs.twimg.com/media/GTW-ZJwXIAAtCcx?format=jpg&name=900x900',
@@ -385,7 +475,7 @@ const entries = [
         href: 'https://x.com/CENTCOM/status/1816567367226515619',
         linkText: 'Comando Central destroi lançador (UAV) Houthi',
       },
-    ],   
+    ],
   },
   {
     id: '20240724',
@@ -394,7 +484,7 @@ const entries = [
     faicon: 'jet-fighter-up',
     datetime: '2024-07-24',
     title: 'USCENTCOM destroi mísseis Houthi apoiados pelo Irã',
-    body: 'As forças do Comando Central dos EUA (USCENTCOM) destruíram com sucesso dois mísseis Houthi apoiados pelo Irã em lançadores em uma área do Iêmen controlada pelos Houthi. <br/>Foi determinado que estas armas representavam uma ameaça iminente aos EUA, às forças da coligação e aos navios mercantes na região. Estas ações foram tomadas para proteger a liberdade de navegação e tornar as águas internacionais mais seguras e protegidas.',    
+    body: 'As forças do Comando Central dos EUA (USCENTCOM) destruíram com sucesso dois mísseis Houthi apoiados pelo Irã em lançadores em uma área do Iêmen controlada pelos Houthi. <br/>Foi determinado que estas armas representavam uma ameaça iminente aos EUA, às forças da coligação e aos navios mercantes na região. Estas ações foram tomadas para proteger a liberdade de navegação e tornar as águas internacionais mais seguras e protegidas.',
     image: {
       link: 'https://x.com/CENTCOM/status/1816255346190524818',
       src: 'https://pbs.twimg.com/media/GTW-ZJwXIAAtCcx?format=jpg&name=900x900',
@@ -406,7 +496,7 @@ const entries = [
         href: 'https://x.com/CENTCOM/status/1816255346190524818',
         linkText: 'USCENTCOM destroi mísseis Houthi apoiados pelo Irã',
       },
-    ],   
+    ],
   },
   {
     id: '20240724',
@@ -414,8 +504,9 @@ const entries = [
     color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '2024-07-24',
-    title: 'NORAD detecta, rastreia e intercepta aeronaves russas e da RPC que operam no Alasca ADIZ',
-    body: 'COLORADO SPRINGS, Colorado - O NORAD detectou, rastreou e interceptou duas aeronaves militares russas TU-95 e duas aeronaves militares H-6 da RPC operando na Zona de Identificação de Defesa Aérea do Alasca (ADIZ) em 24 de julho de 2024. Caças NORAD dos Estados Unidos e Canadá realizaram a interceptação.',    
+    title:
+      'NORAD detecta, rastreia e intercepta aeronaves russas e da RPC que operam no Alasca ADIZ',
+    body: 'COLORADO SPRINGS, Colorado - O NORAD detectou, rastreou e interceptou duas aeronaves militares russas TU-95 e duas aeronaves militares H-6 da RPC operando na Zona de Identificação de Defesa Aérea do Alasca (ADIZ) em 24 de julho de 2024. Caças NORAD dos Estados Unidos e Canadá realizaram a interceptação.',
     image: {
       link: 'https://www.norad.mil/Newsroom/Press-Releases/Article/3849184/norad-detects-tracks-and-intercepts-russian-and-prc-aircraft-operating-in-the-a/',
       src: 'https://media.defense.gov/2023/Aug/17/2003282701/1920/1080/0/230817-F-TH920-001.PNG',
@@ -425,9 +516,10 @@ const entries = [
     links: [
       {
         href: 'https://www.norad.mil/Newsroom/Press-Releases/Article/3849184/norad-detects-tracks-and-intercepts-russian-and-prc-aircraft-operating-in-the-a/',
-        linkText: 'NORAD detects, tracks and intercepts Russian and PRC aircraft operating in the Alaska ADIZ',
+        linkText:
+          'NORAD detects, tracks and intercepts Russian and PRC aircraft operating in the Alaska ADIZ',
       },
-    ],   
+    ],
   },
   {
     id: '20240722',
@@ -436,7 +528,7 @@ const entries = [
     faicon: 'jet-fighter-up',
     datetime: '2024-07-22',
     title: 'Caças russos interceptam aviões da OTAN',
-    body: 'Bombardeiros nucleares dos EUA se aproximam da Rússia em vôo histórico.',    
+    body: 'Bombardeiros nucleares dos EUA se aproximam da Rússia em vôo histórico.',
     image: {
       link: 'https://www.clmbrasil.com.br/bombardeiros-nucleares-dos-eua-se-aproximam-da-russia-em-voo-historico-cacas-russos-interceptam-avioes-da-otan',
       src: 'https://www.clmbrasil.com.br/wp-content/uploads/2024/07/images-1-15.jpeg',
@@ -448,8 +540,9 @@ const entries = [
         href: 'https://www.clmbrasil.com.br/bombardeiros-nucleares-dos-eua-se-aproximam-da-russia-em-voo-historico-cacas-russos-interceptam-avioes-da-otan/',
         linkText: 'Caças russos interceptam aviões da OTAN',
       },
-    ],   
-  },{
+    ],
+  },
+  {
     id: '20240721',
     categories: ['Ártico'],
     color: 'blue2',
@@ -466,9 +559,10 @@ const entries = [
     links: [
       {
         href: 'https://www.otempo.com.br/mundo/2024/7/21/russia-intercepta-bombardeiros-nucleares-dos-eua-em-missao-inedi',
-        linkText: 'Navios da Frota do Norte da Marinha Russa partindo da Baía de Kola para as águas abertas do Mar de Barents',
+        linkText:
+          'Navios da Frota do Norte da Marinha Russa partindo da Baía de Kola para as águas abertas do Mar de Barents',
       },
-    ],   
+    ],
   },
   {
     id: '20240707',
@@ -489,11 +583,11 @@ const entries = [
         href: 'https://www.youtube.com/watch?v=bD2weAoY5po',
         linkText: 'EUA e outros países da Otan enviarão sistemas Patriot à Ucrânia',
       },
-    ],   
+    ],
   },
   {
     id: '20240428',
-    categories: ['Níger', 'OTAN'],
+    categories: ['Níger', 'OTAN', 'Mediterrâneo'],
     color: 'navy',
     faicon: 'person-rifle',
     datetime: '2024-04-28',
@@ -504,8 +598,8 @@ const entries = [
         href: 'https://www.youtube.com/watch?v=NhmDzbdcG6M&t=1s',
         linkText: 'Grupo Wagner substitui tropas dos EUA no Níger | Podcast Vasto Mundo | Ep 208',
       },
-    ],   
-  },  
+    ],
+  },
   {
     id: '20240207',
     categories: ['Iraque', 'Bagdá', 'Hezbollah'],
@@ -526,7 +620,7 @@ const entries = [
         linkText: 'EUA afirmam ataque no Iraque que matou comandante do Hezbollah',
       },
     ],
-  },  
+  },
   {
     id: '20240202',
     categories: ['Iraque', 'Síria', 'Hezbollah'],
@@ -544,7 +638,8 @@ const entries = [
     links: [
       {
         href: 'https://www.rtp.pt/noticias/mundo/eua-bombardeiam-instalacoes-da-guarda-revolucionaria-iraniana-no-iraque-e-na-siria_n1548137',
-        linkText: 'EUA bombardeiam instalações da Guarda Revolucionária iraniana no Iraque e na Síria',
+        linkText:
+          'EUA bombardeiam instalações da Guarda Revolucionária iraniana no Iraque e na Síria',
       },
     ],
   },
@@ -554,8 +649,9 @@ const entries = [
     color: 'blue2',
     faicon: 'ship',
     datetime: '2023-12-21',
-    title: 'Como os navios de guerra dos EUA estão abatendo drones Houthi no Mar Vermelho e o que pode acontecer agora',
-    body: 'Navios americanos têm lutado contra um número crescente de armas disparadas por Houthis nas últimas semanas, com um destróier dos EUA abatendo mais de uma dúzia de drones em um dia.',    
+    title:
+      'Como os navios de guerra dos EUA estão abatendo drones Houthi no Mar Vermelho e o que pode acontecer agora',
+    body: 'Navios americanos têm lutado contra um número crescente de armas disparadas por Houthis nas últimas semanas, com um destróier dos EUA abatendo mais de uma dúzia de drones em um dia.',
     image: {
       link: 'https://www.cnnbrasil.com.br/internacional/analise-como-os-navios-de-guerra-dos-eua-estao-abatendo-drones-houthi-no-mar-vermelho-e-o-que-pode-acontecer-agora/',
       src: 'https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/06/Captura-de-tela-2023-06-03-145111.jpg?w=499&h=265&crop=1&quality=50',
@@ -567,15 +663,16 @@ const entries = [
         href: 'https://www.cnnbrasil.com.br/internacional/analise-como-os-navios-de-guerra-dos-eua-estao-abatendo-drones-houthi-no-mar-vermelho-e-o-que-pode-acontecer-agora/',
         linkText: 'Navios de guerra dos EUA estão abatendo drones Houthi no Mar Vermelho',
       },
-    ],   
-  },  
+    ],
+  },
   {
     id: '20231220',
     categories: ['Houthis', 'Iêmen'],
     color: 'blue',
     faicon: 'water',
     datetime: '2023-12-20',
-    title: 'Após ataques a navios, coalizão encabeçada pelos EUA vai criar corredor seguro no Mar Vermelho; líder rebelde diz que responderá com mísseis',
+    title:
+      'Após ataques a navios, coalizão encabeçada pelos EUA vai criar corredor seguro no Mar Vermelho; líder rebelde diz que responderá com mísseis',
     body: 'Chamada de "Guardião da Prosperidade" e ainda em fase inicial, a operação visa enfrentar a recente escalada de ataques dos houthis. Nos últimos dias, os houthis começaram a atacar um novo alvo com foguetes e drones: os navios cargueiros que passam pelo Mar Vermelho com destino ao Canal de Suez.',
     image: {
       link: 'https://g1.globo.com/mundo/noticia/2023/12/20/apos-ataques-a-navios-coalizao-encabecada-pelos-eua-vai-criar-corredor-seguro-no-mar-vermelho-lider-rebelde-diz-que-respondera-com-misseis.ghtml',
@@ -586,7 +683,8 @@ const entries = [
     links: [
       {
         href: 'https://g1.globo.com/mundo/noticia/2023/12/20/apos-ataques-a-navios-coalizao-encabecada-pelos-eua-vai-criar-corredor-seguro-no-mar-vermelho-lider-rebelde-diz-que-respondera-com-misseis.ghtml',
-        linkText: 'Após ataques a navios, coalizão encabeçada pelos EUA vai criar corredor seguro no Mar Vermelho',
+        linkText:
+          'Após ataques a navios, coalizão encabeçada pelos EUA vai criar corredor seguro no Mar Vermelho',
       },
     ],
   },
@@ -604,7 +702,7 @@ const entries = [
         linkText: 'Mais de 20 países vão integrar coalizão de proteção no Mar Vermelho, dizem EUA',
       },
     ],
-  },  
+  },
   {
     id: '20231121',
     categories: ['Bagdá'],
@@ -625,7 +723,7 @@ const entries = [
         linkText: 'Ataque dos EUA matou combatentes pró-iranianos no Iraque',
       },
     ],
-  },  
+  },
   {
     id: '20231027',
     categories: ['Síria'],
@@ -679,7 +777,7 @@ const entries = [
         href: 'http://www.navytimes.com/article/20140324/NEWS/303240040/U-S-sending-special-operations-forces-CV-22-Ospreys-Uganda',
         linkText: 'U-S-sending-special-operations-forces-CV-22-Ospreys-Uganda',
       },
-    ],    
+    ],
   },
   {
     id: 'calendar-days',
@@ -711,7 +809,8 @@ const entries = [
       {
         href: 'https://pt.openbriefing.org/publica%C3%A7%C3%B5es/relat%C3%B3rio-e-artigos/EUA-atacam-drones-no-Paquist%C3%A3o/',
         linkText: 'Ataques de drones dos EUA no Paquistão: ineficazes e ilegítimos',
-      }],
+      },
+    ],
   },
   {
     id: 'calendar-days',
@@ -1020,7 +1119,8 @@ const entries = [
     links: [
       {
         href: 'https://web.archive.org/web/20110721004708/http://ftp.resource.org/gpo.gov/documents/105/hd318.pdf',
-        linkText: 'A REPORT ON THE SITUATION IN MONROVIA, LIBERIA AND THE INCREASED SECURITY AT THE U.S. EMBASSY THERE',
+        linkText:
+          'A REPORT ON THE SITUATION IN MONROVIA, LIBERIA AND THE INCREASED SECURITY AT THE U.S. EMBASSY THERE',
       },
       {
         href: 'https://crsreports.congress.gov/product/pdf/R/R42738',
@@ -3190,7 +3290,8 @@ const entries = [
     links: [
       {
         href: 'http://www.globalsecurity.org/military/ops/slave.htm',
-        linkText: '"African Slave Trade Patrol – 1820–1861". GlobalSecurity.org. Retrieved April 15, 2007',
+        linkText:
+          '"African Slave Trade Patrol – 1820–1861". GlobalSecurity.org. Retrieved April 15, 2007',
       },
       {
         href: 'https://en.wikipedia.org/wiki/Arikara_War',
@@ -3206,7 +3307,7 @@ const entries = [
       src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/An_Arrikara_warrior_0027v.jpg/300px-An_Arrikara_warrior_0027v.jpg',
       alt: 'Um guerreiro Arikara, do artista Karl Bodmer',
       caption: 'Um guerreiro Arikara',
-    },    
+    },
   },
   {
     id: 'calendar-days',
@@ -3299,7 +3400,7 @@ const entries = [
         href: 'https://web.archive.org/web/20190719075855/http://www.au.af.mil/au/awc/awcgate/crs/rl30172.htm',
         linkText: 'Instances of Use of United States Armed Forces Abroad, 1798 - 2004',
       },
-    ], 
+    ],
   },
   {
     id: 'calendar-days',
@@ -3321,7 +3422,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Grã Bretanha' ,'Irlanda'],
+    categories: ['Grã Bretanha', 'Irlanda'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1812',
