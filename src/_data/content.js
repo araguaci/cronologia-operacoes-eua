@@ -7,43 +7,112 @@ const footer =
  * sources: https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations#ref_Slave_TrafficSlave_Traffic
  **/
 const entries = [
-    {
-    id: "20250819",
-    categories: ["EUA", "Venezuela", "mar", "poder militar"],
-    color: "brown",
-    faicon: "fa-fighter-jet",
-    datetime: "2025-08-19",
-    title: "EUA deslocam navios de guerra para costa da Venezuela e prometem 'todos os elementos do poder americano' contra Maduro",
-    body: "O governo dos Estados Unidos deslocou três navios de guerra (USS Gravely, USS Jason Dunham e USS Sampson), cerca de 4.000 marinheiros e fuzileiros navais, aviões de vigilância P-8 e ao menos um submarino para o Caribe, prometendo usar todo o poder militar contra o regime de Nicolás Maduro, classificado como 'cartel narcoterrorista'. Maduro respondeu mobilizando 4,5 milhões de milicianos. Essa operação pode se estender por meses.",
+  {
+    id: '20250826',
+    categories: ['navy', 'military', 'Venezuela'],
+    color: 'brown',
+    faicon: 'ship',
+    datetime: '2025-08-26',
+    title: 'Desdobramento do Esquadrão da Marinha dos EUA ao Largo da Venezuela',
+    body: 'O esquadrão expedicionário completo da Marinha dos EUA, incluindo USS Lake Erie (CG 70), USS Iwo Jima (LHD 7), USS Fort Lauderdale (LPD 28), USS San Antonio (LPD 17), USS Gravely (DDG 107), USS Jason Dunham (DDG 109), USS Sampson (DDG 102), USS Minneapolis-St. Paul (LCS 21) e um submarino não identificado como USS Newport News, está desdobrado a oeste do Panamá e no Mar do Caribe perto da Venezuela. Esta operação foca no combate ao tráfico de drogas, segurança de fronteiras e uma demonstração de força em meio às tensões com o regime Maduro. O esquadrão inclui mais de 4.000 pessoal e apoia tarefas de interdição com ativos aéreos e submarinos.',
     image: {
-      link: "https://clickpetroleoegas.com.br/apos-envio-de-navios-ao-caribe-governo-trump-promete-usar-todo-poder-americano-contra-maduro-enquanto-militares-aguardam-telefonema-do-rei-da-america-fpsv/",
-      src: "https://clickpetroleoegas.com.br/wp-content/uploads/2025/08/navios-eua-trump-maduro-milicianos.jpg", 
-      caption: "Navios de guerra dos EUA deslocados ao Caribe"
+      link: 'https://x.com/Global_Mil_Info/status/1960180042022998421',
+      src: 'https://pbs.twimg.com/media/GzS8FhIWcAAqZ0y.jpg',
+      caption: 'Navios da Marinha dos EUA se desdobrando para operações.',
     },
     links: [
       {
-        href: "https://clickpetroleoegas.com.br/apos-envio-de-navios-ao-caribe-governo-trump-promete-usar-todo-poder-americano-contra-maduro-enquanto-militares-aguardam-telefonema-do-rei-da-america-fpsv/",
-        linkText: "Clique para mais detalhes"
-      }
-    ]
+        href: 'https://x.com/Global_Mil_Info/status/1960180042022998421',
+        linkText: 'Relatório no X',
+      },
+      {
+        href: 'https://news.usni.org/2025/08/18/usni-news-fleet-and-marine-tracker-august-18-2025',
+        linkText: 'Rastreador de Frota USNI News',
+      },
+    ],
+  },
+  {
+    id: '20250824',
+    categories: ['navy', 'military', 'Venezuela'],
+    color: 'brown',
+    faicon: 'ship',
+    datetime: '2025-08-24',
+    title: 'Esquadrão Anfíbio se Junta a Contratorpedeiros Perto da Venezuela',
+    body: 'O Grupo Pronto Anfíbio Iwo Jima, incluindo USS Iwo Jima, USS Fort Lauderdale e USS San Antonio, se junta aos contratorpedeiros USS Gravely, USS Jason Dunham, USS Sampson e USS Minneapolis-St. Paul ao largo da costa venezuelana. Isso aprimora as capacidades dos EUA para vigilância, interdição e operações de precisão potenciais contra cartéis de drogas, com aproximadamente 4.500 marinheiros e fuzileiros envolvidos.',
+    image: {
+      link: 'https://x.com/USFleetForces/status/1960380023518396551',
+      src: 'https://pbs.twimg.com/media/GzSrPZbWAAMoJAi.jpg',
+      caption: 'Navios anfíbios da Marinha dos EUA em operação.',
+    },
+    links: [
+      {
+        href: 'https://x.com/USFleetForces/status/1960380023518396551',
+        linkText: 'Post no X da US Fleet Forces',
+      },
+      {
+        href: 'https://www.vpm.org/news/2025-08-18/uss-iwo-jima-amphibious-ready-group-usn-usmc-southcom-deployment',
+        linkText: 'Relatório VPM',
+      },
+    ],
   },
   {
     id: '20250819',
-    categories: ['Exercise', 'Air', 'Alaska'],
+    categories: ['airforce', 'military', 'Pacífico'],
+    color: 'brown',
+    faicon: 'jet-fighter-up',
+    datetime: '2025-08-19',
+    title: 'Exercício Conjunto Bamboo Eagle 25-3',
+    body: 'O exercício Bamboo Eagle 25-3 envolve a sincronização de operações conjuntas, forjando a luta em conjunto. Isso inclui forças aéreas, terrestres e marítimas dos EUA, aprimorando a prontidão para operações no Indo-Pacífico.',
+    image: {
+      link: 'https://www.af.mil/News/Article-Display/Article/4279524/forging-the-fight-together-synchronizing-joint-operations-in-bamboo-eagle-25-3/',
+      src: 'https://pbs.twimg.com/media/GzS3JA7a4AIiOD_.jpg',
+      caption: 'Forças da Força Aérea dos EUA em exercício.',
+    },
+    links: [
+      {
+        href: 'https://www.af.mil/News/Article-Display/Article/4279524/forging-the-fight-together-synchronizing-joint-operations-in-bamboo-eagle-25-3/',
+        linkText: 'Artigo da Força Aérea',
+      },
+    ],
+  },
+  {
+    id: '20250819',
+    categories: ['EUA', 'Venezuela', 'mar', 'poder militar'],
+    color: 'brown',
+    faicon: 'fa-fighter-jet',
+    datetime: '2025-08-19',
+    title:
+      "EUA deslocam navios de guerra para costa da Venezuela e prometem 'todos os elementos do poder americano' contra Maduro",
+    body: "O governo dos Estados Unidos deslocou três navios de guerra (USS Gravely, USS Jason Dunham e USS Sampson), cerca de 4.000 marinheiros e fuzileiros navais, aviões de vigilância P-8 e ao menos um submarino para o Caribe, prometendo usar todo o poder militar contra o regime de Nicolás Maduro, classificado como 'cartel narcoterrorista'. Maduro respondeu mobilizando 4,5 milhões de milicianos. Essa operação pode se estender por meses.",
+    image: {
+      link: 'https://clickpetroleoegas.com.br/apos-envio-de-navios-ao-caribe-governo-trump-promete-usar-todo-poder-americano-contra-maduro-enquanto-militares-aguardam-telefonema-do-rei-da-america-fpsv/',
+      src: 'https://clickpetroleoegas.com.br/wp-content/uploads/2025/08/navios-eua-trump-maduro-milicianos.jpg',
+      caption: 'Navios de guerra dos EUA deslocados ao Caribe',
+    },
+    links: [
+      {
+        href: 'https://clickpetroleoegas.com.br/apos-envio-de-navios-ao-caribe-governo-trump-promete-usar-todo-poder-americano-contra-maduro-enquanto-militares-aguardam-telefonema-do-rei-da-america-fpsv/',
+        linkText: 'Clique para mais detalhes',
+      },
+    ],
+  },
+  {
+    id: '20250819',
+    categories: ['Exercise', 'Air', 'Alasca'],
     color: 'brown',
     faicon: 'plane',
     datetime: '2025-08-19',
-    title: 'Northern Edge 2025: Multi-Domain Exercise in Alaska',
-    body: 'Northern Edge 2025 kicked off across Alaska, involving over 6400 service members, 100 aircraft, and seven U.S. and Canadian vessels. The exercise focuses on high-end warfighting and multi-domain capabilities to ensure readiness.',
+    title: 'Northern Edge 2025: Exercício Multi-Domínio no Alasca',
+    body: 'O Northern Edge 2025 começou em todo o Alasca, envolvendo mais de 6.400 membros do serviço, 100 aeronaves e sete navios dos EUA e Canadá. O exercício foca em guerra de alto nível e capacidades multi-domínio para garantir a prontidão.',
     image: {
       link: 'https://www.defense.gov/News/News-Stories/Article/Article/4279080/northern-edge-2025-kicks-off-across-alaska/',
       src: 'https://media.defense.gov/2025/Aug/19/2003783254/825/780/0/250817-F-LX373-1375K.JPG',
-      caption: 'Aircraft participating in Northern Edge 2025',
+      caption: 'Aeronaves participando do Northern Edge 2025',
     },
     links: [
       {
         href: 'https://www.defense.gov/News/News-Stories/Article/Article/4279080/northern-edge-2025-kicks-off-across-alaska/',
-        linkText: 'Department of Defense Article',
+        linkText: 'Artigo do Departamento de Defesa',
       },
     ],
   },
@@ -53,39 +122,151 @@ const entries = [
     color: 'brown',
     faicon: 'ship',
     datetime: '2025-08-18',
-    title: 'USNI News Fleet and Marine Tracker',
-    body: 'Update on U.S. Navy fleet positions, including one guided-missile destroyer operating in the Eastern Mediterranean as an independent deployer.',
+    title: 'Rastreador de Frota e Fuzileiros USNI News',
+    body: 'Atualização sobre as posições da frota da Marinha dos EUA, incluindo um contratorpedeiro de mísseis guiados operando no Mediterrâneo Oriental como desdobramento independente.',
     image: {
       link: 'https://news.usni.org/2025/08/18/usni-news-fleet-and-marine-tracker-august-18-2025',
       src: 'https://pbs.twimg.com/media/GypQgheWwAE3N7x?format=jpg&name=4096x4096',
-      caption: 'U.S. Navy vessels',
+      caption: 'Navios da Marinha dos EUA',
     },
     links: [
       {
         href: 'https://news.usni.org/2025/08/18/usni-news-fleet-and-marine-tracker-august-18-2025',
-        linkText: 'USNI News Article',
+        linkText: 'Artigo USNI News',
       },
     ],
   },
-    {
-    id: "20250814",
-    categories: ["EUA", "cartéis", "terra", "mar", "ar", "América Latina"],
-    color: "brown",
-    faicon: "fa-flag",
-    datetime: "2025-08-14",
-    title: "EUA enviam tropas para América Latina contra cartéis de drogas após ordem de Trump",
-    body: "Os EUA mobilizaram tropas aéreas, navais e terrestres para a América Latina, voltadas principalmente para operações no sul do Mar do Caribe. A operação - autorizada secretamente pelo presidente Trump - mira combater cartéis como Tren de Aragua e MS-13, com previsão de ataques em solo, mar e via aérea, especialmente em México e Venezuela.",
+  {
+    id: '20250818',
+    categories: ['navy', 'military', 'Venezuela'],
+    color: 'brown',
+    faicon: 'ship',
+    datetime: '2025-08-18',
+    title: 'Desdobramento de Contratorpedeiros da Marinha dos EUA ao Largo da Costa da Venezuela',
+    body: 'Três contratorpedeiros da classe Arleigh Burke, USS Gravely (DDG-107), USS Jason Dunham (DDG-109) e USS Sampson (DDG-102), juntamente com USS Minneapolis-St. Paul (LCS-21), estão desdobrados ao largo da costa venezuelana para apoiar operações de combate ao tráfico de drogas. Isso envolve vigilância, interdição e potenciais ataques contra cartéis, com suporte aéreo e submarino.',
     image: {
-      link: "https://g1.globo.com/mundo/noticia/2025/08/14/eua-comecam-a-enviar-tropas-para-america-latina-para-combater-carteis.ghtml",
-      src: "https://s2-g1.glbimg.com/y3X0qCvrDa5JKtF4oJ7urXrTA2U=/0x0:4096x2732/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/6/A/986AJNTT65FncW0cftNA/2025-01-23t222205z-481546762-rc2yfcapuf60-rtrmadp-3-chile-crime-venezuela-politics.jpg", 
-      caption: "Militares dos EUA mobilizados na América Latina"
+      link: 'https://www.facebook.com/100044224126690/posts/-us-navy-deployments-to-southern-command-7th-fleet-include-three-destroyers-uss-/1309531420530983/',
+      src: 'https://pbs.twimg.com/media/GzJQHIrXMAAUgg0.jpg',
+      caption: 'USS Gravely conduzindo operações.',
     },
     links: [
       {
-        "href": "https://g1.globo.com/mundo/noticia/2025/08/14/eua-comecam-a-enviar-tropas-para-america-latina-para-combater-carteis.ghtml",
-        "linkText": "Leia a reportagem completa"
-      }
-    ]
+        href: 'https://www.facebook.com/100044224126690/posts/-us-navy-deployments-to-southern-command-7th-fleet-include-three-destroyers-uss-/1309531420530983/',
+        linkText: 'Post no Facebook',
+      },
+      {
+        href: 'https://x.com/ianellisjones/status/1957930768090730712',
+        linkText: 'Post no X',
+      },
+    ],
+  },
+  {
+    id: '20250818',
+    categories: ['specialops', 'military'],
+    color: 'brown',
+    faicon: 'ship',
+    datetime: '2025-08-18',
+    title: 'Operações Especiais em El Salvador',
+    body: 'Dezesseis equipes de operações especiais da América Central, do Sul e do Caribe se reúnem em Ilopango, El Salvador, de 18 a 29 de agosto, para treinamento e exercícios conjuntos sob o Comando Sul dos EUA.',
+    image: {
+      link: 'https://www.southcom.mil/',
+      src: 'https://pbs.twimg.com/media/GzI_bcWWsAEeqBf.jpg',
+      caption: 'Forças especiais em treinamento.',
+    },
+    links: [
+      {
+        href: 'https://www.southcom.mil/',
+        linkText: 'Site do Comando Sul',
+      },
+    ],
+  },
+  {
+    id: '20250818',
+    categories: ['airforce', 'military', 'Alasca'],
+    color: 'brown',
+    faicon: 'plane',
+    datetime: '2025-08-18',
+    title: 'Início do Exercício Northern Edge 2025 no Alasca',
+    body: 'O exercício Northern Edge 2025 começa em todo o Alasca, envolvendo mais de 3.000 pessoal militar dos EUA e aliados, focando em operações aéreas e conjuntas no Pacífico.',
+    image: {
+      link: 'https://www.cpf.navy.mil/Newsroom/News/Article/4279232/northern-edge-2025-kicks-off-across-alaska/',
+      src: 'https://pbs.twimg.com/media/GyVlKGcWsAEtAPW.jpg',
+      caption: 'Aeronaves da Força Aérea dos EUA no Alasca.',
+    },
+    links: [
+      {
+        href: 'https://www.cpf.navy.mil/Newsroom/News/Article/4279232/northern-edge-2025-kicks-off-across-alaska/',
+        linkText: 'Artigo da Frota do Pacífico',
+      },
+    ],
+  },
+  {
+    id: '20250816',
+    categories: ['airforce', 'specialops'],
+    color: 'brown',
+    faicon: 'jet-fighter-up',
+    datetime: '2025-08-16',
+    title: 'Missão de Resgate Conjunta com Comandos da Força Aérea dos EUA e SOF Tcheca',
+    body: 'Comandos da Força Aérea dos EUA e Forças de Operações Especiais da República Tcheca executam uma missão de recuperação de pessoal de alta intensidade durante o Emerald Warrior 25.2.',
+    image: {
+      link: 'https://www.youtube.com/watch?v=KmEo5uhDuXk',
+      src: 'https://pbs.twimg.com/media/GzQt09AaoAARDdO.jpg',
+      caption: 'Comandos em missão de resgate.',
+    },
+    links: [
+      {
+        href: 'https://www.youtube.com/watch?v=KmEo5uhDuXk',
+        linkText: 'Vídeo no YouTube',
+      },
+      {
+        href: 'https://www.af.mil/News/Article-Display/Article/4280487/ew-252-afsoc-heightens-warfighting-readiness-during-landmark-dle-series/',
+        linkText: 'Artigo da Força Aérea',
+      },
+    ],
+  },
+  {
+    id: '20250814',
+    categories: ['navy', 'military', 'Venezuela'],
+    color: 'brown',
+    faicon: 'ship',
+    datetime: '2025-08-14',
+    title: 'Desdobramento do Grupo Pronto Anfíbio Iwo Jima de Norfolk',
+    body: 'O Grupo Pronto Anfíbio Iwo Jima, consistindo de USS Iwo Jima (LHD-7), USS Fort Lauderdale (LPD-28) e USS San Antonio (LPD-17), parte da Estação Naval de Norfolk para um desdobramento programado regularmente. Inicialmente direcionado para a área da Sexta Frota, foi redirecionado para o Caribe para operações de contra-narcóticos e segurança de fronteiras perto da Venezuela.',
+    image: {
+      link: 'https://news.usni.org/2025/08/14/iwo-jima-amphibious-ready-group-leaves-norfolk-after-long-gap-in-u-s-arg-deployments',
+      src: 'https://pbs.twimg.com/media/GyVwaDkW0AMtZ1r.jpg',
+      caption: 'USS Iwo Jima partindo de Norfolk.',
+    },
+    links: [
+      {
+        href: 'https://news.usni.org/2025/08/14/iwo-jima-amphibious-ready-group-leaves-norfolk-after-long-gap-in-u-s-arg-deployments',
+        linkText: 'Artigo USNI News',
+      },
+      {
+        href: 'https://www.whro.org/military-veterans/2025-08-14/the-marines-and-sailors-of-the-uss-iwo-jima-ready-group-depart-for-the-western-atlantic-and-mediterranean',
+        linkText: 'Relatório WHRO',
+      },
+    ],
+  },
+  {
+    id: '20250814',
+    categories: ['EUA', 'cartéis', 'terra', 'mar', 'ar', 'América Latina', 'Venezuela'],
+    color: 'brown',
+    faicon: 'fa-flag',
+    datetime: '2025-08-14',
+    title: 'EUA enviam tropas para América Latina contra cartéis de drogas após ordem de Trump',
+    body: 'Os EUA mobilizaram tropas aéreas, navais e terrestres para a América Latina, voltadas principalmente para operações no sul do Mar do Caribe. A operação - autorizada secretamente pelo presidente Trump - mira combater cartéis como Tren de Aragua e MS-13, com previsão de ataques em solo, mar e via aérea, especialmente em México e Venezuela.',
+    image: {
+      link: 'https://g1.globo.com/mundo/noticia/2025/08/14/eua-comecam-a-enviar-tropas-para-america-latina-para-combater-carteis.ghtml',
+      src: 'https://s2-g1.glbimg.com/y3X0qCvrDa5JKtF4oJ7urXrTA2U=/0x0:4096x2732/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/6/A/986AJNTT65FncW0cftNA/2025-01-23t222205z-481546762-rc2yfcapuf60-rtrmadp-3-chile-crime-venezuela-politics.jpg',
+      caption: 'Militares dos EUA mobilizados na América Latina',
+    },
+    links: [
+      {
+        href: 'https://g1.globo.com/mundo/noticia/2025/08/14/eua-comecam-a-enviar-tropas-para-america-latina-para-combater-carteis.ghtml',
+        linkText: 'Leia a reportagem completa',
+      },
+    ],
   },
   {
     id: '20250812',
@@ -93,17 +274,97 @@ const entries = [
     color: 'brown',
     faicon: 'ship',
     datetime: '2025-08-12',
-    title: 'Large-Scale Exercise 2025 (LSE 2025)',
-    body: 'The U.S. Navy concluded the execution phase of Large-Scale Exercise 2025 on August 8, 2025, focusing on maritime operations and global naval readiness.',
+    title: 'Exercício em Grande Escala 2025 (LSE 2025)',
+    body: 'A Marinha dos EUA concluiu a fase de execução do Exercício em Grande Escala 2025 em 8 de agosto de 2025, focando em operações marítimas e prontidão naval global.',
     image: {
       link: 'https://centerformaritimestrategy.org/publications/large-scale-exercise-2025/',
       src: 'https://centerformaritimestrategy.org/wp-content/uploads/2025/08/thumbnail_250805-N-CI480-007-1536x1024.jpg',
-      caption: 'Naval vessels in LSE 2025',
+      caption: 'Navios navais no LSE 2025',
     },
     links: [
       {
         href: 'https://centerformaritimestrategy.org/publications/large-scale-exercise-2025/',
-        linkText: 'Center for Maritime Strategy',
+        linkText: 'Centro para Estratégia Marítima',
+      },
+    ],
+  },
+  {
+    id: '20250812',
+    categories: ['military', 'Pacífico', 'China'],
+    color: 'brown',
+    faicon: 'ship',
+    datetime: '2025-08-12',
+    title: 'Conclusão de Exercícios Militares no Pacífico',
+    body: 'Os EUA e parceiros concluem um mês de exercícios militares no Pacífico, focando em operações conjuntas enquanto observam a China. Isso inclui forças navais, aéreas e terrestres.',
+    image: {
+      link: 'https://www.fdd.org/analysis/2025/08/12/u-s-and-partners-conclude-month-of-military-exercises-in-the-pacific-while-eyeing-china/',
+      src: 'https://pbs.twimg.com/media/GzQp6jUWwAA6rey.jpg',
+      caption: 'Exercícios militares no Pacífico.',
+    },
+    links: [
+      {
+        href: 'https://www.fdd.org/analysis/2025/08/12/u-s-and-partners-conclude-month-of-military-exercises-in-the-pacific-while-eyeing-china/',
+        linkText: 'Artigo FDD',
+      },
+    ],
+  },
+  {
+    id: '20250811',
+    categories: ['Military', 'domestic'],
+    color: 'brown',
+    faicon: 'ship',
+    datetime: '2025-08-11',
+    title: 'Desdobramento da Guarda Nacional nos EUA',
+    body: 'A Guarda Nacional é desdobrada a partir de 11 de agosto de 2025 para responder a emergências domésticas, como desastres naturais e agitação civil, e apoiar operações militares.',
+    image: {
+      link: 'https://www.aljazeera.com/news/2025/8/25/when-and-why-has-the-national-guard-been-deployed-in-the-us-before',
+      src: 'https://pbs.twimg.com/media/GzQIcURW4AAlUPd.jpg',
+      caption: 'Guarda Nacional em operação doméstica.',
+    },
+    links: [
+      {
+        href: 'https://www.aljazeera.com/news/2025/8/25/when-and-why-has-the-national-guard-been-deployed-in-the-us-before',
+        linkText: 'Artigo Al Jazeera',
+      },
+    ],
+  },
+  {
+    id: '20250808',
+    categories: ['military', 'Exercise'],
+    color: 'brown',
+    faicon: 'ship',
+    datetime: '2025-08-08',
+    title: 'Início do Curso de Operações Militares Conjuntas',
+    body: 'O curso de Operações Militares Conjuntas (JMO) no Colégio de Guerra Naval dos EUA começa em 8 de agosto de 2025 e conclui em 10 de novembro de 2025, focando em treinamento para operações integradas em terra, mar e ar.',
+    image: {
+      link: 'https://usnwc.edu/News-and-Events/Events/2025-26-Joint-Military-Operations-Course-Begins',
+      src: 'https://pbs.twimg.com/media/GzRgtLqXsAAtZSg.jpg',
+      caption: 'Curso militar no Colégio de Guerra Naval.',
+    },
+    links: [
+      {
+        href: 'https://usnwc.edu/News-and-Events/Events/2025-26-Joint-Military-Operations-Course-Begins',
+        linkText: 'Página do Evento',
+      },
+    ],
+  },
+  {
+    id: '20250804',
+    categories: ['airforce', 'military', 'Pacífico'],
+    color: 'brown',
+    faicon: 'jet-fighter-up',
+    datetime: '2025-08-04',
+    title: 'Série de Exercícios em Nível Departamental (DLE)',
+    body: 'A série DLE incorpora múltiplos exercícios de comando em um cenário geral de dissuasão de ameaças, incluindo Resolute Force Pacific, aprimorando a prontidão da Força Aérea dos EUA.',
+    image: {
+      link: 'https://www.af.mil/DLE/?videoid=973626',
+      src: 'https://pbs.twimg.com/media/GzRbvsKWUAA6NB1.jpg',
+      caption: 'Exercícios da Força Aérea dos EUA.',
+    },
+    links: [
+      {
+        href: 'https://www.af.mil/DLE/?videoid=973626',
+        linkText: 'Página da Força Aérea',
       },
     ],
   },
@@ -113,23 +374,23 @@ const entries = [
     color: 'brown',
     faicon: 'ship',
     datetime: '2025-08-04',
-    title: 'U.S. and Allies Rehearse Amphibious Landings in Talisman Sabre',
-    body: 'U.S. Navy`s amphibious contribution to Talisman Sabre 2025 centered on USS America (LHA-6) and combined forces practicing simultaneous amphibious landings.',
+    title: 'EUA e Aliados Ensaiam Desembarques Anfíbios em Talisman Sabre',
+    body: 'A contribuição anfíbia da Marinha dos EUA para o Talisman Sabre 2025 centrou-se no USS America (LHA-6) e forças combinadas praticando desembarques anfíbios simultâneos.',
     image: {
       link: 'https://news.usni.org/2025/08/04/u-s-allies-rehearse-simultaneous-amphibious-landings',
       src: 'https://news.usni.org/wp-content/uploads/2025/08/5-scaled.jpg',
-      caption: 'Amphibious operations',
+      caption: 'Operações anfíbias',
     },
     links: [
       {
         href: 'https://news.usni.org/2025/08/04/u-s-allies-rehearse-simultaneous-amphibious-landings',
-        linkText: 'USNI News Article',
+        linkText: 'Artigo USNI News',
       },
     ],
   },
   {
     id: '20250713',
-    categories: ['Exercise', 'Pacífico'],
+    categories: ['Exercise', 'Pacífico', 'Austrália'],
     color: 'brown',
     faicon: 'handshake',
     datetime: '2025-07-13',
@@ -293,7 +554,7 @@ const entries = [
   },
   {
     id: '20250410',
-    categories: ['Exercise', 'Europe'],
+    categories: ['Exercise', 'Europe', 'OTAN'],
     color: 'brown',
     faicon: 'shield',
     datetime: '2025-04-10',
@@ -450,7 +711,7 @@ const entries = [
   },
   {
     id: '20241017',
-    categories: ['Houthi', 'Iêmen'],
+    categories: ['Houthis', 'Iêmen'],
     color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '2024-10-17',
@@ -477,7 +738,7 @@ const entries = [
   },
   {
     id: '20240727',
-    categories: ['Houthi', 'Iêmen'],
+    categories: ['Houthis', 'Iêmen'],
     color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '2024-07-27',
@@ -498,7 +759,7 @@ const entries = [
   },
   {
     id: '20240725',
-    categories: ['Houthi', 'Iêmen'],
+    categories: ['Houthis', 'Iêmen'],
     color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '2024-07-25',
@@ -519,7 +780,7 @@ const entries = [
   },
   {
     id: '20240724',
-    categories: ['Houthi', 'Iêmen'],
+    categories: ['Houthis', 'Iêmen'],
     color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '2024-07-24',
