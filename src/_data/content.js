@@ -9,7 +9,7 @@ const footer =
 const entries = [
   {
     id: '20250826',
-    categories: ['navy', 'military', 'Venezuela'],
+    categories: ['navy', 'military', 'Venezuela', 'América latina'],
     color: 'brown',
     faicon: 'ship',
     datetime: '2025-08-26',
@@ -33,7 +33,7 @@ const entries = [
   },
   {
     id: '20250824',
-    categories: ['navy', 'military', 'Venezuela'],
+    categories: ['navy', 'military', 'Venezuela', 'América latina'],
     color: 'brown',
     faicon: 'ship',
     datetime: '2025-08-24',
@@ -77,7 +77,7 @@ const entries = [
   },
   {
     id: '20250819',
-    categories: ['EUA', 'Venezuela', 'mar', 'poder militar'],
+    categories: ['EUA', 'Venezuela', 'América latina', 'mar', 'poder militar'],
     color: 'brown',
     faicon: 'ship',
     datetime: '2025-08-19',
@@ -138,7 +138,7 @@ const entries = [
   },
   {
     id: '20250818',
-    categories: ['navy', 'military', 'Venezuela'],
+    categories: ['navy', 'military', 'Venezuela', 'América latina'],
     color: 'brown',
     faicon: 'ship',
     datetime: '2025-08-18',
@@ -226,7 +226,7 @@ const entries = [
   },
   {
     id: '20250814',
-    categories: ['navy', 'military', 'Venezuela'],
+    categories: ['navy', 'military', 'Venezuela', 'América latina'],
     color: 'brown',
     faicon: 'ship',
     datetime: '2025-08-14',
@@ -250,7 +250,7 @@ const entries = [
   },
   {
     id: '20250814',
-    categories: ['EUA', 'cartéis', 'terra', 'mar', 'ar', 'América Latina', 'Venezuela'],
+    categories: ['EUA', 'cartéis', 'terra', 'mar', 'ar', 'Venezuela', 'América latina'],
     color: 'brown',
     faicon: 'flag',
     datetime: '2025-08-14',
@@ -1719,7 +1719,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Colômbia', 'Bolívia', 'Peru'],
+    categories: ['Colômbia', 'Bolívia', 'América latina', 'Peru'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1989',
@@ -1800,7 +1800,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Bolívia'],
+    categories: ['Bolívia', 'América latina'],
     color: 'green2',
     faicon: 'jet-fighter-up',
     datetime: '1986',
@@ -2097,7 +2097,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Caribe'],
+    categories: ['Caribe', 'América latina'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1959',
@@ -3096,7 +3096,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Uruguai'],
+    categories: ['Uruguai', 'América latina'],
     color: 'yellow',
     faicon: 'calendar-days',
     datetime: '1868',
@@ -3213,7 +3213,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Paraguai'],
+    categories: ['Paraguai', 'América latina'],
     color: 'blue',
     faicon: 'water',
     datetime: '1859',
@@ -3240,7 +3240,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Uruguai', 'Marines'],
+    categories: ['Uruguai', 'América latina', 'Marines'],
     color: 'navy',
     faicon: 'person-rifle',
     datetime: '1858',
@@ -3294,7 +3294,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Uruguai'],
+    categories: ['Uruguai', 'América latina'],
     color: 'blue2',
     faicon: 'ship',
     datetime: '1855',
@@ -3681,7 +3681,7 @@ const entries = [
   },
   {
     id: 'calendar-days',
-    categories: ['Caribe'],
+    categories: ['Caribe', 'América latina'],
     color: 'blue2',
     faicon: 'ship',
     datetime: '1814',
