@@ -79,7 +79,7 @@ const entries = [
     id: '20250819',
     categories: ['EUA', 'Venezuela', 'mar', 'poder militar'],
     color: 'brown',
-    faicon: 'fa-fighter-jet',
+    faicon: 'ship',
     datetime: '2025-08-19',
     title:
       "EUA deslocam navios de guerra para costa da Venezuela e prometem 'todos os elementos do poder americano' contra Maduro",
@@ -252,7 +252,7 @@ const entries = [
     id: '20250814',
     categories: ['EUA', 'cartéis', 'terra', 'mar', 'ar', 'América Latina', 'Venezuela'],
     color: 'brown',
-    faicon: 'fa-flag',
+    faicon: 'flag',
     datetime: '2025-08-14',
     title: 'EUA enviam tropas para América Latina contra cartéis de drogas após ordem de Trump',
     body: 'Os EUA mobilizaram tropas aéreas, navais e terrestres para a América Latina, voltadas principalmente para operações no sul do Mar do Caribe. A operação - autorizada secretamente pelo presidente Trump - mira combater cartéis como Tren de Aragua e MS-13, com previsão de ataques em solo, mar e via aérea, especialmente em México e Venezuela.',
